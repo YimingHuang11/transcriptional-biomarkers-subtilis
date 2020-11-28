@@ -1,18 +1,31 @@
-# transcriptional-biomarkers-subtilis
-
 This repository contains codes used in the paper 'Computational strategies for the identification of transcriptional biomarker panels to sense cellular growth states in Bacillus subtilis'.
 
 1. **TransciptionalLandscape**
 
 This contains R codes used to construct transcriptional landscape which including differential expression analysis, data visualisation, data processing, transforming the transcriptomics data in UMAP, clustering of samples, and the validation of clusters and biomarkers.
 
+Tested on R version 4.0.2 (2020-06-22) and macOS Catalina 10.15.6 
 Required packages: stringr, ggplot2, plotly, cowplot, RColorBrewer, plotrix, e1071, dplyr, matrixStats, data.table, igraph, pheatmap, heatmaply, ComplexHeatmap, limma, Cairo, uwot, monocle3.
 
 please install pandoc from https://pandoc.org/installing.html if you meet error 'Saving a widget with selfcontained = TRUE requires pandoc'
 
-Run following commands to 1) get the data pattern plots, 2) construct the Transciptional Landscape, 3) evaluate the clusters in the landscape
-Rscript DataPatterns.R 
-Rscript landscape.R 
+To run the programme please follow the tutorial as below:
+
+Please put the GeneExpre.csv (gene expression data with as gene names as row names, sample IDs as column names), gene_list.csv (column names: "Name", "Locus_tag", "StartV3", "EndV3", "Strand", "classif"), sample_list.csv (at least contains columns of "sampleIndex", "SampleID","ConditionID","experimentID","condition","annotation","type","medium","experiment","laboratory") under the directory of 'data', and additionally the GeneAnnotations.csv and regulons.csv (column names: "regulon", "regulator", "mode", "gene", "locus.tag", "flag")if you want to run LandscapeEvaluation.R.
+
+In the directory of 'config' please put the design_matrix.csv for differential expression analysis, cluster_parameters.csv for scanning on clustering modle parameters and treatment_reference_ID for appointing the treatment samples and reference samples in data standardisation process.
+
+1) Get the data pattern plots and run differential expression tests.  
+```
+Rscript DEtests.R
+```
+2) construct the Transciptional Landscape
+Rscript landscape.R <threshold_highp>,<threshold_lowp>,<threshold_varp> <ConditionID_toremove>
+For example,
+```
+Rscript landscape.R 0.7 0.3 0.3 "sporulation late stage"
+```
+3) evaluate the clusters in the landscape
 Rscript LandscapeEvalulation.R <cluster identity solution file name> 
 
 
