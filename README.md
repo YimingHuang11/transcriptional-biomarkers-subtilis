@@ -1,4 +1,4 @@
-This repository contains codes used in the paper 'Computational strategies for the identification of transcriptional biomarker panels to sense cellular growth states in Bacillus subtilis'.
+This repository contains codes used in the paper 'Computational strategies for the identification of transcriptional biomarker panels to sense cellular growth states in *Bacillus subtilis*'.
 
 <h1>TransciptionalLandscape</h1>
 
