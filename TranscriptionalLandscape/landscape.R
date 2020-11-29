@@ -1,6 +1,30 @@
+# set default values for the arguments
+threshold_highp<-0.7
+threshold_lowp<-0.3
+threshold_varp<-0.3
+condition_toremove<-'sporulation late stage'
+
+args = commandArgs(trailingOnly=TRUE)
+if (length(args)==1) {
+  condition_toremove<-args[1]
+}
+if (length(args)>=3) {
+  threshold_highp<-as.numeric(args[1])
+  threshold_lowp<-as.numeric(args[2])
+  threshold_varp<-as.numeric(args[3])
+  if (!(threshold_highp<1)*(threshold_lowp<1)*(threshold_varp<1)*(threshold_highp>0)*(threshold_lowp>0)*(threshold_varp>0)*(threshold_lowp<threshold_highp))
+    stop("percentile thresholds setting wrong!", call.=FALSE)
+  if(length(args)==4)
+    condition_toremove<-args[4]
+}
+
 ######## Data processing #######
 source("data.R")
+source("util.R")
 ### cleaning ###
+
+cat('removing uninterested samples and genes...\n')
+
 ## genes highly or lowly expressed in all conditions
 getInvariantgenes<-function(data,threshold_highp,threshold_lowp,threshold_varp){
   threshold_highexp<-quantile(data,probs = threshold_highp)
@@ -18,28 +42,40 @@ getInvariantgenes<-function(data,threshold_highp,threshold_lowp,threshold_varp){
 }
 invariantGenes<-getInvariantgenes(data=m_express,threshold_highp=0.7,threshold_lowp=0.3,threshold_varp=0.3)
 
-## late-stage-sporulation-related genes
-source("DEtests.R")
-m_lfcs<-read.table('results/DEGs/conditions/logfoldchanges.csv', sep=",", header = TRUE, check.names = FALSE, stringsAsFactors = FALSE)
-m_pvaules<-read.table('results/DEGs/conditions/pvalues.csv', sep=",", header = TRUE, check.names = FALSE, stringsAsFactors = FALSE)
-genenames_sporulation<-gene_names[m_pvaules[,'spolulation late stage']<0.05 & abs(m_lfcs[,'spolulation late stage'])>1]
+## genes differentially expressed in the condition to be removed
+m_lfcs<-read.table('results/DEGs/logfoldchanges.csv', sep=",", header = TRUE, check.names = FALSE, stringsAsFactors = FALSE)
+m_pvaules<-read.table('results/DEGs/pvalues.csv', sep=",", header = TRUE, check.names = FALSE, stringsAsFactors = FALSE)
 
-## late-stage-sporulation-related samples
-SampleID_sporulation<-sample_list$SampleID[sample_list$condition=='sporulation late stage']
 
-## discard invariant genes and sporulation-related genes
-genenames_reduced<-gene_names[!gene_names%in%union(invariantGenes,genenames_sporulation)]
-write.table(gene_list[gene_list$Name%in%genenames_reduced,c(2,1)],"data/selectedGenes.csv", append = FALSE, sep = ",",quote=FALSE,col.names = T, row.names = F)
+if(! condition_toremove %in% colnames(m_pvaules))
+  stop("Condition to be removed is incorrect!", call.=FALSE)
+genenames_toremove<-gene_names[m_pvaules[,condition_toremove]<0.05 & abs(m_lfcs[,condition_toremove])>1]
 
-## discard sporulation-related samples
-SampleID_reduced<-sample_list$SampleID[!sample_list$SampleID %in% SampleID_sporulation]
+## samples under the condition to be removed
+if(!condition_toremove %in% sample_list$condition)
+  stop("Condition to be removed is incorrect!", call.=FALSE)
+SampleID_toremove<-sample_list$SampleID[sample_list$condition==condition_toremove]
+
+## discard invariant genes and condition-to-be-removed-related genes
+genenames_reduced<-gene_names[!gene_names%in%union(invariantGenes,genenames_toremove)]
+write.table(df_genes[rownames(df_genes)%in%genenames_reduced,c('Name','Locus_tag')],"data/selectedGenes.csv", append = FALSE, sep = ",",quote=FALSE,col.names = T, row.names = T)
+
+## discard condition-to-be-removed-related samples
+SampleID_reduced<-sample_list$SampleID[!sample_list$SampleID %in% SampleID_toremove]
+
 
 ## reduced gene expression data
 m_express_reduced<-m_express[genenames_reduced,SampleID_reduced]
-print('removing uninterested samples and genes...\n')
+cat("The reduced data set contains", length(genenames_reduced),"genes and",length(SampleID_reduced), "samples\n")
 
 ### standardisation  ###
+
+cat('Normalising the data via standardisation with respect to corresponding reference expressions...\n')
+
 # read treatment conditions ID and their corresponding reference samples ID
+
+cat('Reading the treatment samples and reference samples...\n')
+
 df_treatref<-read.table('config/treatment_reference_ID.csv',sep=',',stringsAsFactors = FALSE,header=TRUE)
 index_treatment<-sample_list$sampleIndex[sample_list$ConditionID %in% df_treatref$treatment_condition]
 treatment_conditions<-unique(df_treatref$treatment_condition)
@@ -66,14 +102,15 @@ write.table(m_express_rel, 'data/m_express_rel.csv', append = FALSE, sep = ",",q
 
 ## processed gene expression data with data cleaning and standardisation
 m_express_processed<-m_express_rel[genenames_reduced,]
-print('Normalising the data via standardisation with respect to corresponding reference expressions...')
+
+cat("The processed data set contains", length(genenames_reduced),"genes and",length(treatment_samples), "samples\n")
 
 ######### comparison between UMAP embedding of transcriptomics data before and after data processing ############
 filedir<-'results/umapCompare'
 if (!dir.exists(filedir)) {dir.create(filedir)}
 setwd(filedir)
 
-print('Saving the UMAP embeddings transformed from original data and processed data...')
+cat('Saving the UMAP embeddings transformed from original data and processed data...\n')
 
 ## original data
 umap_embedding<- uwot::umap(t(m_express),n_components = 2,min_dist = 0.1,n_neighbors = 15,fast_sgd = FALSE,n_threads=1,verbose=T)

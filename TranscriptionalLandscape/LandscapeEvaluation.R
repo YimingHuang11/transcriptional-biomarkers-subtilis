@@ -1,24 +1,32 @@
-source("data.R")
+
 args = commandArgs(trailingOnly=TRUE)
 if (length(args)==0) {
   stop("Cluster identity input file name must be supplied", call.=FALSE)
 }
+clusterfile<-args[1]
+
+source("data.R")
+source("util.R")
+
 #### read processed data and landscape cluster solution ####
-m_express_rel<-read.table('data/m_express_rel.csv',sep=",", header = TRUE, stringsAsFactors = FALSE)
-genenames_reduced<-read.table('data/selectedGenes.csv',sep=",", header = TRUE, stringsAsFactors = FALSE)[,'Name']
+cat('Reading processed data\n')
+m_express_rel<-as.matrix(read.table('data/m_express_rel.csv',sep=",", header = TRUE, check.names = FALSE,stringsAsFactors = FALSE))
+genenames_reduced<-rownames(read.table('data/selectedGenes.csv',sep=",", header = TRUE, stringsAsFactors = FALSE))
+
 index_treatment<-sample_list$sampleIndex[sample_list$SampleID %in% colnames(m_express_rel)]
 m_express_processed<-m_express_rel[genenames_reduced,]
 
-cluster_identity<-read.table(args[1],sep=",", header = FALSE, stringsAsFactors = FALSE)
+cat('Reading cluster solution\n')
+cluster_identity<-read.table(clusterfile,sep=",", header = FALSE, stringsAsFactors = FALSE)
 cluster<-cluster_identity[,2]
 names(cluster)<-cluster_identity[,1]
 n_clusters<-length(unique(cluster))
 
-#names(cluster)<-1:length(cluster) ##############################3
+filedir<-'results/landscape'
 
 #### identify cluster markers ####
-block_list<-as.factor(sample_list[index_treatment,]$annotation)
-filedir<-'results/landscape'
+cat('Identifying the cluster markers...\n')
+
 filedirec<-paste0(filedir,"/DEtests")
 
 ## genes upregulated/downregulated in each cluster vs others (p-value<0.05, lfc>1)
@@ -45,7 +53,10 @@ for(i in 1:n_clusters){
 marker_full<-write.markeranno(cluster_markers,p_values,lfcs,percentages,intensities,filename= paste0(filedirec,"/markers_annotation.csv"),n=1000)
 marker_top<-write.markeranno(cluster_markers,p_values,lfcs,percentages,intensities,filename= paste0(filedirec,"/markersTop200_annotation.csv"),n=200)
 
+
 ############# activities of sigma factors, regulators for each cluster########
+cat("Calculating the activity levels of different sigma factors, regulators for each cluster\n")
+
 ## read sigma factor list and transcriptional regulator list
 df_regulator_neg<-df_regulons[!startsWith(df_regulons$regulator,'Sig') & df_regulons$flag==-1,]
 df_regulator_pos<-df_regulons[!startsWith(df_regulons$regulator,'Sig') & df_regulons$flag==1,]
@@ -53,7 +64,7 @@ df_sigma<-df_regulons[startsWith(df_regulons$regulator,'Sig'),]
 
 dir.create(paste0(filedir,"/regulators"), showWarnings = FALSE)
 
-m_sigexp<-Regulator_clusters(data=m_express_rel,cluster=cluster,df_regulators=df_sigma,filetoken=paste0(filedir,"/regulators/sigmafact_"))
+m_sigexp<-Regulator_clusters(data=m_express_rel,cluster=cluster,df_regulators=df_sigma,filetoken=paste0(filedir,"/regulators/sigmafactor_"))
 m_regposexp<-Regulator_clusters(data=m_express_rel,cluster=cluster,df_regulators=df_regulator_pos,filetoken=paste0(filedir,"/regulators/regpos_"))
 colnames(m_regposexp)<-paste0(colnames(m_regposexp),'_pos')
 m_regnegexp<-Regulator_clusters(data=m_express_rel,cluster=cluster,df_regulators=df_regulator_neg,filetoken=paste0(filedir,"/regulators/regneg_"))
@@ -62,24 +73,28 @@ m_regexp<-cbind(m_regposexp,m_regnegexp)
 m_regexp<-m_regexp[,sort(colnames(m_regexp))]
 index_bycluster<-names(sort(cluster))
 m_sigTF_exp<-t(cbind(m_sigexp[index_bycluster,],m_regexp[index_bycluster,]))
-write.table(m_sigTF_exp,paste0(filedir,"/regulators/sigTF_exp.csv'),append = FALSE, sep = ",",quote=FALSE,col.names = TRUE, row.names = TRUE)
+write.table(m_sigTF_exp,paste0(filedir,"/regulators/sigTF_exp.csv"),append = FALSE, sep = ",",quote=FALSE, col.names = TRUE, row.names = TRUE)
+
+cat('Plot heatmaps of regulator activities in different clusters\n')
 
 anno_row<-data.frame(row.names=index_bycluster,cluster=factor(sort(cluster),levels=1:n_clusters))
-data<-m_regulators_exp[index_bycluster,sort(colnames(m_regulators_exp))]
+data<-m_regexp[index_bycluster,sort(colnames(m_regexp))]
 pheatmap::pheatmap(data,  cluster_rows = F,cluster_cols=F,show_colnames = T, show_rownames = T,
          annotation_row  =anno_row,angle_col = '90',fontsize_col = 6, fontsize_row = 6,
          file = paste0(filedir,"/regulators/hp_regulators_exp.pdf"),width=16,height=16)
 anno_hov<-matrix(paste0('[',rep(rownames(data),each=dim(data)[2]),', ',rep(colnames(data),dim(data)[1]),']  = ', c(t(data))),nrow =dim(data)[1],byrow = TRUE)
 heatmaply(data,method='plotly',Rowv=FALSE,Colv=FALSE,row_side_colors=anno_row,
           column_text_angle=90,fontsize_row = 6, colorbar_len=0.1,fontsize_col = 6,xlab='regulators',ylab='samples',
-           file = paste0(filedir,"/regulators/hp_regulators_exp.html")
+           file = paste0(filedir,"/regulators/hp_regulators_exp.html"))
 
-m_sigma_percentage<-as.matrix(read.table(paste0(filedir,'/regulators/sigmafactor_percentages.csv'), sep=",", header = TRUE, stringsAsFactors = FALSE))
-m_sigma_intensity<-as.matrix(read.table(paste0(filedir,'/regulators/sigmafactor_intensities.csv'), sep=",", header = TRUE, stringsAsFactors = FALSE) )
+cat('Plot heatmaps of sigma factor activities in different clusters\n')
+
+m_sigma_percentage<-as.matrix(read.table(paste0(filedir, "/regulators/sigmafactor_percentages.csv"), sep=",", header = TRUE, stringsAsFactors = FALSE))
+m_sigma_intensity<-as.matrix(read.table(paste0(filedir, "/regulators/sigmafactor_intensities.csv"), sep=",", header = TRUE, stringsAsFactors = FALSE))
 df_plotsigma<-data.frame(cluster=rownames(m_sigma_percentage)[row(m_sigma_percentage)], sigma_factor=colnames(m_sigma_percentage)[col(m_sigma_percentage)],
            percentage=c(m_sigma_percentage))
 df_plotsigma$intensity<-c(m_sigma_intensity)
-df_plotsigma$cluster<-factor(df_plotsigma$cluster,levels=as.character(10:1))
+df_plotsigma$cluster<-factor(df_plotsigma$cluster,levels=as.character(n_clusters:1))
 
 
 
@@ -91,11 +106,11 @@ m_regneg_intensity<-as.matrix(read.table(paste0(filedir,'/regulators/regneg_inte
 df_plotreg_pos<-data.frame(cluster=rownames(m_regpos_percentage)[row(m_regpos_percentage)], regulator=colnames(m_regpos_percentage)[col(m_regpos_percentage)],
                          percentage=c(m_regpos_percentage))
 df_plotreg_pos$intensity<-c(m_regpos_intensity)
-df_plotreg_pos$cluster<-factor(df_plotreg_pos$cluster,levels=as.character(1:10))
+df_plotreg_pos$cluster<-factor(df_plotreg_pos$cluster,levels=as.character(1:n_clusters))
 df_plotreg_neg<-data.frame(cluster=rownames(m_regneg_percentage)[row(m_regneg_percentage)], regulator=colnames(m_regneg_percentage)[col(m_regneg_percentage)],
                        percentage=c(m_regneg_percentage))
 df_plotreg_neg$intensity<-c(m_regneg_intensity)
-df_plotreg_neg$cluster<-factor(df_plotreg_neg$cluster,levels=as.character(10:1))
+df_plotreg_neg$cluster<-factor(df_plotreg_neg$cluster,levels=as.character(n_clusters:1))
 
 pdf(paste0(filedir,'/regulators/dotplot_reg_pos.pdf'),width=30, height=6)
 ggplot(df_plotreg_pos,mapping = aes(x = regulator, y = cluster) )+ geom_point(mapping = aes(size = percentage, colour = intensity)) +
@@ -114,7 +129,7 @@ dev.off()
 df_plotreg_neg$regulator<-paste0(df_plotreg_neg$regulator,'_neg')
 df_plotreg_pos$regulator<-paste0(df_plotreg_pos$regulator,'_pos')
 df_plotreg<-rbind(df_plotreg_pos,df_plotreg_neg)
-df_plotreg$cluster<-factor(df_plotreg$cluster,levels=as.character(1:10))
+df_plotreg$cluster<-factor(df_plotreg$cluster,levels=as.character(1:n_clusters))
 pdf(paste0(filedir,'/regulators/dotplot_reg.pdf'),width=60, height=6)
 ggplot(df_plotreg,mapping = aes(x = regulator, y = cluster))+ geom_point(mapping = aes(size = percentage, colour = intensity)) +
   scale_colour_gradient2(low = "blue",mid = "white",high = "red")+scale_size(breaks=c(0.2,0.4,0.6,0.8,1),range=c(0,10))+
@@ -125,7 +140,7 @@ dev.off()
 
 sigma_list<-unique(df_plotsigma$sigma_factor)
 m_pi<-matrix(rep(0,length(sigma_list)*n_clusters*2),ncol=n_clusters*2)
-for (i in 1:length(sigma_order)){
+for (i in 1:length(sigma_list)){
   x<-c(df_plotsigma[df_plotsigma$sigma_factor ==sigma_list[i],3:4])
   m_pi[i,]<-c(rbind(x[[1]],x[[2]]))
 }
@@ -168,7 +183,7 @@ for (i in 1:num_sigma){
 
 
 ## rgife interface
-print('writing the clusters in transcriptional landscape into arff data file for running RGIFE')
+cat('writing the clusters in transcriptional landscape into arff data file for running RGIFE\n')
 df_data<-as.data.frame(t(m_express_processed))
 df_data$class_label<-factor(cluster_identity)
 foreign::write.arff(df_data,file='results/TLclass.arff',relation='class_label')

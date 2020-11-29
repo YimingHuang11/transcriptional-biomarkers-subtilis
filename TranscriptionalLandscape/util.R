@@ -1,6 +1,13 @@
 ###### global variables #######
 # colours
 custom.col <-c('#fabed4','#f58231','#FF2F09', '#dcbeff','#f032e6','#911eb4','#ffe119', '#808000','#000075','#0CF091','#a9a9a9', '#9a6324', '#800000','#33614E', '#4363d8','#bcf60c','#aaffc3','#42d4f4','#68A864','#000000')
+
+## gene annotations exported from subtiwiki combined with
+## Antisense information (TableS11 in http://genome.jouy.inra.fr/basysbio/bsubtranscriptome/)
+## and regulatory network information (https://www.frontiersin.org/articles/10.3389/fmicb.2016.00275/full)
+gene_annotations<-read.csv("data/GeneAnnotations.csv", sep="\t",header = TRUE,quote='',stringsAsFactors = FALSE)
+rownames(gene_annotations)<-gene_annotations$gene_name
+
 ## regulon list
 df_regulons<-read.csv("data/regulons.csv", sep=",",header = TRUE,row.names=NULL,quote='',stringsAsFactors = FALSE)
 
@@ -70,7 +77,7 @@ DEtest<-function(data,treatment,block_list=NULL,correlation=FALSE,filedirec,p.va
   if(correlation){
     dupcor <- duplicateCorrelation(data,design,block=block_list)
     fit <- lmFit(data,design,block=block_list,correlation=dupcor$consensus.correlation)
-    print('remove correlation between duplicates')
+    cat('remove correlation between duplicates\n')
   }
   else
     fit <- lmFit(data,design)
@@ -145,10 +152,10 @@ DEG_patterns<-function(data,m_index,block_list=NULL,condition_list,filedirec,p.v
                dimnames = list(rownames(data),condition_list))
   m_pvalue<-matrix(0, nrow=length(rownames(data)),ncol=length(condition_list),
                dimnames = list(rownames(data),condition_list))
-  print('Differential expression analysis performing for conditions:')
+  cat('Differential expression analysis performing for conditions:\n')
   for (i in 1:length(condition_list)){
     condition<-condition_list[i]
-    print(condition)
+    cat(i,condition,'\n')
     index<-m_index[,condition]
     index<-which(index!='non')
     treatment<-as.factor(m_index[index,condition])
@@ -200,14 +207,14 @@ DEG_clusters<-function(data,identity,block_list,p.cutoff=0.05,lfc.cutoff=0,filed
                dimnames = list(rownames(data),1:num_clusters))
   m_pvalue<-matrix(0, nrow=length(rownames(data)),ncol=num_clusters,
                    dimnames = list(rownames(data),1:num_clusters))
-  print('Differential expression analysis performing for each cluster VS others:')
+  cat('Differential expression analysis performing for each cluster VS others:\n')
 
   DE_list<-list()
   for(i in 1:num_clusters){
     pdf(paste0(filedirec,'/MD_cluster',i,'.pdf'), width = 10 ,height = 8)
     wholetable<-DEtest_cluster(data,identity,block_list,clusterID=i,p.cutoff,lfc.cutoff)
     dev.off()
-    print(paste0('cluster ',i))
+    cat('cluster ',i,'\n')
     uplist<-rownames(wholetable[wholetable$logFC>lfc.cutoff  & wholetable$adj.P.Val<p.cutoff,])
     downlist<-rownames(wholetable[-wholetable$logFC>lfc.cutoff  & wholetable$adj.P.Val<p.cutoff,])
     write.table(uplist
@@ -409,35 +416,37 @@ write.sampleanno<-function(cluster,sample_list,filename){
 Regulator_clusters<-function(data,cluster,df_regulators,filetoken){
 
   m_regexp<-matrix(0, nrow=length(cluster),ncol=length(unique(df_regulators$regulator)),
-                   dimnames = list(names(cluster),sort(unique(df_regulators$regulator))))
+                 dimnames = list(names(cluster),sort(unique(df_regulators$regulator))))
+
   m_percentages<-matrix(0, nrow=length(unique(cluster)),ncol=length(unique(df_regulators$regulator)),
                         dimnames = list(1:length(unique(cluster)),sort(unique(df_regulators$regulator))))
   m_intensities<-matrix(0, nrow=length(unique(cluster)),ncol=length(unique(df_regulators$regulator)),
                         dimnames = list(1:length(unique(cluster)),sort(unique(df_regulators$regulator))))
 
-  gene_names<-rownames(data)
-  top30_chromosome<-apply(data,2,quantile,probs=seq(0,1,0.1))[8,]
-  bottom30_chromosome<-apply(data,2,quantile,probs=seq(0,1,0.1))[4,]
+  genenames<-rownames(data)
 
+  top30_chromosome<-apply(data,2,quantile,probs=0.7)
+  bottom30_chromosome<-apply(data,2,quantile,probs=0.3)
   for(c in 1:dim(m_intensities)[2]){
 
     regulated_genes<-df_regulators$gene[df_regulators$regulator==colnames(m_intensities)[c]]
-    regulated_genes<-regulated_genes[regulated_genes%in%gene_names]
-    if(length(regulated_genes)>1)
+    regulated_genes<-regulated_genes[regulated_genes%in%genenames]
+
+    if (length(regulated_genes)>1)
       m_regexp[,c]<-colMeans(data[regulated_genes,])
     else
       m_regexp[,c]<-data[regulated_genes,]
 
     for(r in 1:dim(m_intensities)[1]){
-      sample_indices<-which(cluster==r)
+      sample_indices<-names(which(cluster==r))
       upthreshold_exp<-top30_chromosome[sample_indices]
       downthreshold_exp<-bottom30_chromosome[sample_indices]
-
       if(length(regulated_genes)>1){
         # mean expression in cluster r and regulator c
-        m_intensities[r,c]<-mean(data[regulated_genes,sample_indices]) # mean expression in cluster r and regulator c
+        exp_regcluster<-data[regulated_genes,sample_indices]
+        m_intensities[r,c]<-mean(exp_regcluster) # mean expression in cluster r and regulator c
         # percentage of samples whose regulator mean expression higher than top 30 expressions in chromosome
-        regulator_exp<-colMeans(data[regulated_genes,sample_indices])
+        regulator_exp<-colMeans(exp_regcluster)
         if(m_intensities[r,c]>=0)
           m_percentages[r,c]<-sum(regulator_exp>=upthreshold_exp)/length(sample_indices)
         else
@@ -445,8 +454,9 @@ Regulator_clusters<-function(data,cluster,df_regulators,filetoken){
 
         }
     }
-    write.table(m_intensities,paste0(filetoken,'intensities.csv'),append = FALSE, sep = ",",quote=FALSE,col.names = T, row.names = T)
-    write.table(m_percentages,paste0(filetoken,'percentages.csv'),append = FALSE, sep = ",",quote=FALSE,col.names = T, row.names = T)
   }
+  write.table(m_intensities,paste0(filetoken,'intensities.csv'),append = FALSE, sep = ",",quote=FALSE,col.names = T, row.names = T)
+  write.table(m_percentages,paste0(filetoken,'percentages.csv'),append = FALSE, sep = ",",quote=FALSE,col.names = T, row.names = T)
+
   return (m_regexp)
 }
