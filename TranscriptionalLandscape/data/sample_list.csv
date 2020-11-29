@@ -1,0 +1,270 @@
+sampleIndex,SampleID,ConditionID,experimentID,condition_coarse,condition,annotation,type,medium,experiment,laboratory
+1,LBexp_1,LBexp,1,growing in favorable environment,exponential phase,growing in LB medium exponential phase (E1_1),control,LB,1: growth cycle in LB medium,Jouy
+2,LBexp_2,LBexp,1,growing in favorable environment,exponential phase,growing in LB medium exponential phase (E1_1),control,LB,1: growth cycle in LB medium,Jouy
+3,LBexp_3,LBexp,1,growing in favorable environment,exponential phase,growing in LB medium exponential phase (E1_1),control,LB,1: growth cycle in LB medium,Jouy
+4,LBtran_1,LBtran,1,transition phase,transition phase,growing in LB medium transition phase (E1_2),treatment,LB,1: growth cycle in LB medium,Jouy
+5,LBtran_2,LBtran,1,transition phase,transition phase,growing in LB medium transition phase (E1_2),treatment,LB,1: growth cycle in LB medium,Jouy
+6,LBtran_3,LBtran,1,transition phase,transition phase,growing in LB medium transition phase (E1_2),treatment,LB,1: growth cycle in LB medium,Jouy
+7,LBstat_1,LBstat,1,stationary phase,stationary phase,growing in LB medium stationary phase (E1_3),treatment,LB,1: growth cycle in LB medium,Jouy
+8,LBstat_2,LBstat,1,stationary phase,stationary phase,growing in LB medium stationary phase (E1_3),treatment,LB,1: growth cycle in LB medium,Jouy
+9,LBstat_3,LBstat,1,stationary phase,stationary phase,growing in LB medium stationary phase (E1_3),treatment,LB,1: growth cycle in LB medium,Jouy
+10,LBGexp_1,LBGexp,2,growing in favorable environment,exponential phase,growing in LB medium with glucose exponential phase (E2_1),control,LB,2: growth cycle in LB medium with glucose,Jouy
+11,LBGexp_2,LBGexp,2,growing in favorable environment,exponential phase,growing in LB medium with glucose exponential phase (E2_1),control,LB,2: growth cycle in LB medium with glucose,Jouy
+12,LBGexp_3,LBGexp,2,growing in favorable environment,exponential phase,growing in LB medium with glucose exponential phase (E2_1),control,LB,2: growth cycle in LB medium with glucose,Jouy
+13,LBGtran_2,LBGtran,2,transition phase,transition phase,growing in LB medium with glucose transition phase (E2_2),treatment,LB,2: growth cycle in LB medium with glucose,Jouy
+14,LBGtran_3,LBGtran,2,transition phase,transition phase,growing in LB medium with glucose transition phase (E2_2),treatment,LB,2: growth cycle in LB medium with glucose,Jouy
+15,LBGstat_1,LBGstat,2,stationary phase,stationary phase,growing in LB medium with glucose stationary phase (E2_3),treatment,LB,2: growth cycle in LB medium with glucose,Jouy
+16,LBGstat_2,LBGstat,2,stationary phase,stationary phase,growing in LB medium with glucose stationary phase (E2_3),treatment,LB,2: growth cycle in LB medium with glucose,Jouy
+17,LBGstat_3,LBGstat,2,stationary phase,stationary phase,growing in LB medium with glucose stationary phase (E2_3),treatment,LB,2: growth cycle in LB medium with glucose,Jouy
+18,S0_1,S0,3,growing in favorable environment,before sporulation,growing in CH medium before sporulation induced (E3_1),control,CH,3: sporulation induction in CH medium,Jouy
+19,S0_2,S0,3,growing in favorable environment,before sporulation,growing in CH medium before sporulation induced (E3_1),control,CH,3: sporulation induction in CH medium,Jouy
+20,S0_3,S0,3,growing in favorable environment,before sporulation,growing in CH medium before sporulation induced (E3_1),control,CH,3: sporulation induction in CH medium,Jouy
+21,S1_1,S1,3,sporulation,sporulation early stage,1h after sporulation induced (E3_2),treatment,CH,3: sporulation induction in CH medium,Jouy
+22,S1_2,S1,3,sporulation,sporulation early stage,1h after sporulation induced (E3_2),treatment,CH,3: sporulation induction in CH medium,Jouy
+23,S1_3,S1,3,sporulation,sporulation early stage,1h after sporulation induced (E3_2),treatment,CH,3: sporulation induction in CH medium,Jouy
+24,S2_1,S2,3,sporulation,sporulation early stage,2h after sporulation induced (E3_3),treatment,CH,3: sporulation induction in CH medium,Jouy
+25,S2_2,S2,3,sporulation,sporulation early stage,2h after sporulation induced (E3_3),treatment,CH,3: sporulation induction in CH medium,Jouy
+26,S2_3,S2,3,sporulation,sporulation early stage,2h after sporulation induced (E3_3),treatment,CH,3: sporulation induction in CH medium,Jouy
+27,S3_1,S3,3,sporulation,sporulation late stage,3h after sporulation induced (E3_4),treatment,CH,3: sporulation induction in CH medium,Jouy
+28,S3_2,S3,3,sporulation,sporulation late stage,3h after sporulation induced (E3_4),treatment,CH,3: sporulation induction in CH medium,Jouy
+29,S3_3,S3,3,sporulation,sporulation late stage,3h after sporulation induced (E3_4),treatment,CH,3: sporulation induction in CH medium,Jouy
+30,S4_1,S4,3,sporulation,sporulation late stage,4h after sporulation induced (E3_5),treatment,CH,3: sporulation induction in CH medium,Jouy
+31,S4_2,S4,3,sporulation,sporulation late stage,4h after sporulation induced (E3_5),treatment,CH,3: sporulation induction in CH medium,Jouy
+32,S4_3,S4,3,sporulation,sporulation late stage,4h after sporulation induced (E3_5),treatment,CH,3: sporulation induction in CH medium,Jouy
+33,S5_1,S5,3,sporulation,sporulation late stage,5h after sporulation induced (E3_6),treatment,CH,3: sporulation induction in CH medium,Jouy
+34,S5_2,S5,3,sporulation,sporulation late stage,5h after sporulation induced (E3_6),treatment,CH,3: sporulation induction in CH medium,Jouy
+35,S5_3,S5,3,sporulation,sporulation late stage,5h after sporulation induced (E3_6),treatment,CH,3: sporulation induction in CH medium,Jouy
+36,S6_1,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+37,S6_2,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+38,S6_3,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+39,S6_t1,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+40,S6_t2,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+41,S6_t3,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+42,S6_4,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+43,S6_5,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+44,S6_6,S6,3,sporulation,sporulation late stage,6h after sporulation induced (E3_7),treatment,CH,3: sporulation induction in CH medium,Jouy
+45,S7_4,S7,3,sporulation,sporulation late stage,7h after sporulation induced (E3_8),treatment,CH,3: sporulation induction in CH medium,Jouy
+46,S7_5,S7,3,sporulation,sporulation late stage,7h after sporulation induced (E3_8),treatment,CH,3: sporulation induction in CH medium,Jouy
+47,S7_6,S7,3,sporulation,sporulation late stage,7h after sporulation induced (E3_8),treatment,CH,3: sporulation induction in CH medium,Jouy
+48,S8_4,S8,3,sporulation,sporulation late stage,8h after sporulation induced (E3_9),treatment,CH,3: sporulation induction in CH medium,Jouy
+49,S8_5,S8,3,sporulation,sporulation late stage,8h after sporulation induced (E3_9),treatment,CH,3: sporulation induction in CH medium,Jouy
+50,G135_1,G135,4,germination,germination,135 min after germination with L-alanine (E4_1),treatment,LB,4: germination with L-alanine,Jouy
+51,G135_3,G135,4,germination,germination,135 min after germination with L-alanine (E4_1),treatment,LB,4: germination with L-alanine,Jouy
+52,G150_1,G150,4,germination,germination,150 min after germination with L-alanine (E4_2),treatment,LB,4: germination with L-alanine,Jouy
+53,G150_2,G150,4,germination,germination,150 min after germination with L-alanine (E4_2),treatment,LB,4: germination with L-alanine,Jouy
+54,G150_3,G150,4,germination,germination,150 min after germination with L-alanine (E4_2),treatment,LB,4: germination with L-alanine,Jouy
+55,G180_1,G180,4,germination,germination,180 min after germination with L-alanine (E4_3),treatment,LB,4: germination with L-alanine,Jouy
+56,G180_2,G180,4,germination,germination,180 min after germination with L-alanine (E4_3),treatment,LB,4: germination with L-alanine,Jouy
+57,G180_3,G180,4,germination,germination,180 min after germination with L-alanine (E4_3),treatment,LB,4: germination with L-alanine,Jouy
+58,C30_1,C30,5,competence,competence,30min after competence induction in minimal medium (E5_1),treatment,minimal medium,5: competence induction,Jouy
+59,C30_2,C30,5,competence,competence,30min after competence induction in minimal medium (E5_1),treatment,minimal medium,5: competence induction,Jouy
+60,C90_1,C90,5,competence,competence,90min after competence induction in minimal medium (E5_2),treatment,minimal medium,5: competence induction,Jouy
+61,C90_2,C90,5,competence,competence,90min after competence induction in minimal medium (E5_2),treatment,minimal medium,5: competence induction,Jouy
+62,BI_1,BI,6,low motility,low motility,individual colonies from LB agar (E6_1),treatment,LB agar,6: individual/confluent colonies from LB agar,Jouy
+63,BI_2,BI,6,low motility,low motility,individual colonies from LB agar (E6_1),treatment,LB agar,6: individual/confluent colonies from LB agar,Jouy
+64,BC_2,BC,6,low motility,low motility,confluent colonies from LB agar (E6_2),treatment,LB agar,6: individual/confluent colonies from LB agar,Jouy
+65,BC_t1,BC,6,low motility,low motility,confluent colonies from LB agar (E6_2),treatment,LB agar,6: individual/confluent colonies from LB agar,Jouy
+66,BC_t2,BC,6,low motility,low motility,confluent colonies from LB agar (E6_2),treatment,LB agar,6: individual/confluent colonies from LB agar,Jouy
+67,BC_1,BC,6,low motility,low motility,confluent colonies from LB agar (E6_2),treatment,LB agar,6: individual/confluent colonies from LB agar,Jouy
+68,Sw_1,Sw,7,low motility,low motility,swarming cells from LB agar (E7_1),treatment,LB agar,7: swarming cells from LB agar,Jouy
+69,Sw_2,Sw,7,low motility,low motility,swarming cells from LB agar (E7_1),treatment,LB agar,7: swarming cells from LB agar,Jouy
+70,BT_1,BT,8,growing in favorable environment,with shaking before forming biofilm,growing in MSgg 24h shaking (E8_1),control,MSgg,8: biofilm formation without shaking  VS growing with shaking ,Jouy
+71,BT_2,BT,8,growing in favorable environment,with shaking before forming biofilm,growing in MSgg 24h shaking (E8_1),control,MSgg,8: biofilm formation without shaking  VS growing with shaking ,Jouy
+72,B36_1,B36,8,biofilm formation,biofilm formation,36h of growth without shaking biofilm formation  (E8_2),treatment,MSgg,8: biofilm formation without shaking  VS growing with shaking ,Jouy
+73,B36_2,B36,8,biofilm formation,biofilm formation,36h of growth without shaking biofilm formation  (E8_2),treatment,MSgg,8: biofilm formation without shaking  VS growing with shaking ,Jouy
+74,B60_1,B60,8,biofilm formation,biofilm formation,60h of growth without shaking biofilm formation  (E8_3),treatment,MSgg,8: biofilm formation without shaking  VS growing with shaking ,Jouy
+75,B60_2,B60,8,biofilm formation,biofilm formation,60h of growth without shaking biofilm formation  (E8_3),treatment,MSgg,8: biofilm formation without shaking  VS growing with shaking ,Jouy
+76,M9exp_1,M9exp,9,growing in favorable environment,exponential phase,growing in M9 with glucose exponential phase  (E9_1),control,M9,9: growth cycle in M9 medium with glucose,Greifswald
+77,M9exp_2,M9exp,9,growing in favorable environment,exponential phase,growing in M9 with glucose exponential phase  (E9_1),control,M9,9: growth cycle in M9 medium with glucose,Greifswald
+78,M9exp_3,M9exp,9,growing in favorable environment,exponential phase,growing in M9 with glucose exponential phase  (E9_1),control,M9,9: growth cycle in M9 medium with glucose,Greifswald
+79,M9tran_1,M9tran,9,transition phase,transition phase,growing in M9 with glucose transition phase  (E9_2),treatment,M9,9: growth cycle in M9 medium with glucose,Greifswald
+80,M9tran_2,M9tran,9,transition phase,transition phase,growing in M9 with glucose transition phase  (E9_2),treatment,M9,9: growth cycle in M9 medium with glucose,Greifswald
+81,M9tran_3,M9tran,9,transition phase,transition phase,growing in M9 with glucose transition phase  (E9_2),treatment,M9,9: growth cycle in M9 medium with glucose,Greifswald
+82,M9stat_1,M9stat,9,stationary phase,stationary phase,growing in M9 with glucose stationary phase  (E9_3),treatment,M9,9: growth cycle in M9 medium with glucose,Greifswald
+83,M9stat_2,M9stat,9,stationary phase,stationary phase,growing in M9 with glucose stationary phase  (E9_3),treatment,M9,9: growth cycle in M9 medium with glucose,Greifswald
+84,M9stat_3,M9stat,9,stationary phase,stationary phase,growing in M9 with glucose stationary phase  (E9_3),treatment,M9,9: growth cycle in M9 medium with glucose,Greifswald
+85,M+G_1,M+G,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with L-Malic acid+D-Glucose (E10_1),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+86,M+G_2,M+G,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with L-Malic acid+D-Glucose (E10_1),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+87,M+G_3,M+G,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with L-Malic acid+D-Glucose (E10_1),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+88,Glu_1,Glu,10,growing in favorable environment,growing with glucose,growing in M9 with D-Glucose (E10_2),control,M9,10: growing in M9 medium with various nutrients,Grignon
+89,Glu_2,Glu,10,growing in favorable environment,growing with glucose,growing in M9 with D-Glucose (E10_2),control,M9,10: growing in M9 medium with various nutrients,Grignon
+90,Glu_3,Glu,10,growing in favorable environment,growing with glucose,growing in M9 with D-Glucose (E10_2),control,M9,10: growing in M9 medium with various nutrients,Grignon
+91,Fru_1,Fru,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with D-Fructose (E10_3),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+92,Fru_2,Fru,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with D-Fructose (E10_3),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+93,Fru_3,Fru,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with D-Fructose (E10_3),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+94,Mal_1,Mal,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with L-Malic acid (E10_4),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+95,Mal_2,Mal,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with L-Malic acid (E10_4),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+96,Mal_3,Mal,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with L-Malic acid (E10_4),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+97,G+S_1,G+S,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Glutamic acid+Succinc acid (E10_5),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+98,G+S_2,G+S,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Glutamic acid+Succinc acid (E10_5),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+99,G+S_3,G+S,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Glutamic acid+Succinc acid (E10_5),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+100,Pyr_1,Pyr,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Pyruvate (E10_6),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+101,Pyr_2,Pyr,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Pyruvate (E10_6),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+102,Pyr_3,Pyr,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Pyruvate (E10_6),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+103,Gly_1,Gly,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Glycerol (E10_7),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+104,Gly_2,Gly,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Glycerol (E10_7),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+105,Gly_3,Gly,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with Glycerol (E10_7),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+106,Glucon_1,Glucon,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with D-Gluconate (E10_8),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+107,Glucon_2,Glucon,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with D-Gluconate (E10_8),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+108,Glucon_3,Glucon,10,growing in favorable environment,shifting from glucose to alternative nutrients,growing in M9 with D-Gluconate (E10_8),treatment,M9,10: growing in M9 medium with various nutrients,Grignon
+109,aero_1,aero,11,growing in favorable environment,aerobic,growing in a synthetic medium aerobic (E11_1),control,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+110,aero_2,aero,11,growing in favorable environment,aerobic,growing in a synthetic medium aerobic (E11_1),control,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+111,aero_3,aero,11,growing in favorable environment,aerobic,growing in a synthetic medium aerobic (E11_1),control,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+112,nit_1,nit,11,anaerobic,anaerobic,growing in a synthetic medium nitrate respiration (E11_2),treatment,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+113,nit_2,nit,11,anaerobic,anaerobic,growing in a synthetic medium nitrate respiration (E11_2),treatment,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+114,nit_3,nit,11,anaerobic,anaerobic,growing in a synthetic medium nitrate respiration (E11_2),treatment,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+115,ferm_1,ferm,11,anaerobic,anaerobic,growing in a synthetic medium fermentative growth (E11_3),treatment,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+116,ferm_2,ferm,11,anaerobic,anaerobic,growing in a synthetic medium fermentative growth (E11_3),treatment,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+117,ferm_3,ferm,11,anaerobic,anaerobic,growing in a synthetic medium fermentative growth (E11_3),treatment,synthetic medium,11: growing under aerobic/anaerobic conditions,Braunschweig
+118,T-5.40H_1,T-5.40H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 340min before glucose exhausted (E12_1),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+119,T-4.40H_1,T-4.40H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 280min before glucose exhausted (E12_2),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+120,T-3.40H_1,T-3.40H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 220min before glucose exhausted (E12_3),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+121,T-2.40H_1,T-2.40H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 160min before glucose exhausted (E12_4),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+122,T-1.40H_1,T-1.40H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 100min before glucose exhausted (E12_5),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+123,T-1.10H_1,T-1.10H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 70min before glucose exhausted (E12_6),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+124,T-0.40H_1,T-0.40H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 40min before glucose exhausted (E12_7),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+125,T0.0H_1,T0.0H,12,growing in favorable environment,before glucose exhausted,growing in modified M9 0min before glucose exhausted (E12_8),control,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+126,T0.30H_1,T0.30H,12,starvation,starvation,30min after glucose exhausted (E12_9),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+127,T1.0H_1,T1.0H,12,starvation,starvation,60min after glucose exhausted (E12_10),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+128,T1.30H_1,T1.30H,12,starvation,starvation,90min after glucose exhausted (E12_11),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+129,T2.0H_1,T2.0H,12,starvation,starvation,120min after glucose exhausted (E12_12),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+130,T2.30H_1,T2.30H,12,starvation,starvation,150min after glucose exhausted (E12_13),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+131,T3.0H_1,T3.0H,12,starvation,starvation,180min after glucose exhausted (E12_14),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+132,T3.30H_1,T3.30H,12,starvation,starvation,210min after glucose exhausted (E12_15),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+133,T4.0H_1,T4.0H,12,starvation,starvation,240min after glucose exhausted (E12_16),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+134,T5.0H_1,T5.0H,12,starvation,starvation,300min after glucose exhausted (E12_17),treatment,modified M9,12: Glucose gradually consuming/starvation,Greifswald
+135,HPh_1,HPh,13,high phosphate,high phosphate,exponential growth in high phosphate-defined medium (E13_1),control,high phosphate-defined medium,13: high/low/limited phosphate-defined medium,Dublin
+136,HPh_2,HPh,13,high phosphate,high phosphate,exponential growth in high phosphate-defined medium (E13_1),control,high phosphate-defined medium,13: high/low/limited phosphate-defined medium,Dublin
+137,HPh_3,HPh,13,high phosphate,high phosphate,exponential growth in high phosphate-defined medium (E13_1),control,high phosphate-defined medium,13: high/low/limited phosphate-defined medium,Dublin
+138,LPh_1,LPh,13,low phosphate,low phosphate,exponential growth in low phosphate-defined medium (E13_2),treatment,low phosphate-defined medium,13: high/low/limited phosphate-defined medium,Dublin
+139,LPh_2,LPh,13,low phosphate,low phosphate,exponential growth in low phosphate-defined medium (E13_2),treatment,low phosphate-defined medium,13: high/low/limited phosphate-defined medium,Dublin
+140,LPh_3,LPh,13,low phosphate,low phosphate,exponential growth in low phosphate-defined medium (E13_2),treatment,low phosphate-defined medium,13: high/low/limited phosphate-defined medium,Dublin
+141,LPhT_1,LPhT,13,stationary phase,stationary phase,3h after phosphate-limitation induced stationary phase  (E13_3),treatment,phosphate-limitation medium,13: high/low/limited phosphate-defined medium,Dublin
+142,LPhT_2,LPhT,13,stationary phase,stationary phase,3h after phosphate-limitation induced stationary phase  (E13_3),treatment,phosphate-limitation medium,13: high/low/limited phosphate-defined medium,Dublin
+143,LPhT_3,LPhT,13,stationary phase,stationary phase,3h after phosphate-limitation induced stationary phase  (E13_3),treatment,phosphate-limitation medium,13: high/low/limited phosphate-defined medium,Dublin
+144,SMMPr_1,SMMPr,14,growing in favorable environment,before changing temperature/adding NaCl,growing in SMM at 37 degree (E14_1),control,SMM,14: changing temperature or adding NaCl,Greifswald
+145,SMMPr_2,SMMPr,14,growing in favorable environment,before changing temperature/adding NaCl,growing in SMM at 37 degree (E14_1),control,SMM,14: changing temperature or adding NaCl,Greifswald
+146,SMMPr_3,SMMPr,14,growing in favorable environment,before changing temperature/adding NaCl,growing in SMM at 37 degree (E14_1),control,SMM,14: changing temperature or adding NaCl,Greifswald
+147,HiTm_1,HiTm,14,high temperature,high temperature,growing at 51 degree in SMM (E14_2),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+148,HiTm_2,HiTm,14,high temperature,high temperature,growing at 51 degree in SMM (E14_2),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+149,HiTm_3,HiTm,14,high temperature,high temperature,growing at 51 degree in SMM (E14_2),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+150,LoTm_1,LoTm,14,low temperature,low temperature,growing at 18 degree in SMM (E14_3),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+151,LoTm_2,LoTm,14,low temperature,low temperature,growing at 18 degree in SMM (E14_3),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+152,LoTm_3,LoTm,14,low temperature,low temperature,growing at 18 degree in SMM (E14_3),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+153,HiOs_1,HiOs,14,salinity,salinity,growing in SMM added with NaCl (E14_4),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+154,HiOs_2,HiOs,14,salinity,salinity,growing in SMM added with NaCl (E14_4),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+155,HiOs_3,HiOs,14,salinity,salinity,growing in SMM added with NaCl (E14_4),treatment,SMM,14: changing temperature or adding NaCl,Greifswald
+156,BMM_1,BMM,15,growing in favorable environment,before changing temperature/adding ethanol,growing in BMM at 37 degree (E15_1),control,BMM,15: changing temperature or adding ethanol,Greifswald
+157,BMM_2,BMM,15,growing in favorable environment,before changing temperature/adding ethanol,growing in BMM at 37 degree (E15_1),control,BMM,15: changing temperature or adding ethanol,Greifswald
+158,BMM_3,BMM,15,growing in favorable environment,before changing temperature/adding ethanol,growing in BMM at 37 degree (E15_1),control,BMM,15: changing temperature or adding ethanol,Greifswald
+159,Heat_1,Heat,15,high temperature,high temperature,growing at 48 degree in BMM (E15_2),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+160,Heat_2,Heat,15,high temperature,high temperature,growing at 48 degree in BMM (E15_2),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+161,Heat_3,Heat,15,high temperature,high temperature,growing at 48 degree in BMM (E15_2),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+162,Cold_1,Cold,15,low temperature,low temperature,growing at 16 degree in BMM (E15_3),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+163,Cold_2,Cold,15,low temperature,low temperature,growing at 16 degree in BMM (E15_3),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+164,Cold_3,Cold,15,low temperature,low temperature,growing at 16 degree in BMM (E15_3),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+165,Etha_1,Etha,15,ethanol,ethanol,growing in BMM added with ethanol (E15_4),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+166,Etha_2,Etha,15,ethanol,ethanol,growing in BMM added with ethanol (E15_4),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+167,Etha_3,Etha,15,ethanol,ethanol,growing in BMM added with ethanol (E15_4),treatment,BMM,15: changing temperature or adding ethanol,Greifswald
+168,SMM_1,SMM,16,growing in favorable environment,before adding NaCl,growing in SMM before adding NaCl (E16_1),control,SMM,16: with/without NaCl,Greifswald
+169,SMM_2,SMM,16,growing in favorable environment,before adding NaCl,growing in SMM before adding NaCl (E16_1),control,SMM,16: with/without NaCl,Greifswald
+170,SMM_3,SMM,16,growing in favorable environment,before adding NaCl,growing in SMM before adding NaCl (E16_1),control,SMM,16: with/without NaCl,Greifswald
+171,Salt_1,Salt,16,salinity,salinity,growing in SMM after adding NaCl (E16_2),treatment,SMM,16: with/without NaCl,Greifswald
+172,Salt_2,Salt,16,salinity,salinity,growing in SMM after adding NaCl (E16_2),treatment,SMM,16: with/without NaCl,Greifswald
+173,Salt_3,Salt,16,salinity,salinity,growing in SMM after adding NaCl (E16_2),treatment,SMM,16: with/without NaCl,Greifswald
+174,Mt0_1,Mt0,17,growing in favorable environment,without mitomycin,growing in LB 0 min without mitomycin (E17_1),control,LB,17: with/without mitomycin,Jouy
+175,Mt0_2,Mt0,17,growing in favorable environment,without mitomycin,growing in LB 0 min without mitomycin (E17_1),control,LB,17: with/without mitomycin,Jouy
+176,Mt0_3,Mt0,17,growing in favorable environment,without mitomycin,growing in LB 0 min without mitomycin (E17_1),control,LB,17: with/without mitomycin,Jouy
+177,M0t45_1,M0t45,17,growing in favorable environment,without mitomycin,growing in LB 45 min without mitomycin (E17_2),control,LB,17: with/without mitomycin,Jouy
+178,M0t45_2,M0t45,17,growing in favorable environment,without mitomycin,growing in LB 45 min without mitomycin (E17_2),control,LB,17: with/without mitomycin,Jouy
+179,M0t45_3,M0t45,17,growing in favorable environment,without mitomycin,growing in LB 45 min without mitomycin (E17_2),control,LB,17: with/without mitomycin,Jouy
+180,M0t90_1,M0t90,17,growing in favorable environment,without mitomycin,growing in LB 90 min without mitomycin (E17_3),control,LB,17: with/without mitomycin,Jouy
+181,M0t90_2,M0t90,17,growing in favorable environment,without mitomycin,growing in LB 90 min without mitomycin (E17_3),control,LB,17: with/without mitomycin,Jouy
+182,M0t90_3,M0t90,17,growing in favorable environment,without mitomycin,growing in LB 90 min without mitomycin (E17_3),control,LB,17: with/without mitomycin,Jouy
+183,M40t45_1,M40t45,17,with mitomycin,with mitomycin,45 min with mitomycin (E17_4),treatment,LB,17: with/without mitomycin,Jouy
+184,M40t45_2,M40t45,17,with mitomycin,with mitomycin,45 min with mitomycin (E17_4),treatment,LB,17: with/without mitomycin,Jouy
+185,M40t45_3,M40t45,17,with mitomycin,with mitomycin,45 min with mitomycin (E17_4),treatment,LB,17: with/without mitomycin,Jouy
+186,M40t90_1,M40t90,17,with mitomycin,with mitomycin,90 min with mitomycin (E17_5),treatment,LB,17: with/without mitomycin,Jouy
+187,M40t90_2,M40t90,17,with mitomycin,with mitomycin,90 min with mitomycin (E17_5),treatment,LB,17: with/without mitomycin,Jouy
+188,M40t90_3,M40t90,17,with mitomycin,with mitomycin,90 min with mitomycin (E17_5),treatment,LB,17: with/without mitomycin,Jouy
+189,dia0_1,dia0,18,growing in favorable environment,without diamide,growing in LB before diamide addition (E18_1),control,LB,18: with/without diamide,Jouy
+190,dia0_2,dia0,18,growing in favorable environment,without diamide,growing in LB before diamide addition (E18_1),control,LB,18: with/without diamide,Jouy
+191,dia0_3,dia0,18,growing in favorable environment,without diamide,growing in LB before diamide addition (E18_1),control,LB,18: with/without diamide,Jouy
+192,dia5_1,dia5,18,oxidative,oxidative,5min after diamide addition (E18_2),treatment,LB,18: with/without diamide,Jouy
+193,dia5_2,dia5,18,oxidative,oxidative,5min after diamide addition (E18_2),treatment,LB,18: with/without diamide,Jouy
+194,dia5_3,dia5,18,oxidative,oxidative,5min after diamide addition (E18_2),treatment,LB,18: with/without diamide,Jouy
+195,dia15_1,dia15,18,oxidative,oxidative,15min after diamide addition (E18_3),treatment,LB,18: with/without diamide,Jouy
+196,dia15_2,dia15,18,oxidative,oxidative,15min after diamide addition (E18_3),treatment,LB,18: with/without diamide,Jouy
+197,dia15_3,dia15,18,oxidative,oxidative,15min after diamide addition (E18_3),treatment,LB,18: with/without diamide,Jouy
+198,Diami_1,Diami,19,oxidative,oxidative,10min after diamide addition (E19_1),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+199,Diami_2,Diami,19,oxidative,oxidative,10min after diamide addition (E19_1),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+200,Diami_3,Diami,19,oxidative,oxidative,10min after diamide addition (E19_1),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+201,Paraq_1,Paraq,19,oxidative,oxidative,10min after paraquat addition (E19_2),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+202,Paraq_2,Paraq,19,oxidative,oxidative,10min after paraquat addition (E19_2),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+203,Paraq_3,Paraq,19,oxidative,oxidative,10min after paraquat addition (E19_2),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+204,H2O2_1,H2O2,19,oxidative,oxidative,10min after H2O2 addition (E19_3),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+205,H2O2_2,H2O2,19,oxidative,oxidative,10min after H2O2 addition (E19_3),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+206,H2O2_3,H2O2,19,oxidative,oxidative,10min after H2O2 addition (E19_3),treatment,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+207,Oxctl_1,Oxctl,19,growing in favorable environment,without oxidative drug,growing in LB without oxidative drug (E19_4),control,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+208,Oxctl_2,Oxctl,19,growing in favorable environment,without oxidative drug,growing in LB without oxidative drug (E19_4),control,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+209,Oxctl_3,Oxctl,19,growing in favorable environment,without oxidative drug,growing in LB without oxidative drug (E19_4),control,LB,19: with/without oxidative drug (diamide/paraquat/H2O2),Newcastle
+210,GM-0.1_1,GM-0.1,20,growing in favorable environment,growing with glucose,growing in glucose (E20_1),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+211,GM-0.2_1,GM-0.2,20,growing in favorable environment,growing with glucose,growing in glucose 5 min before malate addition (E20_2),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+212,GM+5_1,GM+5,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 5 min after malate addition (E20_3),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+213,GM+15_1,GM+15,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 15 min after malate addition (E20_5),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+214,GM+25_1,GM+25,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 25 min after malate addition (E20_6),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+215,GM+45_1,GM+45,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 45 min after malate addition (E20_7),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+216,GM+60_1,GM+60,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 60 min after malate addition (E20_8),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+217,GM+90_1,GM+90,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 90 min after malate addition (E20_9),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+218,GM+120_1,GM+120,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 120 min after malate addition (E20_10),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+219,GM+150_1,GM+150,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 150 min after malate addition (E20_11),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+220,GM-0.1_2,GM-0.1,20,growing in favorable environment,growing with glucose,growing in glucose (E20_1),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+221,GM-0.2_2,GM-0.2,20,growing in favorable environment,growing with glucose,growing in glucose 5 min before malate addition (E20_2),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+222,GM+5_2,GM+5,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 5 min after malate addition (E20_3),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+223,GM+10_2,GM+10,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 10 min after malate addition (E20_4),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+224,GM+15_2,GM+15,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 15 min after malate addition (E20_5),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+225,GM+25_2,GM+25,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 25 min after malate addition (E20_6),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+226,GM+45_2,GM+45,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 45 min after malate addition (E20_7),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+227,GM+60_2,GM+60,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 60 min after malate addition (E20_8),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+228,GM+90_2,GM+90,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 90 min after malate addition (E20_9),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+229,GM+150_2,GM+150,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 150 min after malate addition (E20_11),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+230,GM-0.1_3,GM-0.1,20,growing in favorable environment,growing with glucose,growing in glucose (E20_1),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+231,GM-0.2_3,GM-0.2,20,growing in favorable environment,growing with glucose,growing in glucose 5 min before malate addition (E20_2),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+232,GM+5_3,GM+5,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 5 min after malate addition (E20_3),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+233,GM+10_3,GM+10,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 10 min after malate addition (E20_4),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+234,GM+15_3,GM+15,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 15 min after malate addition (E20_5),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+235,GM+25_3,GM+25,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 25 min after malate addition (E20_6),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+236,GM+45_3,GM+45,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 45 min after malate addition (E20_7),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+237,GM+60_3,GM+60,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 60 min after malate addition (E20_8),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+238,GM+90_3,GM+90,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 90 min after malate addition (E20_9),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+239,GM+120_3,GM+120,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 120 min after malate addition (E20_10),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+240,GM+150_3,GM+150,20,growing in favorable environment,shifting from glucose to malate,growing in glucose+malate 150 min after malate addition (E20_11),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+241,MG-0.1_1,MG-0.1,20,growing in favorable environment,growing with malate,growing in malate (E20_12),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+242,MG+5_1,MG+5,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 5 min after glucose addition (E20_14),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+243,MG+10_1,MG+10,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 10 min after glucose addition (E20_15),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+244,MG+15_1,MG+15,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 15 min after glucose addition (E20_16),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+245,MG+25_1,MG+25,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 25 min after glucose addition (E20_17),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+246,MG+45_1,MG+45,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 45 min after glucose addition (E20_18),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+247,MG+120_1,MG+120,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 120 min after glucose addition (E20_21),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+248,MG+150_1,MG+150,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 150 min after glucose addition (E20_22),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+249,MG-0.1_2,MG-0.1,20,growing in favorable environment,growing with malate,growing in malate (E20_12),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+250,MG-0.2_2,MG-0.2,20,growing in favorable environment,growing with malate,growing in malate 5 min before glucose addition (E20_13),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+251,MG+5_2,MG+5,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 5 min after glucose addition (E20_14),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+252,MG+10_2,MG+10,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 10 min after glucose addition (E20_15),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+253,MG+15_2,MG+15,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 15 min after glucose addition (E20_16),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+254,MG+25_2,MG+25,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 25 min after glucose addition (E20_17),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+255,MG+45_2,MG+45,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 45 min after glucose addition (E20_18),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+256,MG+60_2,MG+60,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 60 min after glucose addition (E20_19),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+257,MG+90_2,MG+90,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 90 min after glucose addition (E20_20),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+258,MG+120_2,MG+120,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 120 min after glucose addition (E20_21),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+259,MG-0.1_3,MG-0.1,20,growing in favorable environment,growing with malate,growing in malate (E20_12),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+260,MG-0.2_3,MG-0.2,20,growing in favorable environment,growing with malate,growing in malate 5 min before glucose addition (E20_13),control,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+261,MG+5_3,MG+5,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 5 min after glucose addition (E20_14),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+262,MG+10_3,MG+10,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 10 min after glucose addition (E20_15),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+263,MG+15_3,MG+15,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 15 min after glucose addition (E20_16),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+264,MG+25_3,MG+25,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 25 min after glucose addition (E20_17),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+265,MG+45_3,MG+45,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 45 min after glucose addition (E20_18),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+266,MG+60_3,MG+60,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 60 min after glucose addition (E20_19),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+267,MG+90_3,MG+90,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 90 min after glucose addition (E20_20),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+268,MG+120_3,MG+120,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 120 min after glucose addition (E20_21),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher
+269,MG+150_3,MG+150,20,growing in favorable environment,shifting from malate to glucose,growing in malate+glucose 150 min after glucose addition (E20_22),treatment,M9,20: nutrients shift between malate and glucose and vice versa,Buescher

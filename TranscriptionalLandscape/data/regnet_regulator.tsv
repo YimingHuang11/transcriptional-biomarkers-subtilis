@@ -1,0 +1,6707 @@
+gene_name	regulator	sign	mechanism
+tkt	spo0A	-1	TF+PP
+tkt	lexA	0	TF-proteolyse
+yceI	nadR	-1	TF+M
+ybbC	sigE	1	sigma factor
+ybbC	codY	0	TF+M
+ybbC	murR	0	silico-TF+M
+ytxG	sigH	1	sigma factor
+ytxG	sigB	1	sigma factor
+gmuB	sigA	1	sigma factor
+gmuB	gmuR	-1	TF+M
+gmuB	ccpA	-1	TF+PP+M
+gmuB	abrB	1	TF
+dapA	sigK	1	sigma factor
+dapA	sigA	1	sigma factor
+dapA	L-box-LYS	1	riboswitch
+perR	sigA	1	sigma factor
+perR	perR	-1	TF+S
+spoIIIAH	sigE	1	sigma factor
+spoIIIAH	gerR	-1	TF
+spoIIIAH	spoIIID	-1	TF
+spoIIIAH	gerE	-1	TF
+yycB	tnrA	-1	TF+P+M
+smc	sigK	1	sigma factor
+smc	sigA	1	sigma factor
+smc	stringent response	-1	unk
+smc	gerE	1	TF
+csfB	sigF	1	sigma factor
+yheC	sigE	1	sigma factor
+yheC	spoIIID	1	TF
+yuxO	sigA	1	sigma factor
+yuzC	sigE	1	sigma factor
+zosA	sigA	1	sigma factor
+zosA	perR	-1	TF+S
+pyrE	sigA	1	sigma factor
+pyrE	pyrR	1	P-AT+M
+pyrE	purR	-1	TF+M
+yjfA	sigE	1	sigma factor
+yjgD	sigB	1	sigma factor
+ydbD	sigB	1	sigma factor
+yomJ	abrB	-1	TF
+spoVT	sigG	1	sigma factor
+spoVT	sigF	1	sigma factor
+spoVT	spoVT	-1	TF
+yhjE	lexA	-1	TF-proteolyse
+ykzD	sigG	1	sigma factor
+yqdA	sknR	-1	TF
+yobN	sigE	1	sigma factor
+yobN	spoIIID	-1	TF
+yobN	gerR	-1	TF
+yisI	sigK	1	sigma factor
+yisI	sigE	1	sigma factor
+yisI	spo0A	1	TF+PP
+yuxH	sigA	1	sigma factor
+yuxH	spo0A	-1	TF+PP
+fadG	fadR	-1	TF+M
+araA	sigA	1	sigma factor
+araA	ccpA	-1	TF+PP+M
+araA	araR	-1	TF+M
+odhB	sigA	1	sigma factor
+odhB	ccpA	-1	TF+PP+M
+xpt	sigA	1	sigma factor
+xpt	purR	-1	TF+M
+xpt	G-box-HXTX	1	riboswitch
+xpt	G-box-GUA	1	riboswitch
+rplD	stringent response	-1	unk
+lysA	sigG	1	sigma factor
+lysA	sigA	1	sigma factor
+lysA	spoVT	1	TF
+lysA	L-box-LYS	1	riboswitch
+mrnC	sigA	1	sigma factor
+mrnC	T-box-CYS	1	RNA switch
+yobO	sigH	1	sigma factor
+yobO	ccpA	-1	TF+PP+M
+yobO	abrB	-1	TF
+hisD	hisR	0	silico-TF+M
+qoxD	stringent response	-1	unk
+rpmEA	stringent response	-1	unk
+yneE	spo0A	1	TF+PP
+yneE	lexA	0	TF-proteolyse
+yabP	sigE	1	sigma factor
+yabP	sigX	1	sigma factor
+yabP	sigW	1	sigma factor
+yabP	spoIIID	-1	TF
+cspR	sigE	1	sigma factor
+yqaG	sknR	-1	TF
+ligA	lexA	-1	TF-proteolyse
+katE	sigB	1	sigma factor
+ydfF	ydfF	0	silico-TF+unk
+bglS	sigA	1	sigma factor
+bglS	licT	1	P-AT+PTS
+bglS	ccpA	-1	TF+PP+M
+bglS	degU	1	TF+TC
+trpC	sigA	1	sigma factor
+trpC	TRAP	-1	RNA-BAP
+rnr	sigB	1	sigma factor
+degS	sigA	1	sigma factor
+metN	sigA	1	sigma factor
+metN	S-box-SAM	-1	
+metN	codY	1	TF+M
+yvyF	sigD	1	sigma factor
+yvyF	sigA	1	sigma factor
+yvyF	comK	1	TF
+ywkF	sigK	1	sigma factor
+comFC	sigD	1	sigma factor
+comFC	sigA	1	sigma factor
+comFC	comK	1	TF
+metI	sigA	1	sigma factor
+metI	S-box-SAM	-1	
+metI	codY	0	TF+M
+ywzA	sigB	1	sigma factor
+oppD	tnrA	1	TF+P+M
+oppD	scoC	-1	TF
+oppD	codY	0	TF+M
+ypiA	sigE	1	sigma factor
+ypiA	spoIIID	-1	TF
+lipC	sigK	1	sigma factor
+lipC	tnrA	1	TF+P+M
+lipC	kipR	-1	TF+unk
+ydeL	yhdI/YdeL	0	silico-TF+unk
+amyD	ccpA	-1	TF+PP+M
+amyD	msmR	0	silico-TF+M
+dppB	sigA	1	sigma factor
+dppB	codY	-1	TF+M
+dppB	abrB	-1	TF
+yxaJ	rok	-1	TF
+yxaJ	abrB	-1	TF
+ywbA	ccpA	0	TF+PP+M
+ywbA	rbsR	0	silico-TF+M
+yrkH	yrkD	0	silico-TF+unk
+ylaB	ylaC	1	sigma factor
+ylaB	sigA	1	sigma factor
+ylaB	spx	1	TF+S
+sdpB	spo0A	1	TF+PP
+sdpB	rok	-1	TF
+sdpB	abrB	-1	TF
+fadA	sigA	1	sigma factor
+fadA	sdpR	1	TF+P
+fadA	fadR	-1	TF+M
+fadA	ccpA	-1	TF+PP+M
+csbC	sigB	1	sigma factor
+yuiF	hisR	0	silico-TF+M
+ywiE	sigB	1	sigma factor
+csgA	sigG	1	sigma factor
+csgA	spoVT	-1	TF
+ymaD	sigE	1	sigma factor
+yitT	sigB	1	sigma factor
+yvrL	yvrI-YvrHa	1	sigma like factor
+yisK	sigH	1	sigma factor
+sigM	sigA	1	sigma factor
+ylxX	sigM	1	sigma factor
+ylxX	sigE	1	sigma factor
+ylxX	sigA	1	sigma factor
+ylxX	spoIIID	-1	TF
+appA.1	scoC	-1	TF
+appA.1	codY	-1	TF+M
+appA.1	tnrA	0	TF+P+M
+xpaC	sigW	1	sigma factor
+ytbQ	birA	-1	TF+P+M
+comK	sigA	1	sigma factor
+comK	spo0A	1	TF+PP
+comK	rok	-1	TF
+comK	degU	1	TF+TC
+comK	comK	1	TF
+comK	codY	-1	TF+M
+comK	abrB	-1	TF
+comK	med	1	P
+iolB	sigA	1	sigma factor
+iolB	iolR	-1	TF+M
+iolB	ccpA	-1	TF+PP+M
+ykuN	sigA	1	sigma factor
+ykuN	fur	-1	TF+M
+frr	stringent response	-1	unk
+patA	sigE	1	sigma factor
+yrkN	yrkP	1	TF+TC
+yraA	sigB	1	sigma factor
+yraA	sigM	1	sigma factor
+yraA	adhR	1	TF+S
+scr	sigA	1	sigma factor
+sipW	sigA	1	sigma factor
+sipW	sinR	-1	TF
+sipW	abrB	-1	TF
+sipW	spo0A	1	TF+PP
+racA	sigH	1	sigma factor
+racA	spo0A	1	TF+PP
+yozE	sigE	1	sigma factor
+lplC	ccpA	0	TF+PP+M
+yfkH	sigB	1	sigma factor
+yfkH	sigA	1	sigma factor
+yxkO	sigB	1	sigma factor
+pheS	sigA	1	sigma factor
+pheS	T-box-PHE	1	RNA switch
+thiN	sigE	1	sigma factor
+ybfI	ybfI	0	silico-TF+unk
+spoVIF	sigK	1	sigma factor
+spoVIF	gerR	1	TF
+spoVIF	gerE	1	TF
+ypbG	sigM	1	sigma factor
+ypbG	sigK	1	sigma factor
+ypbG	sigE	1	sigma factor
+ypbG	spoIIID	-1	TF
+yesQ	yesS	0	TF+P+unk
+yesQ	ccpA	0	TF+PP+M
+murQ	codY	0	TF+M
+murQ	murR	0	silico-TF+M
+stoA	sigE	1	sigma factor
+stoA	sigG	1	sigma factor
+stoA	spoIIID	-1	TF
+yqcI	sigK	1	sigma factor
+yclM	codY	-1	TF+M
+yclM	Thrr	-1	TF
+tpiA	sigA	1	sigma factor
+tpiA	cggR	-1	TF+M
+rsbU	sigB	1	sigma factor
+rsbU	sigA	1	sigma factor
+sspG	sigK	1	sigma factor
+sspG	sigE	1	sigma factor
+sspG	gerE	1	TF
+aprE	sigA	1	sigma factor
+aprE	sinR	-1	TF
+aprE	scoC	-1	TF
+aprE	abrB	-1	TF
+aprE	tenA	1	unk
+aprE	degU	1	TF+TC
+pcrB	lexA	-1	TF-proteolyse
+yufP	codY	-1	TF+M
+yqzC	spo0A	-1	TF+PP
+yvcI	ccpA	-1	TF+PP+M
+nagBA	sigA	1	sigma factor
+nagBA	nagR	-1	TF+M
+nagBA	ccpA	-1	TF+PP+M
+iseA	walR	-1	TF+TC
+rpsNA	stringent response	-1	unk
+rplQ	stringent response	-1	unk
+epsN	sigA	1	sigma factor
+epsN	sigH	1	sigma factor
+epsN	sinR	-1	TF
+epsN	eAR	0	RNA antiterminator
+epsN	abrB	-1	TF
+dhbC	sigA	1	sigma factor
+dhbC	fur	-1	TF+M
+dhbC	abrB	-1	TF
+yvmB	ccpA	-1	TF+PP+M
+pstBB	phoP	1	TF+TC
+trpS	T-box-TRP	1	RNA switch
+ylbO	sigE	1	sigma factor
+ylbO	spoIIID	1	TF
+groES	sigA	1	sigma factor
+groES	hrcA	-1	TF+HrcA unstability
+yraD	sigG	1	sigma factor
+purK	sigA	1	sigma factor
+purK	purR	-1	TF+M
+purK	G-box-HXTX	1	riboswitch
+purK	G-box-GUA	1	riboswitch
+estA	abrB	-1	TF
+estA	spoIIID	1	TF
+yscB	sigD	1	sigma factor
+yscB	abrB	-1	TF
+yxbG	sigB	1	sigma factor
+ytnL	sigA	1	sigma factor
+ytnL	ytlI	1	TF+M
+ytnL	cymR	-1	TF+P+M
+ytnL	spx	-1	TF+S
+sdhA	sigA	1	sigma factor
+sdhA	fsrA	-1	small regulatory RNA
+sdhA	ccpA	-1	TF+PP+M
+yvaB	sigG	1	sigma factor
+yvaB	mhqR	-1	TF+M
+yvaB	spoVT	-1	TF
+rpsL	stringent response	-1	unk
+cdd	sigB	1	sigma factor
+cdd	sigA	1	sigma factor
+cdd	spo0A	1	TF+PP
+leuD	sigA	1	sigma factor
+leuD	tnrA	-1	TF+P+M
+leuD	fsrA	-1	small regulatory RNA
+leuD	codY	-1	TF+M
+leuD	ccpA	1	TF+PP+M
+leuD	T-box-LEU	1	RNA switch
+bacB	sigH	1	sigma factor
+bacB	scoC	-1	TF
+bacB	codY	-1	TF+M
+bacB	abrB	-1	TF
+ylbQ	ccpA	0	TF+PP+M
+yutH	sigE	1	sigma factor
+yutH	sigF	1	sigma factor
+yutH	spoIIID	-1	TF
+yvrE	sigB	1	sigma factor
+yvrO	comK	1	TF
+yvrO	abrB	-1	TF
+cspD	ccpA	0	TF+PP+M
+adaA	sigA	1	sigma factor
+adaA	adaA	1	TF+S
+cwlS	sigH	1	sigma factor
+cwlS	sigD	1	sigma factor
+cwlS	ccpA	-1	TF+PP+M
+cwlS	abrB	-1	TF
+cwlS	abh	-1	TF
+argJ	sigA	1	sigma factor
+argJ	ahrC	-1	TF+M
+argJ	abrB	1	TF
+argJ	tnrA	0	TF+P+M
+yteU	rmgR	0	silico-TF+M
+leuB	sigA	1	sigma factor
+leuB	tnrA	-1	TF+P+M
+leuB	codY	-1	TF+M
+leuB	ccpA	1	TF+PP+M
+leuB	T-box-LEU	1	RNA switch
+yuxK	sigA	1	sigma factor
+yuxK	codY	0	TF+M
+dctP	sigA	1	sigma factor
+dctP	fsrA	-1	small regulatory RNA
+dctP	ccpA	-1	TF+PP+M
+dctP	dctR	1	TF+TC
+ywaC	sigW	1	sigma factor
+ywaC	sigM	1	sigma factor
+sigL	ccpA	-1	TF+PP+M
+abnB	sigH	1	sigma factor
+abnB	ccpA	-1	TF+PP+M
+yhaL	sigE	1	sigma factor
+hom	codY	0	TF+M
+ygaK	sigK	1	sigma factor
+yllA	ccpA	0	TF+PP+M
+yisN	sigF	1	sigma factor
+rplU	stringent response	-1	unk
+rplU	L21_leader	0	silico-RNA switch
+cgeE	sigK	1	sigma factor
+cgeE	gerE	1	TF
+ymfD	sigG	1	sigma factor
+ymfD	mta	1	TF+M
+yqfA	sigW	1	sigma factor
+lytH	sigK	1	sigma factor
+patB	sigE	1	sigma factor
+dps	sigB	1	sigma factor
+rplGB	stringent response	-1	unk
+argF	sigA	1	sigma factor
+argF	ahrC	-1	TF+M
+argF	abrB	1	TF
+argF	tnrA	0	TF+P+M
+metA	sigM	1	sigma factor
+oxaAB	mifM	1	Translation regulation
+spoIIIE	sigA	1	sigma factor
+acuC	sigA	1	sigma factor
+acuC	ccpA	-1	TF+PP+M
+acuC	codY	0	TF+M
+ybbH	codY	0	TF+M
+ybbH	murR	0	silico-TF+M
+ywsB	sigB	1	sigma factor
+ykoU	sigG	1	sigma factor
+ykoU	spoVT	1	TF
+yvrA	RNA - Cobalamin	0	silico-riboswitch
+csbX	sigG	1	sigma factor
+csbX	sigF	1	sigma factor
+csbX	sigB	1	sigma factor
+csbX	ccpA	-1	TF+PP+M
+csbX	spoVT	-1	TF
+bdbB	yvrHb	1	TF+TC
+bdbB	rok	-1	TF
+bdbB	abrB	-1	TF
+bdbB	abh	1	TF
+ydaH	sigM	1	sigma factor
+prfB	sigA	1	sigma factor
+gltX	sigA	1	sigma factor
+citT	ccpA	0	TF+PP+M
+dhbB	sigA	1	sigma factor
+dhbB	fur	-1	TF+M
+dhbB	abrB	-1	TF
+yolC	lexA	-1	TF-proteolyse
+yolC	abrB	-1	TF
+nadC	sigA	1	sigma factor
+nadC	nadR	-1	TF+M
+yodR	sigE	1	sigma factor
+yokI	abrB	-1	TF
+yodT	sigE	1	sigma factor
+ysnB	sigG	1	sigma factor
+flhP	sigD	1	sigma factor
+flhP	sigE	1	sigma factor
+flhP	stringent response	-1	unk
+yxaH	qdor	-1	TF+M
+yxaH	lmrA	-1	TF+M
+ywcE	abrB	-1	TF
+yvlB	sigW	1	sigma factor
+yvlB	abrB	-1	TF
+yqfZ	sigE	1	sigma factor
+yqfZ	spoIIID	-1	TF
+rpsE	stringent response	-1	unk
+yhfQ	fur	-1	TF+M
+ansR	ansR	-1	TF+M
+ydbN	fur	-1	TF+M
+iolF	sigA	1	sigma factor
+iolF	iolR	-1	TF+M
+iolF	ccpA	-1	TF+PP+M
+yteS	rmgR	0	silico-TF+M
+spoIIM	sigE	1	sigma factor
+spoIIM	gerR	-1	TF
+spoIIM	gerE	-1	TF
+hisA	hisR	0	silico-TF+M
+ptsI	sigA	1	sigma factor
+ptsI	stringent response	-1	unk
+ptsI	glcT	1	P-AT+PTS
+leuA	sigA	1	sigma factor
+leuA	tnrA	-1	TF+P+M
+leuA	codY	-1	TF+M
+leuA	ccpA	1	TF+PP+M
+leuA	T-box-LEU	1	RNA switch
+rok	spo0A	-1	TF+PP
+rok	sinR	-1	TF
+rok	rok	-1	TF
+rok	abrB	-1	TF
+rok	comK	-1	TF
+rok	codY	0	TF+M
+radA	sigF	1	sigma factor
+radA	sigB	1	sigma factor
+radA	sigA	1	sigma factor
+radA	ctsR	-1	TF+unstability
+opuBD	sigA	1	sigma factor
+opuBD	gbsR	-1	TF+M
+opuBD	codY	0	TF+M
+opuBD	yvbF/YvaV	0	silico-TF+unk
+ymdB	sigK	1	sigma factor
+trpA	sigA	1	sigma factor
+trpA	TRAP	-1	RNA-BAP
+yoaN	sigK	1	sigma factor
+yoaN	gerE	-1	TF
+kinE	sigH	1	sigma factor
+kinE	sigA	1	sigma factor
+kinE	codY	0	TF+M
+yrkP	yrkP	1	TF+TC
+gabP	sigA	1	sigma factor
+gabP	tnrA	1	TF+P+M
+gabP	codY	-1	TF+M
+nasF	sigA	1	sigma factor
+nasF	tnrA	1	TF+P+M
+nasF	resD	1	TF+TC
+nasF	nsrR	-1	TF+M
+nasF	fur	-1	TF+M
+nasF	glnR	-1	TF+P+M
+nasF	arfM	0	TF
+nasF	codY	0	TF+M
+ydbT	sigW	1	sigma factor
+asnO	sigE	1	sigma factor
+asnO	sigK	1	sigma factor
+asnO	spoIIID	1	TF
+mleA	ccpA	-1	TF+PP+M
+mleA	ansR	-1	TF+M
+yodQ	sigE	1	sigma factor
+proA	T-box-PRO	1	RNA switch
+ydgH	lexA	-1	TF-proteolyse
+menE	sigA	1	sigma factor
+ykzB	sigA	1	sigma factor
+ykzB	tnrA	1	TF+P+M
+ykzB	phoP	1	TF+TC
+yqaF	sknR	-1	TF
+ydbI	sigE	1	sigma factor
+ydbI	spoIIID	-1	TF
+ydbI	rex	0	TF+M
+cspB	sigA	1	sigma factor
+cspB	comK	0	TF
+araM	sigA	1	sigma factor
+araM	ccpA	-1	TF+PP+M
+araM	araR	-1	TF+M
+exlX	fur	-1	TF+M
+yacP	sigA	1	sigma factor
+yacP	T-box-CYS	1	RNA switch
+sspO	sigG	1	sigma factor
+sspO	spoVT	1	TF
+sspO	codY	0	TF+M
+yrhC	sigK	1	sigma factor
+yrhC	sigA	1	sigma factor
+yrhC	spx	1	TF+S
+yrhC	cymR	-1	TF+P+M
+ybbF	codY	0	TF+M
+ybbF	murR	0	silico-TF+M
+yacL	sigM	1	sigma factor
+yacL	sigB	1	sigma factor
+acuA	sigA	1	sigma factor
+acuA	ccpA	-1	TF+PP+M
+acuA	codY	0	TF+M
+yrdK	azlB	-1	TF+unk
+yoaC	S-box-SAM	-1	
+hisG	hisR	0	silico-TF+M
+copZ	csoR	-1	TF+M
+yxnA	sigB	1	sigma factor
+kapB	sigA	1	sigma factor
+kapB	stringent response	1	unk
+kapB	codY	-1	TF+M
+kapB	abrB	-1	TF
+lplD	ccpA	0	TF+PP+M
+ydjM	walR	1	TF+TC
+ydjM	phoP	1	TF+TC
+ynaD	sigH	1	sigma factor
+parE	lexA	-1	TF-proteolyse
+gerE	sigK	1	sigma factor
+gerE	spoIIID	1	TF
+queC	preQ1 riboswitch	-1	riboswitch
+ysdA	sigA	1	sigma factor
+ysdA	stringent response	-1	unk
+ysdA	rplT	-1	RNA switch
+tyrZ	T-box-TYR	1	RNA switch
+yyaS	yybA	0	silico-TF+unk
+yufN	codY	-1	TF+M
+albC	sigA	1	sigma factor
+albC	rok	-1	TF
+albC	resD	1	TF+TC
+albC	abrB	-1	TF
+xynB	sigA	1	sigma factor
+xynB	xylR	-1	TF+M
+xynB	ccpA	-1	TF+PP+M
+comGC	sigA	1	sigma factor
+comGC	comK	1	TF
+comGC	comZ	-1	TF
+yppF	codY	0	TF+M
+yxeK	sigA	1	sigma factor
+yxeK	cymR	-1	TF+P+M
+yxeK	spx	-1	TF+S
+yitH	S-box-SAM	-1	
+glsA	sigA	1	sigma factor
+glsA	glnL	1	TF+TC
+glsA	ccpA	0	TF+PP+M
+ycbG	ycbG	-1	TF+M
+ispF	sigM	1	sigma factor
+ispF	sigB	1	sigma factor
+sunA	yvrHb	1	TF+TC
+sunA	rok	-1	TF
+sunA	abrB	-1	TF
+sunA	abh	1	TF
+purE	sigA	1	sigma factor
+purE	purR	-1	TF+M
+purE	G-box-HXTX	1	riboswitch
+purE	G-box-GUA	1	riboswitch
+gbsA	gbsR	-1	TF+M
+ydfJ	sigA	1	sigma factor
+ydfJ	ydfI	1	TF+TC
+mntC	mntR	-1	TF+M
+ycnI	ycnK	-1	TF+M
+dltB	sigX	1	sigma factor
+dltB	sigM	1	sigma factor
+dltB	sigD	1	sigma factor
+dltB	yvrHb	1	TF+TC
+dltB	stringent response	-1	unk
+dltB	spo0A	-1	TF+PP
+yorB	lexA	-1	TF-proteolyse
+trxB	spx	1	TF+S
+yydI	sigA	1	sigma factor
+yydI	rok	-1	TF
+yydI	abrB	-1	TF
+yozF	sigG	1	sigma factor
+metC	sigA	1	sigma factor
+metC	S-box-SAM	-1	
+metC	codY	0	TF+M
+gntR	sigA	1	sigma factor
+gntR	sigK	1	sigma factor
+gntR	gntR	-1	TF+M
+gntR	ccpA	-1	TF+PP+M
+gntR	abrB	1	TF
+gntR	ccpB	-1	TF+unk
+flgB	sigD	1	sigma factor
+flgB	sigA	1	sigma factor
+flgB	spo0A	-1	TF+PP
+flgB	codY	-1	TF+M
+sbp	sigM	1	sigma factor
+sbp	sigE	1	sigma factor
+sbp	sigA	1	sigma factor
+sbp	spoIIID	-1	TF
+sbp	gerR	-1	TF
+yoaH	sigD	1	sigma factor
+ysfB	sigG	1	sigma factor
+ywdL	sigE	1	sigma factor
+yycC	tnrA	-1	TF+P+M
+yckC	sigE	1	sigma factor
+ssbB	comK	1	TF
+mtlR	ccpA	-1	TF+PP+M
+mtlR	mtlR	0	TF+PTS
+ptb	sigL	1	sigma factor
+ptb	codY	-1	TF+M
+ptb	bkdR	1	TF+M
+ptb	tnrA	-1	TF+P+M
+yfnD	sigK	1	sigma factor
+yfnD	sigE	1	sigma factor
+yfnD	gerR	-1	TF
+levR	sigL	1	sigma factor
+levR	levR	1	TF+PTS
+levR	ccpA	-1	TF+PP+M
+ylmC	sigE	1	sigma factor
+ylmC	spoIIID	-1	TF
+sspM	sigG	1	sigma factor
+fliM	sigD	1	sigma factor
+fliM	sigA	1	sigma factor
+fliM	spo0A	-1	TF+PP
+fliM	codY	-1	TF+M
+srfAC	sigA	1	sigma factor
+srfAC	spx	-1	TF+S
+srfAC	perR	1	TF+S
+srfAC	comA	1	TF+TC
+srfAC	codY	-1	TF+M
+srfAC	abh	-1	TF
+rbsB	sigA	1	sigma factor
+rbsB	ccpA	-1	TF+PP+M
+rbsB	abrB	1	TF
+rbsB	rbsR	0	silico-TF+M
+yraE	sigG	1	sigma factor
+yqxJ	spo0A	1	TF+PP
+yqxJ	abrB	-1	TF
+yvrB	RNA - Cobalamin	0	silico-riboswitch
+qcrB	resD	1	TF+TC
+qcrB	abrB	-1	TF
+qcrB	ccpA	-1	TF+PP+M
+tlpA	sigD	1	sigma factor
+tlpA	abrB	-1	TF
+xsa	sigA	1	sigma factor
+xsa	ccpA	-1	TF+PP+M
+xsa	araR	-1	TF+M
+yveF	padR	-1	TF+M
+yqcF	spo0A	1	TF+PP
+ywkB	sigA	1	sigma factor
+ywkB	malR	1	TF+TC
+ytcD	ytcD	0	silico-TF+unk
+resD	sigA	1	sigma factor
+resD	resD	1	TF+TC
+resD	phoP	1	TF+TC
+resD	ccpA	-1	TF+PP+M
+yugJ	spx	1	TF+S
+nrdI	sigA	1	sigma factor
+nrdI	resD	1	TF+TC
+nrdI	nrdR	0	silico-TF+M
+yfhS	sigE	1	sigma factor
+yfhS	sigG	1	sigma factor
+yfhS	sigA	1	sigma factor
+yfhS	yfhP	-1	unk
+yfhS	spoVT	-1	TF
+yfhS	rsfA	1	P
+ybfP	sigW	1	sigma factor
+ybfP	abrB	-1	TF
+iolJ	sigA	1	sigma factor
+iolJ	iolR	-1	TF+M
+iolJ	ccpA	-1	TF+PP+M
+yrkE	yrkD	0	silico-TF+unk
+pbpX	sigX	1	sigma factor
+pbpX	sigM	1	sigma factor
+pbpX	sigW	1	sigma factor
+pbpX	lexA	0	TF-proteolyse
+frlM	frlR	-1	TF+M
+frlM	codY	-1	TF+M
+yqgY	ccpA	0	TF+PP+M
+yezD	cymR	-1	TF+P+M
+ycgM	sigE	1	sigma factor
+ycgM	spo0A	1	TF+PP
+ycgM	putR	1	TF+M
+ycgM	codY	-1	TF+M
+ycgM	spoIIID	1	TF
+ycgM	ccpA	-1	TF+PP+M
+yveG	padR	-1	TF+M
+ganR	lacR	0	TF+M
+yybI	sigE	1	sigma factor
+ydjO	sigW	1	sigma factor
+ydjO	sigE	1	sigma factor
+abnA	sigA	1	sigma factor
+abnA	ccpA	-1	TF+PP+M
+abnA	araR	-1	TF+M
+rapF	sigH	1	sigma factor
+rapF	comA	1	TF+TC
+rapF	ccpA	-1	TF+PP+M
+yolB	abrB	-1	TF
+yngHB	sigE	1	sigma factor
+yngHB	spoIIID	-1	TF
+yngHB	ccpA	0	TF+PP+M
+yocM	sigE	1	sigma factor
+lpdV	sigL	1	sigma factor
+lpdV	codY	-1	TF+M
+lpdV	bkdR	1	TF+M
+lpdV	tnrA	-1	TF+P+M
+ytfJ	sigF	1	sigma factor
+narI	sigA	1	sigma factor
+narI	fnr	1	TF+M
+gcvPB	Gly-box	-1	riboswitch
+gcvPB	spoVT	1	TF
+gcvPB	T-box-GLY	-1	RNA switch
+ycgN	sigE	1	sigma factor
+ycgN	spo0A	1	TF+PP
+ycgN	putR	1	TF+M
+ycgN	codY	-1	TF+M
+ycgN	spoIIID	1	TF
+ycgN	ccpA	-1	TF+PP+M
+rplF	stringent response	-1	unk
+yopL	ccpA	-1	TF+PP+M
+dacC	sigH	1	sigma factor
+dacC	sigB	1	sigma factor
+bacC	sigH	1	sigma factor
+bacC	scoC	-1	TF
+bacC	codY	-1	TF+M
+bacC	abrB	-1	TF
+ycxC	ycxD	0	silico-TF+unk
+ctaD	sigA	1	sigma factor
+ctaD	resD	1	TF+TC
+ctaD	ccpA	-1	TF+PP+M
+ctaD	abrB	-1	TF
+ctaD	abh	-1	TF
+ctrA	codY	-1	TF+M
+kinB	sigA	1	sigma factor
+kinB	stringent response	1	unk
+kinB	codY	-1	TF+M
+kinB	abrB	-1	TF
+yhbJ	sigG	1	sigma factor
+yhbJ	comK	1	TF
+yusE	spo0A	1	TF+PP
+ysnF	sigB	1	sigma factor
+yjfB	sigD	1	sigma factor
+kamA	sigE	1	sigma factor
+yesX	yesS	1	TF+P+unk
+yesX	ccpA	0	TF+PP+M
+sdpA	spo0A	1	TF+PP
+sdpA	rok	-1	TF
+sdpA	abrB	-1	TF
+yngE	sigE	1	sigma factor
+yngE	spoIIID	-1	TF
+yngE	ccpA	0	TF+PP+M
+spsA	sigK	1	sigma factor
+yozN	sigE	1	sigma factor
+rsiX	sigX	1	sigma factor
+rsiX	sigA	1	sigma factor
+rsiX	yvrHb	1	TF+TC
+yndF	sigG	1	sigma factor
+yndF	spoVT	-1	TF
+spoIIGA	sigG	1	sigma factor
+spoIIGA	sigF	1	sigma factor
+spoIIGA	sigA	1	sigma factor
+spoIIGA	spo0A	1	TF+PP
+spoIIGA	sinR	-1	TF
+spoIIGA	spoVT	-1	TF
+spoIIGA	rsfA	1	P
+spsF	sigK	1	sigma factor
+ccpN	yqfL	-1	unk
+epsD	sigA	1	sigma factor
+epsD	sigH	1	sigma factor
+epsD	sinR	-1	TF
+epsD	eAR	0	RNA antiterminator
+epsD	abrB	-1	TF
+menB	sigA	1	sigma factor
+mmgA	sigE	1	sigma factor
+mmgA	ccpA	-1	TF+PP+M
+mmgA	spoIIID	-1	TF
+ybfJ	sigE	1	sigma factor
+accA	spo0A	1	TF+PP
+yqhG	sigF	1	sigma factor
+yqhG	lexA	0	TF-proteolyse
+ypbR	fur	-1	TF+M
+ypiF	sigH	1	sigma factor
+ypiF	ccpA	-1	TF+PP+M
+mreD	sigM	1	sigma factor
+mreD	sigH	1	sigma factor
+yphE	abrB	-1	TF
+lmrB	sigA	1	sigma factor
+lmrB	lmrA	-1	TF+M
+lmrB	qdor	0	TF+M
+gcaD	sigA	1	sigma factor
+gcaD	stringent response	-1	unk
+thiX	sigK	1	sigma factor
+thiX	Thi-box	-1	riboswitch
+yueE	sigK	1	sigma factor
+jag	sigA	1	sigma factor
+metE	sigA	1	sigma factor
+metE	S-box-SAM	-1	
+ypqP.1	sigK	1	sigma factor
+rapC	sigA	1	sigma factor
+rapC	sigH	1	sigma factor
+rapC	comA	1	TF+TC
+rapC	codY	-1	TF+M
+ydaB	tnrA	0	TF+P+M
+yjzE	sigB	1	sigma factor
+cydD	sigA	1	sigma factor
+cydD	rex	-1	TF+M
+cydD	resD	1	TF+TC
+cydD	ccpA	-1	TF+PP+M
+xylA	sigA	1	sigma factor
+xylA	xylR	-1	TF+M
+xylA	ccpA	-1	TF+PP+M
+xylA	ccpB	-1	TF+unk
+ylxP	sigB	1	sigma factor
+ylxP	sigA	1	sigma factor
+ylxP	stringent response	-1	unk
+ymfI	sigK	1	sigma factor
+ydeC	sigB	1	sigma factor
+lysS	sigA	1	sigma factor
+sinI	sigA	1	sigma factor
+sinI	sigH	1	sigma factor
+sinI	spo0A	-1	TF+PP
+sinI	scoC	-1	TF
+sinI	abrB	-1	TF
+sinI	sinR	-1	TF
+sqhC	sigE	1	sigma factor
+spoIVCB	sigK	1	sigma factor
+spoIVCB	sigE	1	sigma factor
+spoIVCB	spoIIID	1	TF
+spoIVCB	gerE	-1	TF
+tpx	spx	1	TF+S
+yphF	abrB	-1	TF
+etfB	sigA	1	sigma factor
+etfB	fadR	-1	TF+M
+etfB	ccpA	-1	TF+PP+M
+appC	scoC	-1	TF
+appC	codY	-1	TF+M
+appC	tnrA	0	TF+P+M
+yncM	abrB	-1	TF
+ykzE	spoVT	1	TF
+yhaR	sigH	1	sigma factor
+yhaR	ccpA	-1	TF+PP+M
+rpsP	stringent response	-1	unk
+rapA	sigA	1	sigma factor
+rapA	spo0A	-1	TF+PP
+rapA	comA	1	TF+TC
+rapA	codY	-1	TF+M
+xre	xre	-1	TF
+sspE	sigE	1	sigma factor
+sspE	sigG	1	sigma factor
+sspE	sigA	1	sigma factor
+sspE	yfhP	-1	unk
+sspE	spoVT	-1	TF
+sspE	rsfA	1	P
+yydG	sigA	1	sigma factor
+yydG	abrB	-1	TF
+yydG	rok	-1	TF
+sunT	yvrHb	1	TF+TC
+sunT	rok	-1	TF
+sunT	abrB	-1	TF
+sunT	abh	1	TF
+bkdB	sigL	1	sigma factor
+bkdB	codY	-1	TF+M
+bkdB	bkdR	1	TF+M
+bkdB	tnrA	-1	TF+P+M
+spsD	sigK	1	sigma factor
+yycP	sigK	1	sigma factor
+yycP	sigE	1	sigma factor
+yycP	phoP	1	TF+TC
+iolI	sigA	1	sigma factor
+iolI	iolR	-1	TF+M
+iolI	ccpA	-1	TF+PP+M
+yitI	S-box-SAM	-1	
+ytlD	sigK	1	sigma factor
+xtmB	xpf	1	sigma factor
+ccdA	sigA	1	sigma factor
+ccdA	sigH	1	sigma factor
+ybdO	sigD	1	sigma factor
+ybdO	abrB	-1	TF
+yabJ	purR	-1	TF+M
+ydaP	sigB	1	sigma factor
+yngC	sigM	1	sigma factor
+yngC	yclJ	1	TF+TC
+gmuG	sigA	1	sigma factor
+gmuG	gmuR	-1	TF+M
+gmuG	ccpA	-1	TF+PP+M
+gmuG	abrB	1	TF
+yclA	bsdA	0	TF+M
+ctaF	sigA	1	sigma factor
+ctaF	resD	1	TF+TC
+ctaF	ccpA	-1	TF+PP+M
+ctaF	abrB	-1	TF
+ctaF	abh	-1	TF
+sspB	sigG	1	sigma factor
+sspB	spoVT	1	TF
+thrB	codY	0	TF+M
+lytD	sigD	1	sigma factor
+lytD	sigG	1	sigma factor
+ydaG	sigB	1	sigma factor
+lrgB.1	ywbI	0	silico-TF+unk
+yulD	rhaR	0	silico-TF+M
+fusA	stringent response	-1	unk
+alkA	sigA	1	sigma factor
+alkA	sigE	1	sigma factor
+alkA	adaA	1	TF+S
+clpX	sigA	1	sigma factor
+clpX	ctsR	-1	TF+unstability
+sdpR	sigA	1	sigma factor
+sdpR	sdpR	-1	TF+P
+sdpR	abrB	-1	TF
+yfhD	sigB	1	sigma factor
+yfhD	sigF	1	sigma factor
+yfhD	sigG	1	sigma factor
+yfhD	spoVT	1	TF
+ptsH	sigA	1	sigma factor
+ptsH	stringent response	-1	unk
+ptsH	glcT	1	P-AT+PTS
+spo0B	sigA	1	sigma factor
+ntdC	sigA	1	sigma factor
+ntdC	sigE	1	sigma factor
+ntdC	ntdR	1	TF+M
+ntdC	gerR	-1	TF
+purB	sigA	1	sigma factor
+purB	purR	-1	TF+M
+purB	G-box-HXTX	1	riboswitch
+purB	G-box-GUA	1	riboswitch
+cotB	sigK	1	sigma factor
+cotB	sigE	1	sigma factor
+cotB	gerR	1	TF
+cotB	gerE	1	TF
+ilvE	codY	-1	TF+M
+atpD	stringent response	-1	unk
+clpY	sigA	1	sigma factor
+clpY	codY	-1	TF+M
+ribH	sigK	1	sigma factor
+ribH	sigA	1	sigma factor
+ribH	FMN-box	-1	riboswitch
+yqdB	sigA	1	sigma factor
+yqdB	ratA	-1	antisense RNA
+racX	sigW	1	sigma factor
+racX	abrB	-1	TF
+mlpA	sigE	1	sigma factor
+mlpA	spoIIID	-1	TF
+yjbO	sigG	1	sigma factor
+yerI	abrB	-1	TF
+disA	sigM	1	sigma factor
+disA	sigF	1	sigma factor
+disA	sigB	1	sigma factor
+disA	sigA	1	sigma factor
+disA	ctsR	-1	TF+unstability
+abfA	sigA	1	sigma factor
+abfA	ccpA	-1	TF+PP+M
+abfA	araR	-1	TF+M
+ylmG	spo0A	-1	TF+PP
+aspS	T-box-HIS	1	RNA switch
+aspS	T-box-ASP	1	RNA switch
+yxiO	phoP	1	TF+TC
+yfhL	sigW	1	sigma factor
+yfhL	sigB	1	sigma factor
+radC	sigM	1	sigma factor
+radC	comK	1	TF
+rplNA	stringent response	-1	unk
+yjaU	sigK	1	sigma factor
+yxkC	sigD	1	sigma factor
+yxkC	tnrA	1	TF+P+M
+cotSA	sigK	1	sigma factor
+gerPC	sigK	1	sigma factor
+gerPC	gerE	-1	TF
+spo0A	sigH	1	sigma factor
+spo0A	sigA	1	sigma factor
+spo0A	spo0A	-1	TF+PP
+spo0A	sinR	-1	TF
+spxA	sigX	1	sigma factor
+spxA	sigW	1	sigma factor
+spxA	sigM	1	sigma factor
+spxA	sigB	1	sigma factor
+spxA	sigA	1	sigma factor
+spxA	perR	-1	TF+S
+spxA	yodB	-1	TF+S
+fliL	sigD	1	sigma factor
+fliL	sigA	1	sigma factor
+fliL	spo0A	-1	TF+PP
+fliL	codY	-1	TF+M
+bacD	sigH	1	sigma factor
+bacD	scoC	-1	TF
+bacD	codY	-1	TF+M
+bacD	abrB	-1	TF
+yfkJ	sigB	1	sigma factor
+yfkJ	sigA	1	sigma factor
+bipA	stringent response	-1	unk
+ald	sigA	1	sigma factor
+ald	adeR	1	TF-M
+ytcQ	ccpA	0	TF+PP+M
+ytcQ	rmgR	0	silico-TF+M
+yjdF	manR	1	TF+PTS
+yesP	yesS	0	TF+P+unk
+yesP	ccpA	0	TF+PP+M
+nasA	sigA	1	sigma factor
+nasA	tnrA	1	TF+P+M
+nasA	glnR	-1	TF+P+M
+nasA	T-O2	1	unk
+ybgB	sigY	1	sigma factor
+hrcA	sigA	1	sigma factor
+hrcA	hrcA	-1	TF+HrcA unstability
+hrcA	arfM	0	TF
+fliY	sigD	1	sigma factor
+fliY	sigA	1	sigma factor
+fliY	spo0A	-1	TF+PP
+fliY	codY	-1	TF+M
+pucL	sigA	1	sigma factor
+pucL	tnrA	1	TF+P+M
+pucL	pucR	1	TF+M
+gutB	sigA	1	sigma factor
+gutB	gutR	1	TF+M
+treA	sigA	1	sigma factor
+treA	treR	-1	TF+M
+treA	phoP	1	TF+TC
+treA	ccpA	-1	TF+PP+M
+ylbC	sigF	1	sigma factor
+ylbC	ccpA	0	TF+PP+M
+acoL	sigL	1	sigma factor
+acoL	sigK	1	sigma factor
+acoL	ccpA	-1	TF+PP+M
+acoL	acoR	1	TF+M
+cheY	sigD	1	sigma factor
+cheY	sigA	1	sigma factor
+cheY	spo0A	-1	TF+PP
+cheY	codY	-1	TF+M
+mapA	stringent response	-1	unk
+pdhC	sigA	1	sigma factor
+pdhC	stringent response	-1	unk
+prpB	sigE	1	sigma factor
+prpB	ccpA	-1	TF+PP+M
+prpB	spoIIID	-1	TF
+trmU	sigA	1	sigma factor
+trmU	stringent response	-1	unk
+ntdA	sigA	1	sigma factor
+ntdA	sigE	1	sigma factor
+ntdA	ntdR	1	TF+M
+ntdA	gerR	-1	TF
+yddJ	abrB	-1	TF
+dltE	sigX	1	sigma factor
+dltE	sigM	1	sigma factor
+dltE	sigD	1	sigma factor
+dltE	yvrHb	1	TF+TC
+dltE	stringent response	-1	unk
+dltE	spo0A	-1	TF+PP
+oppA	tnrA	1	TF+P+M
+oppA	scoC	-1	TF
+oppA	codY	0	TF+M
+aag	sigB	1	sigma factor
+nprE	scoC	-1	TF
+nprE	abrB	-1	TF
+nprE	tenA	1	unk
+nprE	paiB	-1	unk
+nprE	degU	1	TF+TC
+yraF	sigG	1	sigma factor
+dnaK	sigA	1	sigma factor
+dnaK	hrcA	-1	TF+HrcA unstability
+dnaK	arfM	0	TF
+ysnE	sigE	1	sigma factor
+ysnE	tnrA	0	TF+P+M
+fadB	sigA	1	sigma factor
+fadB	fadR	-1	TF+M
+fadB	ccpA	-1	TF+PP+M
+ycsI	sigK	1	sigma factor
+ycsI	tnrA	1	TF+P+M
+ycsI	kipR	-1	TF+unk
+galE	sigA	1	sigma factor
+mccB	sigK	1	sigma factor
+mccB	sigA	1	sigma factor
+mccB	spx	1	TF+S
+mccB	cymR	-1	TF+P+M
+ytpP	spx	1	TF+S
+ydaD	sigB	1	sigma factor
+ydaK	sigB	1	sigma factor
+pucK	sigA	1	sigma factor
+pucK	tnrA	1	TF+P+M
+pucK	pucR	1	TF+M
+ylmE	spo0A	-1	TF+PP
+spoIVCA	sigE	1	sigma factor
+spoIVCA	spoIIID	1	TF
+spoIVCA	gerR	-1	TF
+ytrC	sigA	1	sigma factor
+ytrC	ytrA	-1	TF-M
+xkdK	xpf	1	sigma factor
+spoVAEB	sigG	1	sigma factor
+spoVAEB	spoVT	1	TF
+ylzI	sigD	1	sigma factor
+ylzI	sigA	1	sigma factor
+ylzI	spo0A	-1	TF+PP
+ylzI	codY	-1	TF+M
+lytE	sigI	1	sigma factor
+lytE	sigH	1	sigma factor
+lytE	sigA	1	sigma factor
+lytE	walR	1	TF+TC
+lytE	spo0A	-1	TF+PP
+yesZ	yesS	1	TF+P+unk
+yesZ	ccpA	0	TF+PP+M
+ydjP	sigW	1	sigma factor
+ydjP	sigE	1	sigma factor
+appD	scoC	-1	TF
+appD	codY	-1	TF+M
+appD	tnrA	0	TF+P+M
+spoIIQ	sigF	1	sigma factor
+spoIIQ	codY	0	TF+M
+mtnA	sigA	1	sigma factor
+mtnA	S-box-SAM	-1	
+mecA	sigA	1	sigma factor
+yocN	sigE	1	sigma factor
+hemD	sigA	1	sigma factor
+hemD	perR	-1	TF+S
+gerBA	sigG	1	sigma factor
+gerBA	spoVT	-1	TF
+glyS	T-box-GLY	1	RNA switch
+mtnB	sigA	1	sigma factor
+mtnB	S-box-SAM	-1	
+levB	sigA	1	sigma factor
+levB	sacY	1	P-AT+PTS
+levB	degU	1	TF+TC
+levB	tenA	1	unk
+levB	sacT	1	P-AT+PTS
+ypjB	sigE	1	sigma factor
+ypjB	spoIIID	-1	TF
+yqzL	tnrA	0	TF+P+M
+bltD	sigA	1	sigma factor
+bltD	mta	1	TF+M
+bltD	bltR	1	TF+M
+ypfB	sigF	1	sigma factor
+yhdA	sigA	1	sigma factor
+yhdA	sigE	1	sigma factor
+yhdA	liaR	1	TF+TC
+ylxL	sigD	1	sigma factor
+ylxL	sigA	1	sigma factor
+ylxL	spo0A	-1	TF+PP
+ylxL	codY	-1	TF+M
+ycbJ	ycbG	-1	TF+M
+ycbJ	abrB	-1	TF
+ykvU	sigE	1	sigma factor
+ykvU	sigG	1	sigma factor
+ykvU	spoIIID	-1	TF
+yfhA	fur	-1	TF+M
+guaC	sigK	1	sigma factor
+guaC	sigA	1	sigma factor
+guaC	purR	-1	TF+M
+guaC	codY	1	TF+M
+tcyL	sigA	1	sigma factor
+tcyL	ytlI	1	TF+M
+tcyL	cymR	-1	TF+P+M
+tcyL	spx	-1	TF+S
+gmuF	sigA	1	sigma factor
+gmuF	gmuR	-1	TF+M
+gmuF	ccpA	-1	TF+PP+M
+gmuF	abrB	1	TF
+adhA	adhR	1	TF+S
+mntH	mntR	-1	TF+M
+ycbC	ycbG	-1	TF+M
+rtpA	sigA	1	sigma factor
+rtpA	T-box-TRP	1	RNA switch
+rtpA	TRAP	-1	RNA-BAP
+alsD	sigA	1	sigma factor
+alsD	stringent response	1	unk
+alsD	rex	-1	TF+M
+alsD	alsR	1	TF+M
+alsD	ccpA	1	TF+PP+M
+alsD	arfM	1	TF
+sspF	sigG	1	sigma factor
+bglP	sigA	1	sigma factor
+bglP	licT	1	P-AT+PTS
+bglP	ccpA	-1	TF+PP+M
+sigA	sigH	1	sigma factor
+sigA	sigD	1	sigma factor
+sigA	sigB	1	sigma factor
+sigA	spo0A	-1	TF+PP
+comEC	sigA	1	sigma factor
+comEC	comN	0	P-PTC
+comEC	comK	1	TF
+galK	ccpA	-1	TF+PP+M
+yfmP	sigA	1	sigma factor
+yfmP	yfmP	-1	TF+M
+yocB	sigB	1	sigma factor
+racE	sigK	1	sigma factor
+gudD	ycbG	-1	TF+M
+lepA	sigA	1	sigma factor
+lepA	arfM	0	TF
+prs	sigA	1	sigma factor
+prs	stringent response	-1	unk
+yoaD	S-box-SAM	-1	
+infB	sigA	1	sigma factor
+infB	stringent response	-1	unk
+bdhA	abrB	-1	TF
+yvyD	sigH	1	sigma factor
+yvyD	sigB	1	sigma factor
+minD	sigM	1	sigma factor
+minD	sigH	1	sigma factor
+ycdA	degU	1	TF+TC
+ycdA	abrB	-1	TF
+ycdA	abh	-1	TF
+xkdG	xpf	1	sigma factor
+spoVS	sigH	1	sigma factor
+spoVS	codY	0	TF+M
+yqeW	sigE	1	sigma factor
+yqeW	spoIIID	-1	TF
+araD	sigA	1	sigma factor
+araD	ccpA	-1	TF+PP+M
+araD	araR	-1	TF+M
+glcD	ccpA	0	TF+PP+M
+ywdK	tnrA	-1	TF+P+M
+glpP	ccpA	-1	TF+PP+M
+msrA	spx	1	TF+S
+oppF	tnrA	1	TF+P+M
+oppF	scoC	-1	TF
+oppF	codY	0	TF+M
+exoAA	sigG	1	sigma factor
+spsC	sigK	1	sigma factor
+spoVD	sigE	1	sigma factor
+spoVD	spoIIID	-1	TF
+thiQ	Thi-box	-1	riboswitch
+spoIIAA	sigH	1	sigma factor
+spoIIAA	sigG	1	sigma factor
+spoIIAA	sigF	1	sigma factor
+spoIIAA	spo0A	1	TF+PP
+spoIIAA	sinR	-1	TF
+spoIIAA	abrB	-1	TF
+spoIIAA	spoVT	-1	TF
+yodP	sigE	1	sigma factor
+efeN	sigX	1	sigma factor
+efeN	sigW	1	sigma factor
+efeN	sigM	1	sigma factor
+efeN	fur	-1	TF+M
+yqxD	sigH	1	sigma factor
+yqxD	sigB	1	sigma factor
+yqxD	sigA	1	sigma factor
+yqxD	sigD	1	sigma factor
+yqxD	spo0A	-1	TF+PP
+ykuV	abrB	-1	TF
+uvrA	lexA	-1	TF-proteolyse
+yheD	sigE	1	sigma factor
+yheD	spoIIID	1	TF
+ydhK	sigB	1	sigma factor
+ydhK	csoR	0	TF+M
+yoeA	sigH	1	sigma factor
+nin	comK	1	TF
+ycxD	ycxD	0	silico-TF+unk
+yqaN	sigK	1	sigma factor
+yqaN	sknR	-1	TF
+yqzG	sigF	1	sigma factor
+yqzG	abrB	-1	TF
+yceH	sigX	1	sigma factor
+yceH	sigW	1	sigma factor
+yceH	sigM	1	sigma factor
+yceH	sigB	1	sigma factor
+yceH	sigA	1	sigma factor
+glgP	sigE	1	sigma factor
+glgP	sigH	1	sigma factor
+yveA	sigG	1	sigma factor
+yveA	sigA	1	sigma factor
+yveA	sacY	1	P-AT+PTS
+yveA	degU	1	TF+TC
+yveA	spoVT	-1	TF
+yveA	tenA	1	unk
+yveA	sacT	1	P-AT+PTS
+ythQ	sigW	1	sigma factor
+ywjC	sigB	1	sigma factor
+yjmC	sigE	1	sigma factor
+yjmC	sigA	1	sigma factor
+yjmC	exuR	-1	TF+M
+yjmC	ccpA	-1	TF+PP+M
+yjmC	spoIIID	-1	TF
+yqfT	sigE	1	sigma factor
+yqfT	spoIIID	1	TF
+phrG	sigH	1	sigma factor
+phrG	sigA	1	sigma factor
+phrG	rghR	-1	TF
+phrG	ccpA	-1	TF+PP+M
+phrG	sinR	-1	TF
+odhA	sigA	1	sigma factor
+odhA	ccpA	-1	TF+PP+M
+nrdE	sigA	1	sigma factor
+nrdE	resD	1	TF+TC
+nrdE	nrdR	0	silico-TF+M
+pspA	sigW	1	sigma factor
+pspA	abrB	-1	TF
+yurJ	codY	-1	TF+M
+yurJ	frlR	0	TF+M
+phoB	sigE	1	sigma factor
+phoB	sigA	1	sigma factor
+phoB	phoP	1	TF+TC
+phoB	spoIIID	-1	TF
+phoB	gerR	-1	TF
+kipA	sigK	1	sigma factor
+kipA	tnrA	1	TF+P+M
+kipA	kipR	-1	TF+unk
+yxaL	rok	-1	TF
+yxaL	abrB	-1	TF
+efeU	sigX	1	sigma factor
+efeU	sigW	1	sigma factor
+efeU	fur	-1	TF+M
+ytaF	sigE	1	sigma factor
+yqfX	sigG	1	sigma factor
+yqfX	spoVT	1	TF
+mntA	mntR	-1	TF+M
+srfAB	sigA	1	sigma factor
+srfAB	spx	-1	TF+S
+srfAB	perR	1	TF+S
+srfAB	comA	1	TF+TC
+srfAB	codY	-1	TF+M
+srfAB	abh	-1	TF
+yczG	yczG	0	silico-TF+unk
+cysC	sigA	1	sigma factor
+cysC	S-box-SAM	-1	
+cysC	cymR	-1	TF+P+M
+yotK	sigB	1	sigma factor
+nfo	sigG	1	sigma factor
+sigE	sigG	1	sigma factor
+sigE	sigF	1	sigma factor
+sigE	sigA	1	sigma factor
+sigE	spo0A	1	TF+PP
+sigE	sinR	-1	TF
+sigE	spoVT	-1	TF
+sigE	rsfA	1	P
+rbfK	sigA	1	sigma factor
+rbfK	ytlI	1	TF+M
+rbfK	cymR	-1	TF+P+M
+rbfK	spx	-1	TF+S
+yvcA	degU	1	TF+TC
+yvcA	abrB	-1	TF
+sigW	abrB	-1	TF
+bscR	sigX	1	sigma factor
+bscR	sigW	1	sigma factor
+bscR	sigM	1	sigma factor
+bscR	fatR	-1	TF+M
+bscR	abrB	-1	TF
+spoVFA	sigK	1	sigma factor
+yuiC	sigF	1	sigma factor
+yuiC	codY	-1	TF+M
+yuiC	tnrA	0	TF+P+M
+prpC.1	sigE	1	sigma factor
+prpC.1	ccpA	-1	TF+PP+M
+prpC.1	spoIIID	-1	TF
+ytlC	sigK	1	sigma factor
+yfmI	spo0A	1	TF+PP
+yfmI	abrB	-1	TF
+ribD	sigA	1	sigma factor
+ribD	FMN-box	-1	riboswitch
+thrS	sigA	1	sigma factor
+thrS	T-box-THR	1	RNA switch
+fhuB	fur	-1	TF+M
+yhaO	lexA	-1	TF-proteolyse
+pta	sigA	1	sigma factor
+pta	ccpA	1	TF+PP+M
+gerD	sigG	1	sigma factor
+gerD	sigF	1	sigma factor
+gerD	spoVT	1	TF
+ykuS	sigF	1	sigma factor
+ydfK	sigA	1	sigma factor
+ydfK	mta	1	TF+M
+ydfK	ydfL	0	silico-TF+unk
+valS	sigA	1	sigma factor
+valS	T-box-VAL	1	RNA switch
+ytxC	sigE	1	sigma factor
+ytxC	spoIIID	-1	TF
+yhbA	sigF	1	sigma factor
+yqxA	sigF	1	sigma factor
+yqxA	sigE	1	sigma factor
+yqxA	gerR	-1	TF
+yqxA	gerE	-1	TF
+proJ	sigK	1	sigma factor
+proJ	sigE	1	sigma factor
+bacA	sigH	1	sigma factor
+bacA	scoC	-1	TF
+bacA	codY	-1	TF+M
+bacA	abrB	-1	TF
+opuBA	sigA	1	sigma factor
+opuBA	gbsR	-1	TF+M
+opuBA	codY	0	TF+M
+opuBA	yvbF/YvaV	0	silico-TF+unk
+ymaE	abrB	-1	TF
+nasB	sigA	1	sigma factor
+nasB	tnrA	1	TF+P+M
+nasB	glnR	-1	TF+P+M
+nasB	T-O2	1	unk
+sdpI	sigA	1	sigma factor
+sdpI	sdpR	-1	TF+P
+sdpI	abrB	-1	TF
+fliI	sigD	1	sigma factor
+fliI	sigA	1	sigma factor
+fliI	spo0A	-1	TF+PP
+fliI	codY	-1	TF+M
+cgeB	sigK	1	sigma factor
+cgeB	gerE	1	TF
+cgeB	gerR	1	TF
+ctc	sigB	1	sigma factor
+ctc	sigA	1	sigma factor
+pyrH	stringent response	-1	unk
+yteR	rmgR	0	silico-TF+M
+mreBH	sigI	1	sigma factor
+degR	sigD	1	sigma factor
+degR	comK	-1	TF
+ylbJ	sigE	1	sigma factor
+ylbJ	spoIIID	-1	TF
+degQ	sigA	1	sigma factor
+degQ	degU	1	TF+TC
+degQ	comA	1	TF+TC
+ymaH	sigH	1	sigma factor
+fabHA	sigA	1	sigma factor
+fabHA	fapR	-1	TF+M
+epsM	sigA	1	sigma factor
+epsM	sigH	1	sigma factor
+epsM	sinR	-1	TF
+epsM	eAR	0	RNA antiterminator
+epsM	abrB	-1	TF
+frlR	frlR	0	TF+M
+ywlG	tnrA	-1	TF+P+M
+yfnF	sigK	1	sigma factor
+yfnF	sigE	1	sigma factor
+fer	fur	0	TF+M
+yxkD	sigK	1	sigma factor
+yxkD	RNA - ykkC-yxkD	0	silico-riboswitch
+ftsZ	sigH	1	sigma factor
+ftsZ	sigA	1	sigma factor
+ftsZ	walR	1	TF+TC
+ftsZ	abrB	-1	TF
+yrvD	sigB	1	sigma factor
+yitJ	S-box-SAM	-1	
+lcfB	sigA	1	sigma factor
+lcfB	fadR	-1	TF+M
+lcfB	ccpA	-1	TF+PP+M
+yrrL	spo0A	-1	TF+PP
+yqfC	sigE	1	sigma factor
+yqfC	spoIIID	-1	TF
+pbuG	purR	-1	TF+M
+pbuG	G-box-HXTX	1	riboswitch
+pbuG	G-box-GUA	1	riboswitch
+comGA	sigA	1	sigma factor
+comGA	comK	1	TF
+comGA	comZ	-1	TF
+carA	sigA	1	sigma factor
+carA	ahrC	-1	TF+M
+carA	abrB	1	TF
+carA	tnrA	0	TF+P+M
+pbpI	sigF	1	sigma factor
+pbpI	sigE	1	sigma factor
+fliK	sigD	1	sigma factor
+fliK	sigA	1	sigma factor
+fliK	spo0A	-1	TF+PP
+fliK	codY	-1	TF+M
+hutM	sigA	1	sigma factor
+hutM	hutP	1	P-AT+M
+hutM	codY	-1	TF+M
+hutM	ccpA	-1	TF+PP+M
+tlpC	sigD	1	sigma factor
+ycxA	comA	1	TF+TC
+dhbA	sigA	1	sigma factor
+dhbA	fur	-1	TF+M
+dhbA	abrB	-1	TF
+mtnW	sigA	1	sigma factor
+mtnW	S-box-SAM	-1	
+ywoB	ytrA	-1	TF-M
+paiA	yybA	0	silico-TF+unk
+pstBA	phoP	1	TF+TC
+msmX	ccpA	-1	TF+PP+M
+gerT	sigK	1	sigma factor
+fabG	sigA	1	sigma factor
+fabG	fapR	-1	TF+M
+fabG	comA	1	TF+TC
+yhdK	sigM	1	sigma factor
+yhdK	sigA	1	sigma factor
+ymfF	mta	1	TF+M
+ytxH	sigH	1	sigma factor
+ytxH	sigB	1	sigma factor
+yodD	mhqR	-1	TF+M
+gmuA	sigA	1	sigma factor
+gmuA	gmuR	-1	TF+M
+gmuA	ccpA	-1	TF+PP+M
+gmuA	abrB	1	TF
+ykpC	sigE	1	sigma factor
+yxdM	yxdJ	1	TF+TC
+purC	sigA	1	sigma factor
+purC	purR	-1	TF+M
+purC	G-box-HXTX	1	riboswitch
+purC	G-box-GUA	1	riboswitch
+seaA	sigF	1	sigma factor
+rplA	stringent response	-1	unk
+gltA	sigA	1	sigma factor
+gltA	tnrA	-1	TF+P+M
+gltA	gltC	1	TF+M
+gltA	fsrA	-1	small regulatory RNA
+gltA	gltR	1	unk
+gltA	gltC2	-1	TF+M
+gltA	gltC1	1	TF+M
+gltA	gltC0	1	TF+M
+ytsJ	lexA	0	TF-proteolyse
+ydeJ	abrB	-1	TF
+yciB	sigA	1	sigma factor
+yciB	zur	-1	TF+M
+ywcB	sigE	1	sigma factor
+ywcB	spoIIID	-1	TF
+pdhB	sigA	1	sigma factor
+pdhB	stringent response	-1	unk
+yisY	sigG	1	sigma factor
+ywqF	sigE	1	sigma factor
+yusP	mdtR	-1	TF+M
+comFA	sigA	1	sigma factor
+comFA	sigD	1	sigma factor
+comFA	comK	1	TF
+rpmA	L21_leader	0	silico-RNA switch
+yvcR	psdR	1	TF+TC
+ytkC	codY	0	TF+M
+rapD	sigX	1	sigma factor
+rapD	sigM	1	sigma factor
+rapD	sigA	1	sigma factor
+rapD	rghR	-1	TF
+yotN	sigE	1	sigma factor
+glnQ	sigE	1	sigma factor
+glnQ	tnrA	1	TF+P+M
+glnQ	codY	0	TF+M
+yvqK	RNA - Cobalamin	0	silico-riboswitch
+yotD	csoR	-1	TF+M
+yjcL	codY	0	TF+M
+mgtE	sigK	1	sigma factor
+mgtE	M-box	-1	riboswitch
+yclP	fur	-1	TF+M
+yxaF	qdor	-1	TF+M
+yxaF	lmrA	-1	TF+M
+tilS	sigM	1	sigma factor
+yckD	sigG	1	sigma factor
+yckD	sigF	1	sigma factor
+yckD	spoVT	-1	TF
+cotW	sigK	1	sigma factor
+cotW	gerE	1	TF
+cotW	spoIIID	-1	TF
+fadN	sigA	1	sigma factor
+fadN	sdpR	1	TF+P
+fadN	fadR	-1	TF+M
+fadN	ccpA	-1	TF+PP+M
+ythP	sigW	1	sigma factor
+tenA	Thi-box	-1	riboswitch
+tenA	tenI	-1	unk
+vpr	sigH	1	sigma factor
+vpr	phoP	1	TF+TC
+vpr	lexA	-1	TF-proteolyse
+ydgA	sigK	1	sigma factor
+ydgA	gerE	-1	TF
+yteT	rmgR	0	silico-TF+M
+yhaZ	lexA	-1	TF-proteolyse
+usd	sigE	1	sigma factor
+fliS	sigD	1	sigma factor
+yhdL	sigM	1	sigma factor
+yhdL	sigA	1	sigma factor
+qoxA	stringent response	-1	unk
+ywhK	sigK	1	sigma factor
+trpE	sigA	1	sigma factor
+trpE	TRAP	-1	RNA-BAP
+ywmE	sigB	1	sigma factor
+glxK	abrB	-1	TF
+ykgB	sigB	1	sigma factor
+yqhP	sigF	1	sigma factor
+yqhP	sigB	1	sigma factor
+atpG	stringent response	-1	unk
+resB	sigA	1	sigma factor
+resB	resD	1	TF+TC
+resB	phoP	1	TF+TC
+resB	ccpA	-1	TF+PP+M
+lytA	sigD	1	sigma factor
+lytA	sigA	1	sigma factor
+lytA	yvrHb	-1	TF+TC
+lytA	slrR	-1	TF
+lytA	lytR	-1	TF
+ispG	sigE	1	sigma factor
+ispG	spoIIID	-1	TF
+rpmC	stringent response	-1	unk
+cotG	sigK	1	sigma factor
+cotG	sigE	1	sigma factor
+cotG	gerR	1	TF
+cotG	gerE	1	TF
+maf	comK	1	TF
+mleN	ccpA	-1	TF+PP+M
+mleN	ansR	-1	TF+M
+ilvH	sigA	1	sigma factor
+ilvH	tnrA	-1	TF+P+M
+ilvH	codY	-1	TF+M
+ilvH	ccpA	1	TF+PP+M
+ilvH	T-box-LEU	1	RNA switch
+liaR	sigA	1	sigma factor
+liaR	liaR	1	TF+TC
+liaR	abrB	-1	TF
+addA	sigA	1	sigma factor
+addA	comK	1	TF
+cwlJ	sigE	1	sigma factor
+cwlJ	spoIIID	1	TF
+yesM	sigH	1	sigma factor
+yesM	ccpA	-1	TF+PP+M
+tgl	sigK	1	sigma factor
+ywhA	sigA	1	sigma factor
+ywhA	T-box-THR	1	RNA switch
+sspH	sigG	1	sigma factor
+sspH	ccpA	-1	TF+PP+M
+spsK	sigK	1	sigma factor
+spsK	sigE	1	sigma factor
+gatC	sigA	1	sigma factor
+gatC	T-box-GLN	1	RNA switch
+gatC	codY	0	TF+M
+gatC	ccpA	0	TF+PP+M
+iolT	sigA	1	sigma factor
+iolT	iolR	-1	TF+M
+iolT	ccpA	-1	TF+PP+M
+yoaA	sigB	1	sigma factor
+thrC	codY	0	TF+M
+purF	sigA	1	sigma factor
+purF	purR	-1	TF+M
+purF	G-box-HXTX	1	riboswitch
+purF	G-box-GUA	1	riboswitch
+tuaA	sigA	1	sigma factor
+tuaA	phoP	1	TF+TC
+ygzA	sigG	1	sigma factor
+yhfN	sigE	1	sigma factor
+yhfN	spoIIID	-1	TF
+nadE	sigB	1	sigma factor
+nadE	sigA	1	sigma factor
+tetB	sigA	1	sigma factor
+cypB	sigX	1	sigma factor
+cypB	sigW	1	sigma factor
+cypB	sigM	1	sigma factor
+cypB	fatR	-1	TF+M
+cypB	abrB	-1	TF
+pucG	sigA	1	sigma factor
+pucG	pucR	1	TF+M
+trpD	sigA	1	sigma factor
+trpD	TRAP	-1	RNA-BAP
+tlpB	sigD	1	sigma factor
+yhjD	lexA	-1	TF-proteolyse
+bkdR	codY	-1	TF+M
+bkdR	bkdR	0	TF+M
+yvaV	yvbF/YvaV	0	silico-TF+unk
+bacE	sigH	1	sigma factor
+bacE	scoC	-1	TF
+bacE	codY	-1	TF+M
+bacE	abrB	-1	TF
+yodI	sigK	1	sigma factor
+bsn	phoP	1	TF+TC
+bsn	abrB	-1	TF
+yjcP	sigD	1	sigma factor
+mtlD	mtlR	1	TF+PTS
+mtlD	ccpA	0	TF+PP+M
+comS	sigA	1	sigma factor
+comS	spx	-1	TF+S
+comS	perR	1	TF+S
+comS	comA	1	TF+TC
+comS	codY	-1	TF+M
+comS	abh	-1	TF
+hisC	sigA	1	sigma factor
+hisC	TRAP	-1	RNA-BAP
+sbcD	comK	1	TF
+fliH	sigD	1	sigma factor
+fliH	sigA	1	sigma factor
+fliH	spo0A	-1	TF+PP
+fliH	codY	-1	TF+M
+spoVFB	sigK	1	sigma factor
+med	sigA	1	sigma factor
+med	spo0A	-1	TF+PP
+yxbD	spo0A	1	TF+PP
+yxbD	codY	-1	TF+M
+yxbD	abrB	-1	TF
+yvyC	sigD	1	sigma factor
+fliT	sigD	1	sigma factor
+yycD	sigB	1	sigma factor
+yabQ	sigE	1	sigma factor
+yabQ	sigX	1	sigma factor
+yabQ	sigW	1	sigma factor
+yabQ	spoIIID	-1	TF
+nagP	ybgA	0	TF+M
+yhdN	sigB	1	sigma factor
+skfC	spo0A	1	TF+PP
+skfC	phoP	1	TF+TC
+skfC	abrB	-1	TF
+ribE	sigA	1	sigma factor
+ribE	FMN-box	-1	riboswitch
+gabT	sigA	1	sigma factor
+gabT	sigB	1	sigma factor
+gabT	gabR	1	TF+M
+glmS	sigA	1	sigma factor
+glmS	glmS ribozyme	-1	riboswitch (glmS ribozyme)
+kapD	sigK	1	sigma factor
+kapD	sigE	1	sigma factor
+kapD	gerR	-1	TF
+kapD	codY	0	TF+M
+ysdB	sigW	1	sigma factor
+ysdB	sigB	1	sigma factor
+trxA	sigB	1	sigma factor
+trxA	sigA	1	sigma factor
+trxA	spx	1	TF+S
+trxA	ctsR	-1	TF+unstability
+bglC	sigA	1	sigma factor
+bglC	bglZ	0	silico-TF+M
+rsiW	sigW	1	sigma factor
+rsiW	abrB	-1	TF
+amyC	ccpA	-1	TF+PP+M
+amyC	msmR	0	silico-TF+M
+ftsH	sigM	1	sigma factor
+ftsH	sigA	1	sigma factor
+yteP	rmgR	0	silico-TF+M
+cssS	sigA	1	sigma factor
+cssS	cssR	1	TF+TC
+cdoA	sigK	1	sigma factor
+maeA	sigA	1	sigma factor
+maeA	malR	1	TF+TC
+speE	sigA	1	sigma factor
+iscS	sigA	1	sigma factor
+iscS	stringent response	-1	unk
+nupC	sigK	1	sigma factor
+nupC	sigA	1	sigma factor
+nupC	deoR	-1	TF+M
+nupC	ccpA	-1	TF+PP+M
+cwlO	walR	1	TF+TC
+phrH	sigA	1	sigma factor
+phrH	rghR	-1	TF
+phrH	comK	1	TF
+ytrE	sigA	1	sigma factor
+ytrE	ytrA	-1	TF-M
+ykkD	RNA - ykkC-yxkD	0	silico-riboswitch
+fruK	fruR	-1	unk
+fruK	spo0A	-1	TF+PP
+fruK	ccpA	-1	TF+PP+M
+yhfT	birA	0	TF+P+M
+yisQ	yisR	0	silico-TF+unk
+yhbB	sigE	1	sigma factor
+yhbB	spoIIID	1	TF
+ybfH	ybfI	0	silico-TF+unk
+cymR	sigA	1	sigma factor
+cymR	stringent response	-1	unk
+ytkD	sigF	1	sigma factor
+ytkD	sigA	1	sigma factor
+yobJ	sigW	1	sigma factor
+nadR	sigA	1	sigma factor
+nadR	nadR	-1	TF+M
+paiB	yybA	0	silico-TF+unk
+ygaB	sigG	1	sigma factor
+rplS	stringent response	-1	unk
+rplS	rplS	0	silico-RNA switch
+feuA	sigA	1	sigma factor
+feuA	fur	-1	TF+M
+feuA	citB	1	riboswitch
+feuA	btr	1	TF+M
+feuA	glcR	0	silico-TF+unk
+ywfI	ccpA	0	TF+PP+M
+thiC	Thi-box	-1	riboswitch
+cysH	sigA	1	sigma factor
+cysH	S-box-SAM	-1	
+cysH	cymR	-1	TF+P+M
+ycgR	sigM	1	sigma factor
+yfiY	fur	-1	TF+M
+yoaI	sigK	1	sigma factor
+yyaD	sigE	1	sigma factor
+yyaD	spoIIID	-1	TF
+yaaN	sigW	1	sigma factor
+epsJ	sigA	1	sigma factor
+epsJ	sigH	1	sigma factor
+epsJ	sinR	-1	TF
+epsJ	eAR	0	RNA antiterminator
+epsJ	abrB	-1	TF
+skfG	spo0A	1	TF+PP
+skfG	phoP	1	TF+TC
+skfG	abrB	-1	TF
+rpsS	stringent response	-1	unk
+mtlA	mtlR	1	TF+PTS
+mtlA	ccpA	0	TF+PP+M
+epsO	sigA	1	sigma factor
+epsO	sigH	1	sigma factor
+epsO	sinR	-1	TF
+epsO	eAR	0	RNA antiterminator
+epsO	abrB	-1	TF
+yclK	resD	1	TF+TC
+pucR	sigA	1	sigma factor
+pucR	tnrA	1	TF+P+M
+pucR	pucR	1	TF+M
+glgB	sigE	1	sigma factor
+glgB	sigH	1	sigma factor
+yabN	sigX	1	sigma factor
+yabN	sigW	1	sigma factor
+yabN	sigE	1	sigma factor
+yabN	spoIIID	-1	TF
+metK	sigA	1	sigma factor
+metK	S-box-SAM	-1	
+lmrA	sigA	1	sigma factor
+lmrA	lmrA	-1	TF+M
+lmrA	qdor	0	TF+M
+yflB	sigE	1	sigma factor
+yflB	abrB	-1	TF
+yflB	spoIIID	-1	TF
+sacX	sigA	1	sigma factor
+sacX	sacY	1	P-AT+PTS
+sacX	sacT	1	P-AT+PTS
+sacX	degU	1	TF+TC
+ispA	sigA	1	sigma factor
+ispA	scoC	-1	TF
+ispA	ipi	1	TF
+ispA	degU	1	TF+TC
+ispA	codY	0	TF+M
+secY	stringent response	-1	unk
+cotJB	sigE	1	sigma factor
+cotJB	spoIIID	1	TF
+yhcM	sigG	1	sigma factor
+yhcM	sigF	1	sigma factor
+yhcM	sigB	1	sigma factor
+gerPE	sigK	1	sigma factor
+gerPE	gerE	-1	TF
+yjcA	sigE	1	sigma factor
+yjcA	sigK	1	sigma factor
+yjcA	spoIIID	-1	TF
+pucJ	sigA	1	sigma factor
+pucJ	tnrA	1	TF+P+M
+pucJ	pucR	1	TF+M
+yhcF	sigG	1	sigma factor
+yhcF	comK	1	TF
+yhcF	gabR	0	TF+M
+spoVAA	sigG	1	sigma factor
+spoVAA	spoVT	1	TF
+proH	sigE	1	sigma factor
+proH	spoIIID	1	TF
+ylaC	ylaC	1	sigma factor
+ylaC	sigA	1	sigma factor
+ylaC	spx	1	TF+S
+gltR	sigA	1	sigma factor
+gltR	gltR	-1	unk
+spoIIIAG	sigE	1	sigma factor
+spoIIIAG	gerR	-1	TF
+spoIIIAG	spoIIID	-1	TF
+spoIIIAG	gerE	-1	TF
+opuAC	sigA	1	sigma factor
+yhcQ	sigG	1	sigma factor
+yobW	sigK	1	sigma factor
+yobW	sigE	1	sigma factor
+yobW	spoIIID	1	TF
+purH	sigA	1	sigma factor
+purH	purR	-1	TF+M
+purH	G-box-HXTX	1	riboswitch
+purH	G-box-GUA	1	riboswitch
+yjbC	sigX	1	sigma factor
+yjbC	sigW	1	sigma factor
+yjbC	sigM	1	sigma factor
+yjbC	sigB	1	sigma factor
+yjbC	sigA	1	sigma factor
+yjbC	perR	-1	TF+S
+yjbC	yodB	-1	TF+S
+yutC	sigG	1	sigma factor
+tuaB	sigA	1	sigma factor
+tuaB	phoP	1	TF+TC
+narJ	sigA	1	sigma factor
+narJ	fnr	1	TF+M
+yclN	fur	-1	TF+M
+yxjH	S-box-SAM	-1	
+yxjH	codY	0	TF+M
+yozD	sigE	1	sigma factor
+proB	T-box-PRO	1	RNA switch
+noc	comK	1	TF
+addB	sigA	1	sigma factor
+addB	comK	1	TF
+albG	sigA	1	sigma factor
+albG	rok	-1	TF
+albG	resD	1	TF+TC
+albG	abrB	-1	TF
+xynC	abrB	-1	TF
+yrrI	sigG	1	sigma factor
+yuaI	sigW	1	sigma factor
+yuaI	codY	0	TF+M
+asd	sigK	1	sigma factor
+asd	sigA	1	sigma factor
+yqhH	sigF	1	sigma factor
+yqhH	lexA	0	TF-proteolyse
+pucI	sigA	1	sigma factor
+pucI	pucR	1	TF+M
+pucI	tnrA	0	TF+P+M
+yfmC	fur	-1	TF+M
+yvcB	degU	1	TF+TC
+yvcB	abrB	-1	TF
+rocG	sigL	1	sigma factor
+rocG	rocR	1	TF+M
+rocG	ccpA	-1	TF+PP+M
+rocG	ahrC	1	TF+M
+rocG	abrB	-1	TF
+rocG	spo0A	-1	TF+PP
+cheV	sigD	1	sigma factor
+ytlA	sigK	1	sigma factor
+ndh	sigA	1	sigma factor
+ndh	stringent response	-1	unk
+ndh	rex	-1	TF+M
+argH	ahrC	-1	TF+M
+feuB	sigA	1	sigma factor
+feuB	fur	-1	TF+M
+feuB	citB	1	riboswitch
+feuB	btr	1	TF+M
+feuB	glcR	0	silico-TF+unk
+manP	manR	1	TF+PTS
+lysP	L-box-LYS	0	riboswitch
+spoIIIAD	sigE	1	sigma factor
+spoIIIAD	gerR	-1	TF
+spoIIIAD	spoIIID	-1	TF
+spoIIIAD	gerE	-1	TF
+mdxE	sigK	1	sigma factor
+mdxE	sigE	1	sigma factor
+mdxE	mdxR	0	silico-TF+M
+yesY	yesS	1	TF+P+unk
+yesY	ccpA	0	TF+PP+M
+tuaA.1	sigA	1	sigma factor
+tuaA.1	phoP	1	TF+TC
+thiU	sigK	1	sigma factor
+thiU	Thi-box	-1	riboswitch
+ureA	sigH	1	sigma factor
+ureA	sigA	1	sigma factor
+ureA	tnrA	1	TF+P+M
+ureA	pucR	1	TF+M
+ureA	glnR	-1	TF+P+M
+ureA	codY	-1	TF+M
+yvfW	sinR	-1	TF
+yvfW	lutR	-1	TF+M
+yvfW	fsrA	-1	small regulatory RNA
+comC	sigA	1	sigma factor
+comC	comK	1	TF
+sigB	sigA	1	sigma factor
+sigB	ccpA	-1	TF+PP+M
+ggaB	sigA	1	sigma factor
+msmR	ccpA	-1	TF+PP+M
+msmR	msmR	0	silico-TF+M
+mdh	sigA	1	sigma factor
+mdh	citB	0	riboswitch
+mdh	ccpC	-1	 TF+M+DNA
+mdh	ccpA	-1	TF+PP+M
+mdh	codY	0	TF+M
+ynzB	sigE	1	sigma factor
+rhgT	yesS	1	TF+P+unk
+rhgT	ccpA	0	TF+PP+M
+abh	sigX	1	sigma factor
+abh	sigM	1	sigma factor
+abh	sigW	1	sigma factor
+bioB	birA	-1	TF+P+M
+skfE	spo0A	1	TF+PP
+skfE	phoP	1	TF+TC
+skfE	abrB	-1	TF
+yunB	sigE	1	sigma factor
+yunB	sigK	1	sigma factor
+cysP	sigA	1	sigma factor
+cysP	S-box-SAM	-1	
+cysP	cymR	-1	TF+P+M
+citZ	sigA	1	sigma factor
+citZ	citB	0	riboswitch
+citZ	ccpC	-1	 TF+M+DNA
+citZ	ccpA	-1	TF+PP+M
+citZ	codY	0	TF+M
+sucD	sigA	1	sigma factor
+sucD	ccpA	-1	TF+PP+M
+ytcA	sigK	1	sigma factor
+ylaK	sigE	1	sigma factor
+galT	ccpA	-1	TF+PP+M
+yhgD	yhgD	0	silico-TF+unk
+fabL	sigE	1	sigma factor
+fabL	sigG	1	sigma factor
+fabL	sigA	1	sigma factor
+fabL	yfhP	-1	unk
+fabL	spoVT	-1	TF
+fabL	rsfA	1	P
+ydaO	ydaO riboswitch	1	riboswitch
+ytpB	sigM	1	sigma factor
+phoD	sigA	1	sigma factor
+phoD	phoP	1	TF+TC
+opuD	sigE	1	sigma factor
+rpoA	stringent response	-1	unk
+exuM	sigE	1	sigma factor
+exuM	sigA	1	sigma factor
+exuM	exuR	-1	TF+M
+exuM	ccpA	-1	TF+PP+M
+yydK	yydK	0	silico-TF+M
+yjqC	sigK	1	sigma factor
+uxaC	sigA	1	sigma factor
+uxaC	exuR	-1	TF+M
+uxaC	ccpA	-1	TF+PP+M
+ytxO	sigK	1	sigma factor
+hemZ	sigA	1	sigma factor
+hemZ	rex	-1	TF+M
+hemZ	resD	1	TF+TC
+hemZ	fnr	1	TF+M
+hemZ	arfM	1	TF
+nucB	sigE	1	sigma factor
+yxiE	sigA	1	sigma factor
+yxiE	licT	1	P-AT+PTS
+yxiE	ccpA	-1	TF+PP+M
+kipI	sigK	1	sigma factor
+kipI	tnrA	1	TF+P+M
+kipI	kipR	-1	TF+unk
+yybN	rok	-1	TF
+yybN	spo0A	1	TF+PP
+sinR	sigA	1	sigma factor
+sinR	spo0A	-1	TF+PP
+sinR	scoC	-1	TF
+sinR	abrB	-1	TF
+sinR	sinR	-1	TF
+cysJ	sigA	1	sigma factor
+cysJ	cysL	1	TF+M
+cysJ	yetL	0	TF+M
+xkdI	xpf	1	sigma factor
+yvrN	comK	1	TF
+yvrN	abrB	-1	TF
+rsbW	sigB	1	sigma factor
+rsbW	sigA	1	sigma factor
+rsbW	ccpA	-1	TF+PP+M
+mtnN	sigA	1	sigma factor
+mtnN	spx	1	TF+S
+mtnN	cymR	-1	TF+P+M
+parA	spo0A	-1	TF+PP
+yvrJ	yvrI-YvrHa	1	sigma like factor
+ycbD	ycbG	-1	TF+M
+yjcN	rok	-1	TF
+nfrA	sigD	1	sigma factor
+nfrA	sigA	1	sigma factor
+nfrA	spx	1	TF+S
+nfrA	spo0A	-1	TF+PP
+cysE	sigA	1	sigma factor
+cysE	T-box-CYS	1	RNA switch
+yvfU	yvfU	0	silico-TF+TC
+copB	czrA	-1	TF+M
+ynzC	lexA	-1	TF-proteolyse
+ynzC	comK	1	TF
+ykoL	sigA	1	sigma factor
+ykoL	tnrA	1	TF+P+M
+ykoL	phoP	1	TF+TC
+yusV	fur	-1	TF+M
+ybxH	sigG	1	sigma factor
+ybxH	spoVT	-1	TF
+hisI	hisR	0	silico-TF+M
+yjcG	codY	0	TF+M
+ylxW	sigM	1	sigma factor
+ylxW	sigE	1	sigma factor
+ylxW	sigA	1	sigma factor
+ylxW	spoIIID	-1	TF
+spoIIIAC	sigE	1	sigma factor
+spoIIIAC	gerR	-1	TF
+spoIIIAC	spoIIID	-1	TF
+spoIIIAC	gerE	-1	TF
+cwlC	sigK	1	sigma factor
+pstA	phoP	1	TF+TC
+arfM	sigA	1	sigma factor
+arfM	fnr	1	TF+M
+arfM	arfM	-1	TF
+pyrF	sigA	1	sigma factor
+pyrF	pyrR	1	P-AT+M
+pyrF	purR	-1	TF+M
+ykvR	lexA	-1	TF-proteolyse
+fabF	sigW	1	sigma factor
+fabF	sigA	1	sigma factor
+fabF	fapR	-1	TF+M
+yetA	ccpA	0	TF+PP+M
+epsE	sigA	1	sigma factor
+epsE	sigH	1	sigma factor
+epsE	sinR	-1	TF
+epsE	eAR	0	RNA antiterminator
+epsE	abrB	-1	TF
+sspN	sigG	1	sigma factor
+sspN	sigF	1	sigma factor
+yphA	sigF	1	sigma factor
+epsC	sigA	1	sigma factor
+epsC	sigH	1	sigma factor
+epsC	sinR	-1	TF
+epsC	eAR	0	RNA antiterminator
+epsC	abrB	-1	TF
+spoVE	sigE	1	sigma factor
+spoVE	sigA	1	sigma factor
+spoVE	spoIIID	-1	TF
+murB	sigM	1	sigma factor
+murB	sigE	1	sigma factor
+murB	sigA	1	sigma factor
+murB	spoIIID	-1	TF
+yjcF	codY	0	TF+M
+ytzC	sigG	1	sigma factor
+ymzB	sigB	1	sigma factor
+ymzB	abrB	-1	TF
+slp	codY	0	TF+M
+yqaI	sknR	-1	TF
+ctpA	sigE	1	sigma factor
+yvbY	sinR	-1	TF
+yvbY	lutR	-1	TF+M
+yvbY	fsrA	-1	small regulatory RNA
+rplJ	stringent response	-1	unk
+rplJ	rplJ	0	silico-RNA switch
+yqzD	spo0A	-1	TF+PP
+sigG	sigF	1	sigma factor
+sigG	sigA	1	sigma factor
+sigG	spo0A	1	TF+PP
+sigG	sinR	-1	TF
+sigG	abrB	-1	TF
+sigG	spoVT	-1	TF
+sigG	rsfA	1	P
+rplW	stringent response	-1	unk
+iolR	sigA	1	sigma factor
+iolR	iolR	-1	TF+M
+malK	sigK	1	sigma factor
+malK	sigE	1	sigma factor
+malK	mdxR	0	silico-TF+M
+yngI	sigE	1	sigma factor
+yngI	spoIIID	-1	TF
+yngI	ccpA	0	TF+PP+M
+acoB	sigL	1	sigma factor
+acoB	sigK	1	sigma factor
+acoB	ccpA	-1	TF+PP+M
+acoB	acoR	1	TF+M
+queF	preQ1 riboswitch	-1	riboswitch
+opuAB	sigA	1	sigma factor
+ysnD	sigK	1	sigma factor
+ysnD	sigE	1	sigma factor
+ysnD	tnrA	0	TF+P+M
+ansB	sigA	1	sigma factor
+ansB	ansR	-1	TF+M
+ywcJ	sigA	1	sigma factor
+ywcJ	rex	-1	TF+M
+ywcJ	fnr	0	TF+M
+ywcJ	ccpA	0	TF+PP+M
+yrkF	yrkD	0	silico-TF+unk
+tadA	sigA	1	sigma factor
+ykkC	RNA - ykkC-yxkD	0	silico-riboswitch
+spoIIIAA	sigE	1	sigma factor
+spoIIIAA	gerR	-1	TF
+spoIIIAA	spoIIID	-1	TF
+spoIIIAA	gerE	-1	TF
+gerAB	sigG	1	sigma factor
+gerAB	sigF	1	sigma factor
+gerAB	spoVT	-1	TF
+fliJ	sigD	1	sigma factor
+fliJ	sigA	1	sigma factor
+fliJ	spo0A	-1	TF+PP
+fliJ	codY	-1	TF+M
+prpD	sigE	1	sigma factor
+prpD	ccpA	-1	TF+PP+M
+prpD	spoIIID	-1	TF
+tagC	lexA	-1	TF-proteolyse
+yjeA	walR	-1	TF+TC
+yhxC	sigE	1	sigma factor
+pel	tnrA	-1	TF+P+M
+pel	comA	1	TF+TC
+pel	ccpA	-1	TF+PP+M
+fabI	sigA	1	sigma factor
+fabI	fapR	-1	TF+M
+comX	sigA	1	sigma factor
+ywrJ	sigK	1	sigma factor
+ptkA	abrB	-1	TF
+ywjD	sigG	1	sigma factor
+sodA	sigB	1	sigma factor
+nusB	stringent response	-1	unk
+nusB	purR	-1	TF+M
+rocD	sigL	1	sigma factor
+rocD	spo0A	-1	TF+PP
+rocD	rocR	1	TF+M
+rocD	codY	-1	TF+M
+rocD	ahrC	1	TF+M
+narH	sigA	1	sigma factor
+narH	fnr	1	TF+M
+yteJ	sigW	1	sigma factor
+yuaG	sigW	1	sigma factor
+yuaG	codY	0	TF+M
+sacC	sigL	1	sigma factor
+sacC	levR	1	TF+PTS
+sacC	ccpA	-1	TF+PP+M
+rpsNB	zur	-1	TF+M
+rsbRA	sigA	1	sigma factor
+rsbRA	sigB	1	sigma factor
+gltP	sigH	1	sigma factor
+yybJ	rok	-1	TF
+yybJ	spo0A	1	TF+PP
+argC	sigA	1	sigma factor
+argC	ahrC	-1	TF+M
+argC	abrB	1	TF
+argC	tnrA	0	TF+P+M
+lytR	sigX	1	sigma factor
+lytR	sigM	1	sigma factor
+lytR	sigA	1	sigma factor
+lytR	lytR	-1	TF
+pbuO	purR	-1	TF+M
+htpX	ykrK	-1	TF+unk
+htpX	rok	-1	TF
+yndA	sigE	1	sigma factor
+artQ	ahrC	0	TF+M
+yclD	bsdA	0	TF+M
+ahrC	SR1	-1	
+rpoE	sigA	1	sigma factor
+rpoE	fadR	-1	TF+M
+yocK	sigB	1	sigma factor
+sigO	yvrI-YvrHa	1	sigma like factor
+sigO	yvrHb	1	TF+TC
+cotV	sigK	1	sigma factor
+cotV	gerE	1	TF
+cotV	spoIIID	1	TF
+phoP	sigE	1	sigma factor
+phoP	sigB	1	sigma factor
+phoP	sigA	1	sigma factor
+phoP	phoP	1	TF+TC
+phoP	ccpA	-1	TF+PP+M
+phoP	resD	1	TF+TC
+phoP	scoC	-1	TF
+phoP	walR	1	TF+TC
+glgD	sigE	1	sigma factor
+glgD	sigH	1	sigma factor
+yfmS	sigD	1	sigma factor
+glnR	sigA	1	sigma factor
+glnR	tnrA	-1	TF+P+M
+glnR	glnR	-1	TF+P+M
+des	sigA	1	sigma factor
+des	desR	1	TF+TC
+ypzA	sigG	1	sigma factor
+ybaK	sigG	1	sigma factor
+ybaK	sigE	1	sigma factor
+ybaK	lexA	-1	TF-proteolyse
+ybaK	spoVT	1	TF
+pnpA	stringent response	-1	unk
+gmuR	sigA	1	sigma factor
+gmuR	gmuR	-1	TF+M
+gmuR	ccpA	-1	TF+PP+M
+gmuR	abrB	1	TF
+ywbB	rbsR	0	silico-TF+M
+fmnP	FMN-box	-1	riboswitch
+pdxS	spo0A	-1	TF+PP
+xkdF	xpf	1	sigma factor
+yesW	yesS	1	TF+P+unk
+yesW	ccpA	0	TF+PP+M
+rpsQ	stringent response	-1	unk
+cotJA	sigE	1	sigma factor
+cotJA	spoIIID	1	TF
+dnaE	lexA	-1	TF-proteolyse
+ydfR	sigG	1	sigma factor
+ydfR	sigK	1	sigma factor
+ydfR	spoVT	-1	TF
+yodH	sigK	1	sigma factor
+ylbH	RNA - ylbH	0	silico-riboswitch
+licB	sigA	1	sigma factor
+licB	licR	1	TF+PTS
+licB	ccpA	-1	TF+PP+M
+licB	rbsR	0	silico-TF+M
+ywbO	sigX	1	sigma factor
+ywbO	sigW	1	sigma factor
+ywbO	sigM	1	sigma factor
+yxjI	sigW	1	sigma factor
+yxjI	sigB	1	sigma factor
+yxjI	degU	-1	TF+TC
+epsK	sigA	1	sigma factor
+epsK	sigH	1	sigma factor
+epsK	sinR	-1	TF
+epsK	eAR	0	RNA antiterminator
+epsK	abrB	-1	TF
+uvrC	lexA	-1	TF-proteolyse
+acsA	sigA	1	sigma factor
+acsA	codY	-1	TF+M
+acsA	ccpA	-1	TF+PP+M
+citA	sigA	1	sigma factor
+citA	citR	-1	TF+M
+citA	codY	0	TF+M
+spoVID	sigE	1	sigma factor
+trmE	comK	1	TF
+yflN	sigA	1	sigma factor
+yflN	citT	1	TF+TC
+yflN	ccpA	-1	TF+PP+M
+ydhF	sigE	1	sigma factor
+ydhF	sigA	1	sigma factor
+ydhF	phoP	1	TF+TC
+ydhF	spoIIID	-1	TF
+ydhF	gerR	-1	TF
+yneB	lexA	-1	TF-proteolyse
+yneB	comK	1	TF
+ftsA	sigH	1	sigma factor
+ftsA	sigA	1	sigma factor
+ftsA	walR	1	TF+TC
+ftsA	abrB	-1	TF
+yisT	sigH	1	sigma factor
+dnaA	sigA	1	sigma factor
+dnaA	sigG	1	sigma factor
+dnaA	spo0A	-1	TF+PP
+dnaA	dnaA	-1	TF
+ssuB	sigA	1	sigma factor
+ssuB	cymR	-1	TF+P+M
+ssuB	spx	-1	TF+S
+eno	sigA	1	sigma factor
+eno	cggR	-1	TF+M
+ganQ	lacR	-1	TF+M
+ganQ	ccpA	0	TF+PP+M
+yheI	spoIIID	1	TF
+xkdM	xpf	1	sigma factor
+pucE	sigA	1	sigma factor
+pucE	tnrA	1	TF+P+M
+pucE	pucR	1	TF+M
+ywjB	fur	-1	TF+M
+artR	ahrC	0	TF+M
+yvdJ	sigK	1	sigma factor
+yvdJ	sigE	1	sigma factor
+yvdJ	mdxR	0	silico-TF+M
+bioK	birA	-1	TF+P+M
+flhB	sigD	1	sigma factor
+flhB	sigA	1	sigma factor
+flhB	spo0A	-1	TF+PP
+flhB	codY	-1	TF+M
+ydgB	sigK	1	sigma factor
+ydgB	gerE	-1	TF
+mrgA	sigA	1	sigma factor
+mrgA	perR	-1	TF+S
+glnA	sigA	1	sigma factor
+glnA	tnrA	-1	TF+P+M
+glnA	glnR	-1	TF+P+M
+ywtF	sigM	1	sigma factor
+ytcC	sigK	1	sigma factor
+yulC	rhaR	0	silico-TF+M
+rocA	sigL	1	sigma factor
+rocA	rocR	1	TF+M
+rocA	codY	-1	TF+M
+rocA	ahrC	1	TF+M
+rocA	abrB	-1	TF
+exuR	sigE	1	sigma factor
+exuR	sigA	1	sigma factor
+exuR	exuR	-1	TF+M
+exuR	ccpA	-1	TF+PP+M
+exuR	spoIIID	-1	TF
+yngB	yclJ	1	TF+TC
+hisS	T-box-HIS	1	RNA switch
+hisS	T-box-ASP	1	RNA switch
+yngK	sigK	1	sigma factor
+spoVK	sigK	1	sigma factor
+spoVK	sigE	1	sigma factor
+spoVK	spoIIID	1	TF
+senS	senS	1	TF
+senS	abrB	-1	TF
+bglA	yydK	0	silico-TF+M
+ytrA	sigA	1	sigma factor
+ytrA	ytrA	-1	TF-M
+mreC	sigM	1	sigma factor
+mreC	sigH	1	sigma factor
+yusR	sigE	1	sigma factor
+opuE	sigB	1	sigma factor
+opuE	sigA	1	sigma factor
+opuE	ccpA	1	TF+PP+M
+opuE	codY	0	TF+M
+lytC	sigD	1	sigma factor
+lytC	sigA	1	sigma factor
+lytC	yvrHb	-1	TF+TC
+lytC	slrR	-1	TF
+lytC	lytR	-1	TF
+mgsR	sigB	1	sigma factor
+mgsR	mgsR	1	TF+S
+qodI	qdor	-1	TF+M
+qodI	lmrA	-1	TF+M
+pycA	stringent response	1	unk
+rimO	sigA	1	sigma factor
+rimO	hrcA	-1	TF+HrcA unstability
+rimO	arfM	0	TF
+ylzA	sigF	1	sigma factor
+spmB	sigE	1	sigma factor
+spmB	spoIIID	-1	TF
+yolJ	yvrHb	1	TF+TC
+yolJ	rok	-1	TF
+yolJ	abrB	-1	TF
+yolJ	abh	1	TF
+yocD	abrB	-1	TF
+yybH	sigE	1	sigma factor
+cheA	sigD	1	sigma factor
+cheA	sigA	1	sigma factor
+cheA	spo0A	-1	TF+PP
+cheA	codY	-1	TF+M
+adcC	sigA	1	sigma factor
+adcC	zur	-1	TF+M
+pgsE	degU	1	TF+TC
+pgsE	tnrA	0	TF+P+M
+ykoS	sigG	1	sigma factor
+cotR	sigK	1	sigma factor
+cotR	codY	0	TF+M
+ypbQ	sigG	1	sigma factor
+ylaA	ylaC	1	sigma factor
+ylaA	sigA	1	sigma factor
+ylaA	spx	1	TF+S
+sspP	sigG	1	sigma factor
+sspP	spoVT	1	TF
+sspP	codY	0	TF+M
+yozM	lexA	-1	TF-proteolyse
+yozM	ccpA	-1	TF+PP+M
+yybA	yybA	0	silico-TF+unk
+ypqA	sigK	1	sigma factor
+ypqA	sigE	1	sigma factor
+ytvA	spx	1	TF+S
+cgeC	sigK	1	sigma factor
+cgeC	gerE	1	TF
+ylbF	spo0A	-1	TF+PP
+ctaO	abrB	-1	TF
+glnM	sigE	1	sigma factor
+glnM	tnrA	1	TF+P+M
+glnM	codY	0	TF+M
+sat	sigA	1	sigma factor
+sat	S-box-SAM	-1	
+sat	cymR	-1	TF+P+M
+atpE	stringent response	-1	unk
+exuT	sigE	1	sigma factor
+exuT	sigA	1	sigma factor
+exuT	exuR	-1	TF+M
+exuT	ccpA	-1	TF+PP+M
+exuT	spoIIID	-1	TF
+yqgW	ccpA	0	TF+PP+M
+yvoA	sigA	1	sigma factor
+yvoA	nagR	-1	TF+M
+yvoA	ccpA	-1	TF+PP+M
+ppiB	sigA	1	sigma factor
+ppiB	sigK	1	sigma factor
+yrhH	sigX	1	sigma factor
+yrhH	sigW	1	sigma factor
+yrhH	sigM	1	sigma factor
+yhaM	sigE	1	sigma factor
+yhaM	lexA	-1	TF-proteolyse
+dapG	sigK	1	sigma factor
+dapG	sigA	1	sigma factor
+yrdP	czrA	-1	TF+M
+yojK	sigK	1	sigma factor
+yxeA	yxdJ	1	TF+TC
+pyrR	sigA	1	sigma factor
+pyrR	pyrR	1	P-AT+M
+pyrR	purR	-1	TF+M
+coaD	RNA - ylbH	0	silico-riboswitch
+xkdJ	xpf	1	sigma factor
+sspI	sigG	1	sigma factor
+yttA	tnrA	-1	TF+P+M
+tuaG	sigF	1	sigma factor
+tuaG	sigA	1	sigma factor
+tuaG	phoP	1	TF+TC
+malL	sigK	1	sigma factor
+malL	sigE	1	sigma factor
+malL	mdxR	0	silico-TF+M
+ysmA	ccpA	0	TF+PP+M
+yqxI	spo0A	1	TF+PP
+yqxI	ccpA	-1	TF+PP+M
+yqxI	abrB	-1	TF
+coxA	sigE	1	sigma factor
+coxA	sigG	1	sigma factor
+coxA	spoVT	1	TF
+epsI	sigA	1	sigma factor
+epsI	sigH	1	sigma factor
+epsI	sinR	-1	TF
+epsI	eAR	0	RNA antiterminator
+epsI	abrB	-1	TF
+mbl	sigE	1	sigma factor
+mbl	stringent response	-1	unk
+fliP	sigD	1	sigma factor
+fliP	sigA	1	sigma factor
+fliP	spo0A	-1	TF+PP
+fliP	codY	-1	TF+M
+tuaF	sigF	1	sigma factor
+tuaF	sigA	1	sigma factor
+tuaF	phoP	1	TF+TC
+yrkO	yrkP	1	TF+TC
+lrgA	ccpA	0	TF+PP+M
+lrgA	lytT	0	silico-TF+TC
+ykuD	sigK	1	sigma factor
+ykuD	ccpA	-1	TF+PP+M
+yvyG	sigD	1	sigma factor
+yvyG	sigA	1	sigma factor
+yvyG	scoC	-1	TF
+yvyG	degU	1	TF+TC
+yvyG	comK	1	TF
+yxeB	fur	-1	TF+M
+glcR	comK	1	TF
+glcR	glcR	0	silico-TF+unk
+pdxT	spo0A	-1	TF+PP
+spoIIIC	sigK	1	sigma factor
+spoIIIC	sigE	1	sigma factor
+spoIIIC	spoIIID	1	TF
+spoIIIC	gerE	-1	TF
+spoIIIC	gerR	-1	TF
+ykvZ	bglZ	0	silico-TF+M
+thyA	sigK	1	sigma factor
+sigD	sigA	1	sigma factor
+sigD	spo0A	-1	TF+PP
+sigD	codY	-1	TF+M
+hemB	sigA	1	sigma factor
+hemB	perR	-1	TF+S
+ykcB	yrkP	1	TF+TC
+ykcB	yclJ	1	TF+TC
+yqhV	sigE	1	sigma factor
+yqhV	gerR	-1	TF
+yqhV	spoIIID	-1	TF
+yqhV	gerE	-1	TF
+yolA	abrB	-1	TF
+acoR	sigG	1	sigma factor
+acoR	ccpA	-1	TF+PP+M
+yclJ	resD	1	TF+TC
+yhcH	sigG	1	sigma factor
+yhcH	comK	1	TF
+yhcH	gabR	0	TF+M
+yvrH	yvrHb	1	TF+TC
+yhaN	lexA	-1	TF-proteolyse
+yteA	sigG	1	sigma factor
+yteA	spoVT	1	TF
+opuBB	sigA	1	sigma factor
+opuBB	gbsR	-1	TF+M
+opuBB	codY	0	TF+M
+opuBB	yvbF/YvaV	0	silico-TF+unk
+ywrA	ywrC	0	silico-TF+unk
+yknU	sigE	1	sigma factor
+yknU	spoIIID	1	TF
+prmA	sigA	1	sigma factor
+prmA	hrcA	-1	TF+HrcA unstability
+prmA	arfM	0	TF
+yufO	codY	-1	TF+M
+fnr	sigA	1	sigma factor
+fnr	resD	1	TF+TC
+fnr	nsrR	-1	TF+M
+fnr	fnr	1	TF+M
+citH	sigE	1	sigma factor
+citH	spoIIID	-1	TF
+citH	ccpA	0	TF+PP+M
+yoaW	sigE	1	sigma factor
+yoaW	abrB	-1	TF
+besA	fur	-1	TF+M
+besA	abrB	-1	TF
+folD	stringent response	-1	unk
+folD	purR	-1	TF+M
+sspK	sigG	1	sigma factor
+gntK	sigK	1	sigma factor
+gntK	sigA	1	sigma factor
+gntK	gntR	-1	TF+M
+gntK	ccpA	-1	TF+PP+M
+gntK	abrB	1	TF
+gntK	ccpB	-1	TF+unk
+copA	csoR	-1	TF+M
+ykrK	ykrK	-1	TF+unk
+ymfJ	sigG	1	sigma factor
+tagA	sigA	1	sigma factor
+tagA	walR	1	TF+TC
+tagA	phoP	-1	TF+TC
+ctaC	sigA	1	sigma factor
+ctaC	resD	1	TF+TC
+ctaC	ccpA	-1	TF+PP+M
+ctaC	abrB	-1	TF
+ctaC	abh	-1	TF
+yvfS	yvfU	0	silico-TF+TC
+ycgL	sigG	1	sigma factor
+pbpF	sigG	1	sigma factor
+pbpF	sigA	1	sigma factor
+mhqA	mhqR	-1	TF+M
+yflS	malR	1	TF+TC
+cotA	sigK	1	sigma factor
+cotA	spoIIID	-1	TF
+cotA	gerE	-1	TF
+yyaO	sigK	1	sigma factor
+tuaH	sigF	1	sigma factor
+tuaH	sigA	1	sigma factor
+tuaH	phoP	1	TF+TC
+yhxD	sigB	1	sigma factor
+yodB	yodB	-1	TF+S
+yycQ	sigK	1	sigma factor
+yycQ	sigE	1	sigma factor
+ytlI	sigA	1	sigma factor
+ytlI	cymR	-1	TF+P+M
+ytlI	spx	-1	TF+S
+ytlI	ytlI	0	TF+M
+iscS.1	codY	0	TF+M
+ydeH	abrB	-1	TF
+dctB	sigB	1	sigma factor
+ybbA	sigA	1	sigma factor
+ybbA	fur	-1	TF+M
+ybbA	citB	1	riboswitch
+ybbA	btr	1	TF+M
+ybbA	glcR	0	silico-TF+unk
+yhcE	sigG	1	sigma factor
+yhcE	comK	1	TF
+yhcE	gabR	0	TF+M
+yqcK	sigF	1	sigma factor
+yqcK	sigA	1	sigma factor
+yqcK	arsR	-1	TF+M
+pckA	sigA	1	sigma factor
+pckA	ccpN	-1	TF+unk
+yisB	comK	1	TF
+yozQ	sigG	1	sigma factor
+yozQ	spoVT	-1	TF
+rpsJ	stringent response	-1	unk
+hemN	sigA	1	sigma factor
+hemN	arfM	1	TF
+braB	codY	0	TF+M
+ganP	lacR	-1	TF+M
+ganP	ccpA	0	TF+PP+M
+htrC	sigG	1	sigma factor
+levD	sigL	1	sigma factor
+levD	levR	1	TF+PTS
+levD	ccpA	-1	TF+PP+M
+yciC	sigA	1	sigma factor
+yciC	zur	-1	TF+M
+opuCA	codY	0	TF+M
+opuCA	yvbF/YvaV	0	silico-TF+unk
+yisJ	sigK	1	sigma factor
+ydaS	sigB	1	sigma factor
+mmsA	sigA	1	sigma factor
+mmsA	iolR	-1	TF+M
+mmsA	ccpA	-1	TF+PP+M
+gmuC	sigA	1	sigma factor
+gmuC	gmuR	-1	TF+M
+gmuC	ccpA	-1	TF+PP+M
+gmuC	abrB	1	TF
+yjdH	sigE	1	sigma factor
+ywoF	abrB	-1	TF
+ywoF	abh	-1	TF
+ywoF	tnrA	0	TF+P+M
+flgK	sigD	1	sigma factor
+flgK	sigA	1	sigma factor
+flgK	scoC	-1	TF
+flgK	degU	1	TF+TC
+flgK	comK	1	TF
+dacB	sigE	1	sigma factor
+dacB	spoIIID	-1	TF
+yvbH	sigE	1	sigma factor
+opuCD	codY	0	TF+M
+opuCD	yvbF/YvaV	0	silico-TF+unk
+htrA	sigA	1	sigma factor
+htrA	cssR	1	TF+TC
+htrA	htrA	-1	TF
+araE	sigA	1	sigma factor
+araE	ccpA	-1	TF+PP+M
+araE	araR	-1	TF+M
+folEA	sigA	1	sigma factor
+yhcB	sigG	1	sigma factor
+yhcB	comK	1	TF
+rbsR	sigA	1	sigma factor
+rbsR	ccpA	-1	TF+PP+M
+rbsR	abrB	1	TF
+rbsR	rbsR	0	silico-TF+M
+yaaH	sigE	1	sigma factor
+yaaH	sigB	1	sigma factor
+yaaH	spoIIID	-1	TF
+ylxY	sigE	1	sigma factor
+ylxY	spoIIID	-1	TF
+skfF	spo0A	1	TF+PP
+skfF	phoP	1	TF+TC
+skfF	abrB	-1	TF
+ykfB	codY	-1	TF+M
+ycsF	sigK	1	sigma factor
+ycsF	tnrA	1	TF+P+M
+ycsF	kipR	-1	TF+unk
+trmF	comK	1	TF
+yloB	sigE	1	sigma factor
+yloB	spoIIID	-1	TF
+mntB	mntR	-1	TF+M
+comA	sigA	1	sigma factor
+yxbB	codY	-1	TF+M
+yxbB	abrB	-1	TF
+comEA	sigA	1	sigma factor
+comEA	comN	0	P-PTC
+comEA	comK	1	TF
+rpsD	sigA	1	sigma factor
+rpsD	stringent response	-1	unk
+ycgF	sigE	1	sigma factor
+ycgF	spoIIID	-1	TF
+yoaF	sigW	1	sigma factor
+yxeE	sigK	1	sigma factor
+yxeE	gerE	1	TF
+dltA	sigX	1	sigma factor
+dltA	sigM	1	sigma factor
+dltA	sigD	1	sigma factor
+dltA	yvrHb	1	TF+TC
+dltA	stringent response	-1	unk
+dltA	spo0A	-1	TF+PP
+yusO	mdtR	-1	TF+M
+htrB	cssR	1	TF+TC
+amtB	sigA	1	sigma factor
+amtB	tnrA	1	TF+P+M
+fbp	sigA	1	sigma factor
+azlD	azlB	-1	TF+unk
+ugtP	sigM	1	sigma factor
+yfkT	sigB	1	sigma factor
+yufQ	codY	-1	TF+M
+lcfA	fadR	-1	TF+M
+lcfA	ccpA	-1	TF+PP+M
+mcsB	sigF	1	sigma factor
+mcsB	sigB	1	sigma factor
+mcsB	sigA	1	sigma factor
+mcsB	ctsR	-1	TF+unstability
+ydbM	cymR	-1	TF+P+M
+purN	sigA	1	sigma factor
+purN	purR	-1	TF+M
+purN	G-box-HXTX	1	riboswitch
+purN	G-box-GUA	1	riboswitch
+ytaB	sigB	1	sigma factor
+yneA	lexA	-1	TF-proteolyse
+yneA	comK	1	TF
+rplGA	sigA	1	sigma factor
+rplGA	stringent response	-1	unk
+rsfA	sigG	1	sigma factor
+rsfA	sigF	1	sigma factor
+rsfA	rsfA	-1	P
+spoIIE	sigA	1	sigma factor
+spoIIE	spo0A	1	TF+PP
+spoIIE	sinR	-1	TF
+ymcB	fur	0	TF+M
+yfkQ	sigG	1	sigma factor
+ywtG	sigB	1	sigma factor
+yjbA	sigF	1	sigma factor
+yvrP	comK	1	TF
+yvrP	abrB	-1	TF
+pbuX	sigA	1	sigma factor
+pbuX	purR	-1	TF+M
+pbuX	G-box-HXTX	1	riboswitch
+pbuX	G-box-GUA	1	riboswitch
+nagP.1	nagR	-1	TF+M
+yraG	sigG	1	sigma factor
+yuaE	codY	0	TF+M
+acdA	sigA	1	sigma factor
+acdA	fadR	-1	TF+M
+bcsA	sigG	1	sigma factor
+cidA	ywbI	0	silico-TF+unk
+kipR	sigK	1	sigma factor
+kipR	tnrA	1	TF+P+M
+kipR	kipR	-1	TF+unk
+yxeQ	sigA	1	sigma factor
+yxeQ	cymR	-1	TF+P+M
+yxeQ	spx	-1	TF+S
+yvaA	sigB	1	sigma factor
+trnD.Leu2	sigA	1	sigma factor
+rplX	stringent response	-1	unk
+yjnA	codY	0	TF+M
+yceC	sigX	1	sigma factor
+yceC	sigW	1	sigma factor
+yceC	sigM	1	sigma factor
+yceC	sigB	1	sigma factor
+yceC	sigA	1	sigma factor
+carB	sigA	1	sigma factor
+carB	ahrC	-1	TF+M
+carB	abrB	1	TF
+carB	tnrA	0	TF+P+M
+gntZ	sigA	1	sigma factor
+gntZ	sigK	1	sigma factor
+gntZ	gntR	-1	TF+M
+gntZ	ccpA	-1	TF+PP+M
+gntZ	abrB	1	TF
+gntZ	ccpB	-1	TF+unk
+yodF	tnrA	-1	TF+P+M
+yodF	codY	0	TF+M
+fliE	sigD	1	sigma factor
+fliE	sigA	1	sigma factor
+fliE	spo0A	-1	TF+PP
+fliE	codY	-1	TF+M
+ywbF	abrB	-1	TF
+citS	ccpA	0	TF+PP+M
+ruvA	lexA	-1	TF-proteolyse
+rpmI	sigA	1	sigma factor
+rpmI	stringent response	-1	unk
+rpmI	rplT	-1	RNA switch
+scoB	sigE	1	sigma factor
+scoB	ccpA	-1	TF+PP+M
+scoB	spoIIID	-1	TF
+argD	sigA	1	sigma factor
+argD	ahrC	-1	TF+M
+argD	abrB	1	TF
+argD	tnrA	0	TF+P+M
+dppD	sigA	1	sigma factor
+dppD	codY	-1	TF+M
+dppD	abrB	-1	TF
+czcD	czrA	-1	TF+M
+pnbA	abrB	-1	TF
+fruR	fruR	-1	unk
+fruR	spo0A	-1	TF+PP
+fruR	ccpA	-1	TF+PP+M
+ykuK	sigA	1	sigma factor
+ykuK	spo0A	1	TF+PP
+ykuK	ccpC	-1	 TF+M+DNA
+ykuK	ccpA	-1	TF+PP+M
+yfmE	fur	-1	TF+M
+atpI	stringent response	-1	unk
+rplT	sigA	1	sigma factor
+rplT	stringent response	-1	unk
+rplT	rplT	-1	RNA switch
+ywdA	sigA	1	sigma factor
+ywdA	sacT	1	P-AT+PTS
+ywdA	ccpA	-1	TF+PP+M
+ywdA	sacY	1	P-AT+PTS
+rpsG	stringent response	-1	unk
+folC	sigA	1	sigma factor
+folC	T-box-VAL	1	RNA switch
+sspA	sigG	1	sigma factor
+sspA	spoVT	1	TF
+yoyD	tnrA	0	TF+P+M
+yoyD	codY	0	TF+M
+recO	tnrA	0	TF+P+M
+sdhC	sigA	1	sigma factor
+sdhC	fsrA	-1	small regulatory RNA
+sdhC	ccpA	-1	TF+PP+M
+ytnJ	sigA	1	sigma factor
+ytnJ	ytlI	1	TF+M
+ytnJ	cymR	-1	TF+P+M
+ytnJ	spx	-1	TF+S
+ypzK	sigK	1	sigma factor
+ypzK	sigA	1	sigma factor
+ypzK	FMN-box	-1	riboswitch
+yfiZ	fur	-1	TF+M
+ybyB	sigB	1	sigma factor
+srfAA	sigA	1	sigma factor
+srfAA	spx	-1	TF+S
+srfAA	perR	1	TF+S
+srfAA	comA	1	TF+TC
+srfAA	codY	-1	TF+M
+srfAA	abh	-1	TF
+dtpT	sigE	1	sigma factor
+dtpT	scoC	-1	TF
+dtpT	tnrA	0	TF+P+M
+flgD	sigD	1	sigma factor
+flgD	sigA	1	sigma factor
+flgD	spo0A	-1	TF+PP
+flgD	codY	-1	TF+M
+xkdH	xpf	1	sigma factor
+deoC	sigA	1	sigma factor
+deoC	sigK	1	sigma factor
+deoC	deoR	-1	TF+M
+deoC	ccpA	-1	TF+PP+M
+spbC	spo0A	1	TF+PP
+spbC	rok	-1	TF
+spbC	abrB	-1	TF
+yuzF	sigK	1	sigma factor
+csbB	sigX	1	sigma factor
+csbB	sigB	1	sigma factor
+frlN	frlR	-1	TF+M
+frlN	codY	-1	TF+M
+cotE	sigK	1	sigma factor
+cotE	sigE	1	sigma factor
+cotE	gerE	-1	TF
+kdgA	sigA	1	sigma factor
+kdgA	kdgR	-1	TF+M
+kdgA	ccpA	-1	TF+PP+M
+rex.1	stringent response	-1	unk
+rex.1	rex	-1	TF+M
+yjdG	sigE	1	sigma factor
+yjdG	abrB	-1	TF
+flgL	sigD	1	sigma factor
+flgL	sigA	1	sigma factor
+flgL	scoC	-1	TF
+flgL	degU	1	TF+TC
+flgL	comK	1	TF
+serS	T-box-SER	1	RNA switch
+argB	sigA	1	sigma factor
+argB	ahrC	-1	TF+M
+argB	abrB	1	TF
+argB	tnrA	0	TF+P+M
+mcpC	sigD	1	sigma factor
+mcpC	codY	0	TF+M
+yvgO	sigB	1	sigma factor
+yvgO	sigK	1	sigma factor
+yvgO	abrB	-1	TF
+ydgG	lexA	-1	TF-proteolyse
+argS	T-box-ARG	1	RNA switch
+licC	sigA	1	sigma factor
+licC	licR	1	TF+PTS
+licC	ccpA	-1	TF+PP+M
+licC	rbsR	0	silico-TF+M
+sboX	sigA	1	sigma factor
+sboX	rok	-1	TF
+sboX	resD	1	TF+TC
+sboX	abrB	-1	TF
+opuCB	codY	0	TF+M
+opuCB	yvbF/YvaV	0	silico-TF+unk
+dnaN	sigG	1	sigma factor
+dnaN	sigA	1	sigma factor
+dnaN	spo0A	-1	TF+PP
+dnaN	dnaA	-1	TF
+prkA	sigE	1	sigma factor
+ctaB	sigA	1	sigma factor
+ctaB	resD	1	TF+TC
+rsbS	sigB	1	sigma factor
+rsbS	sigA	1	sigma factor
+truA	stringent response	-1	unk
+fhuD	fur	-1	TF+M
+lctP	sigA	1	sigma factor
+lctP	rex	-1	TF+M
+lctP	resD	1	TF+TC
+lctP	arfM	1	TF
+lctP	alsR	1	TF+M
+lctP	fnr	0	TF+M
+licH	sigA	1	sigma factor
+licH	licR	1	TF+PTS
+licH	ccpA	-1	TF+PP+M
+licH	rbsR	0	silico-TF+M
+obg	sigA	1	sigma factor
+ctpB	sigG	1	sigma factor
+ctpB	sigE	1	sigma factor
+ctpB	spoVT	-1	TF
+ylbB	sigF	1	sigma factor
+ylbB	ccpA	0	TF+PP+M
+rsbX	sigB	1	sigma factor
+rsbX	sigA	1	sigma factor
+rsbX	ccpA	-1	TF+PP+M
+dppE	sigA	1	sigma factor
+dppE	codY	-1	TF+M
+dppE	abrB	-1	TF
+ywoD	ytrA	-1	TF-M
+tnrA	sigA	1	sigma factor
+tnrA	tnrA	1	TF+P+M
+tnrA	glnR	-1	TF+P+M
+ytpA	sigM	1	sigma factor
+dtd	sigB	1	sigma factor
+tagD	sigA	1	sigma factor
+tagD	walR	1	TF+TC
+tagD	phoP	-1	TF+TC
+dltC	sigX	1	sigma factor
+dltC	sigM	1	sigma factor
+dltC	sigD	1	sigma factor
+dltC	yvrHb	1	TF+TC
+dltC	stringent response	-1	unk
+dltC	spo0A	-1	TF+PP
+yceE	sigX	1	sigma factor
+yceE	sigW	1	sigma factor
+yceE	sigM	1	sigma factor
+yceE	sigB	1	sigma factor
+yceE	sigA	1	sigma factor
+pabC	sigA	1	sigma factor
+pabC	TRAP	-1	RNA-BAP
+bsdD	bsdA	1	TF+M
+ohrA	sigA	1	sigma factor
+ohrA	ohrR	-1	TF+S
+clpC	sigF	1	sigma factor
+clpC	sigB	1	sigma factor
+clpC	sigA	1	sigma factor
+clpC	ctsR	-1	TF+unstability
+pgdS	sigD	1	sigma factor
+pgdS	tnrA	0	TF+P+M
+spo0M	sigW	1	sigma factor
+spo0M	sigH	1	sigma factor
+pgsB	degU	1	TF+TC
+pgsB	tnrA	0	TF+P+M
+motA	sigD	1	sigma factor
+ymdA	sigK	1	sigma factor
+atpF	stringent response	-1	unk
+tuaC	sigA	1	sigma factor
+tuaC	phoP	1	TF+TC
+xkdC	xre	-1	TF
+rpmD	stringent response	-1	unk
+ytcP	ccpA	0	TF+PP+M
+ytcP	rmgR	0	silico-TF+M
+thiO	Thi-box	-1	riboswitch
+thiO	tenI	-1	unk
+gltC	sigA	1	sigma factor
+gltC	gltC	-1	TF+M
+gltC	gltC0	-1	TF+M
+gltC	tnrA	0	TF+P+M
+spoIVFB	sigE	1	sigma factor
+spoIVFB	spoIIID	-1	TF
+tagE	sigA	1	sigma factor
+tagE	walR	1	TF+TC
+tagE	phoP	-1	TF+TC
+pbpH	abrB	-1	TF
+yvqJ	abrB	-1	TF
+salA	salA	-1	P
+salA	ccpA	0	TF+PP+M
+ylaJ	sigG	1	sigma factor
+hemX	sigA	1	sigma factor
+hemX	perR	-1	TF+S
+cypC	sigB	1	sigma factor
+phrK	sigH	1	sigma factor
+phrK	abrB	-1	TF
+ytpQ	spx	1	TF+S
+natB.1	abrB	-1	TF
+cheW	sigD	1	sigma factor
+cheW	sigA	1	sigma factor
+cheW	spo0A	-1	TF+PP
+cheW	codY	-1	TF+M
+nusA	sigA	1	sigma factor
+nusA	stringent response	-1	unk
+bmrU	sigB	1	sigma factor
+bmrU	sigA	1	sigma factor
+bmrU	mta	1	TF+M
+bmrU	bmrR	1	TF+M
+aslA	codY	-1	TF+M
+aslA	abrB	-1	TF
+pdaA	sigG	1	sigma factor
+hisB	hisR	0	silico-TF+M
+yusD	spo0A	1	TF+PP
+yjdB	phoP	1	TF+TC
+yjdB	abrB	-1	TF
+comZ	sigA	1	sigma factor
+comZ	spo0A	-1	TF+PP
+kdgR	sigA	1	sigma factor
+kdgR	kdgR	-1	TF+M
+kdgR	ccpA	-1	TF+PP+M
+ywnH	sigE	1	sigma factor
+yfhK	sigW	1	sigma factor
+yfhK	sigB	1	sigma factor
+yfmG	abrB	-1	TF
+comGG	sigA	1	sigma factor
+comGG	comK	1	TF
+comGG	comZ	-1	TF
+yybK	rok	-1	TF
+yybK	spo0A	1	TF+PP
+codV	sigA	1	sigma factor
+codV	codY	-1	TF+M
+ykzF	sigA	1	sigma factor
+ykzF	spo0A	1	TF+PP
+ykzF	ccpA	-1	TF+PP+M
+ykzF	ccpC	-1	 TF+M+DNA
+xynD	abrB	-1	TF
+kdgK	sigA	1	sigma factor
+kdgK	kdgR	-1	TF+M
+kdgK	ccpA	-1	TF+PP+M
+yrkQ	yrkP	1	TF+TC
+yrkD	sigK	1	sigma factor
+yrkD	yrkD	0	silico-TF+unk
+spsI	sigK	1	sigma factor
+spsI	sigE	1	sigma factor
+ubiX	bsdA	1	TF+M
+spoIIIAF	sigE	1	sigma factor
+spoIIIAF	gerR	-1	TF
+spoIIIAF	spoIIID	-1	TF
+spoIIIAF	gerE	-1	TF
+fadR	sigA	1	sigma factor
+fadR	fadR	-1	TF+M
+fadR	ccpA	-1	TF+PP+M
+ylyA	sigG	1	sigma factor
+ylyA	spoVT	1	TF
+ftsW	yofA	1	TF
+levF	sigL	1	sigma factor
+levF	levR	1	TF+PTS
+levF	ccpA	-1	TF+PP+M
+serA	codY	0	TF+M
+yhdJ	yhdI/YdeL	0	silico-TF+unk
+araP	sigA	1	sigma factor
+araP	ccpA	-1	TF+PP+M
+araP	araR	-1	TF+M
+ytkL	sigB	1	sigma factor
+splA	sigG	1	sigma factor
+splA	splA	-1	TF
+yxdL	yxdJ	1	TF+TC
+ytxJ	sigH	1	sigma factor
+ytxJ	sigB	1	sigma factor
+bioF	birA	-1	TF+P+M
+rapE	sigH	1	sigma factor
+rapE	sigA	1	sigma factor
+rapE	comA	1	TF+TC
+rapE	codY	-1	TF+M
+alsR	alsR	0	TF+M
+yokK	abrB	-1	TF
+sirC	sigA	1	sigma factor
+sirC	S-box-SAM	-1	
+sirC	cymR	-1	TF+P+M
+brnQ	azlB	-1	TF+unk
+nagBB	ybgA	0	TF+M
+pstC	phoP	1	TF+TC
+ftsE	spo0A	-1	TF+PP
+yqxM	sigA	1	sigma factor
+yqxM	sinR	-1	TF
+yqxM	abrB	-1	TF
+yqxM	spo0A	1	TF+PP
+rpmF	stringent response	-1	unk
+ctaG	sigA	1	sigma factor
+ctaG	resD	1	TF+TC
+ctaG	ccpA	-1	TF+PP+M
+ctaG	abrB	-1	TF
+ctaG	abh	-1	TF
+ymaB	sigA	1	sigma factor
+ymaB	resD	1	TF+TC
+ymaB	nrdR	0	silico-TF+M
+sacA	sigA	1	sigma factor
+sacA	sacT	1	P-AT+PTS
+sacA	ccpA	-1	TF+PP+M
+sacA	sacY	1	P-AT+PTS
+ypuC	sigB	1	sigma factor
+yvbW	T-box-LEU	0	RNA switch
+pucH	sigA	1	sigma factor
+pucH	sigE	1	sigma factor
+pucH	tnrA	1	TF+P+M
+pucH	pucR	1	TF+M
+clpE	sigA	1	sigma factor
+clpE	ctsR	-1	TF+unstability
+alaS	T-box-ALA	0	RNA switch
+yoxB	sigB	1	sigma factor
+yxzE	sigW	1	sigma factor
+yxzE	abrB	-1	TF
+minC	sigM	1	sigma factor
+minC	sigH	1	sigma factor
+yhgE	yhgD	0	silico-TF+unk
+rlmB	sigA	1	sigma factor
+rlmB	T-box-CYS	1	RNA switch
+sboA	sigA	1	sigma factor
+sboA	rok	-1	TF
+sboA	resD	1	TF+TC
+sboA	abrB	-1	TF
+ilvD	codY	-1	TF+M
+acpA	sigA	1	sigma factor
+acpA	fapR	-1	TF+M
+yhcY	sigA	1	sigma factor
+yhcY	sigE	1	sigma factor
+yhcY	liaR	1	TF+TC
+artP	ahrC	0	TF+M
+bglH	sigA	1	sigma factor
+bglH	licT	1	P-AT+PTS
+bglH	ccpA	-1	TF+PP+M
+ywqC	abrB	-1	TF
+scpA	stringent response	-1	unk
+fliG	sigD	1	sigma factor
+fliG	sigA	1	sigma factor
+fliG	spo0A	-1	TF+PP
+fliG	codY	-1	TF+M
+ssbA	stringent response	-1	unk
+ssbA	comK	1	TF
+ruvB	lexA	-1	TF-proteolyse
+buk	sigL	1	sigma factor
+buk	codY	-1	TF+M
+buk	bkdR	1	TF+M
+buk	tnrA	-1	TF+P+M
+bceA	bceR	1	TF+TC
+glcK	ccpA	0	TF+PP+M
+yabR	sigE	1	sigma factor
+yabR	sigX	1	sigma factor
+yabR	sigW	1	sigma factor
+yabR	spoIIID	-1	TF
+yesR	yesS	0	TF+P+unk
+yesR	ccpA	0	TF+PP+M
+flhO	sigD	1	sigma factor
+flhO	sigE	1	sigma factor
+flhO	stringent response	-1	unk
+menF	sigA	1	sigma factor
+cotJC	sigE	1	sigma factor
+cotJC	spoIIID	1	TF
+ahpF	sigA	1	sigma factor
+ahpF	perR	-1	TF+S
+yqzE	sigA	1	sigma factor
+yqzE	comK	1	TF
+yqzE	comZ	-1	TF
+groEL	sigA	1	sigma factor
+groEL	hrcA	-1	TF+HrcA unstability
+yvyE	spo0A	-1	TF+PP
+nagA	sigA	1	sigma factor
+nagA	nagR	-1	TF+M
+nagA	ccpA	-1	TF+PP+M
+ylxM	sigA	1	sigma factor
+plsX	sigA	1	sigma factor
+plsX	fapR	-1	TF+M
+plsX	comA	1	TF+TC
+rpsK	stringent response	-1	unk
+cotP	sigK	1	sigma factor
+cotP	gerE	-1	TF
+ispE	sigE	1	sigma factor
+thiE	sigA	1	sigma factor
+bioI	birA	-1	TF+P+M
+xkdA	lexA	-1	TF-proteolyse
+yrbG	sigG	1	sigma factor
+yrbG	sigE	1	sigma factor
+yrbG	spoIIID	-1	TF
+yesV	yesS	1	TF+P+unk
+yesV	ccpA	0	TF+PP+M
+yoqM	abrB	-1	TF
+sdhB	sigA	1	sigma factor
+sdhB	fsrA	-1	small regulatory RNA
+sdhB	ccpA	-1	TF+PP+M
+ytrF	sigA	1	sigma factor
+ytrF	ytrA	-1	TF-M
+yqaK	sknR	-1	TF
+yjgB	sigB	1	sigma factor
+cotX	sigK	1	sigma factor
+cotX	gerE	1	TF
+cotX	spoIIID	-1	TF
+parC	lexA	-1	TF-proteolyse
+ctsR	sigB	1	sigma factor
+ctsR	sigA	1	sigma factor
+ctsR	ctsR	-1	TF+unstability
+codY	sigA	1	sigma factor
+codY	codY	-1	TF+M
+ykuL	sigA	1	sigma factor
+ykuL	spo0A	1	TF+PP
+ykuL	ccpA	-1	TF+PP+M
+ykuL	ccpC	-1	 TF+M+DNA
+spsJ	sigK	1	sigma factor
+spsJ	sigE	1	sigma factor
+spoIIID	sigE	1	sigma factor
+yhjR	sigK	1	sigma factor
+yhjR	sigE	1	sigma factor
+yhjR	gerE	-1	TF
+yybR	hypR	1	TF+S
+ytnM	sigA	1	sigma factor
+ytnM	ytlI	1	TF+M
+ytnM	cymR	-1	TF+P+M
+ytnM	spx	-1	TF+S
+yvfT	yvfU	0	silico-TF+TC
+yhjM	abrB	-1	TF
+yhjM	ntdR	0	TF+M
+tagB	sigA	1	sigma factor
+tagB	walR	1	TF+TC
+tagB	phoP	-1	TF+TC
+spcB	stringent response	-1	unk
+mtnX	sigA	1	sigma factor
+mtnX	S-box-SAM	-1	
+yknW	sigW	1	sigma factor
+yknW	abrB	-1	TF
+ywlF	tnrA	-1	TF+P+M
+gpr	sigG	1	sigma factor
+gpr	sigF	1	sigma factor
+gpr	spoVT	-1	TF
+gpr	rsfA	1	P
+cotO	sigE	1	sigma factor
+ssuC	sigA	1	sigma factor
+ssuC	cymR	-1	TF+P+M
+ssuC	spx	-1	TF+S
+ytwI	sigK	1	sigma factor
+slrR	sinR	-1	TF
+slrR	abrB	-1	TF
+slrR	abh	1	TF
+gutR	ccpA	-1	TF+PP+M
+gutR	gutR	0	TF+M
+sumT	sigA	1	sigma factor
+sumT	S-box-SAM	-1	
+sumT	cymR	-1	TF+P+M
+yoxC	sigB	1	sigma factor
+ktrA	ydaO riboswitch	1	riboswitch
+fosB	sigW	1	sigma factor
+sleB	sigG	1	sigma factor
+sleB	spoVT	-1	TF
+yojJ	sigG	1	sigma factor
+ykvI	sigE	1	sigma factor
+ykvI	spoIIID	-1	TF
+proI	T-box-PRO	1	RNA switch
+yhcA	sigG	1	sigma factor
+yhcA	comK	1	TF
+ykzI	sigB	1	sigma factor
+ykzI	sigK	1	sigma factor
+folEB	sigA	1	sigma factor
+folEB	zur	-1	TF+M
+sirB	sigA	1	sigma factor
+sirB	S-box-SAM	-1	
+sirB	cymR	-1	TF+P+M
+ydjH	sigW	1	sigma factor
+ydjH	abrB	-1	TF
+mtnE	sigA	1	sigma factor
+iolG	sigA	1	sigma factor
+iolG	iolR	-1	TF+M
+iolG	ccpA	-1	TF+PP+M
+gerBC	sigG	1	sigma factor
+gerBC	spoVT	-1	TF
+ygaN	sigA	1	sigma factor
+ygaN	cymR	-1	TF+P+M
+ygaN	spx	-1	TF+S
+yrbE	degA	0	silico-TF+M
+rplB	stringent response	-1	unk
+asnH	codY	-1	TF+M
+asnH	abrB	-1	TF
+aprX	sigA	1	sigma factor
+aprX	sigK	1	sigma factor
+aprX	lexA	-1	TF-proteolyse
+ogt	sigH	1	sigma factor
+ogt	sigA	1	sigma factor
+ogt	codY	0	TF+M
+tsf	stringent response	-1	unk
+argG	ahrC	-1	TF+M
+yjcH	codY	0	TF+M
+yozL	lexA	-1	TF-proteolyse
+yuzL	sigA	1	sigma factor
+yuzL	sdpR	1	TF+P
+yuzL	fadR	-1	TF+M
+yuzL	ccpA	-1	TF+PP+M
+spoVAD	sigG	1	sigma factor
+spoVAD	spoVT	1	TF
+pdhA	sigA	1	sigma factor
+pdhA	stringent response	-1	unk
+comEB	sigA	1	sigma factor
+comEB	comN	0	P-PTC
+comEB	comK	1	TF
+pabA	sigA	1	sigma factor
+pabA	TRAP	-1	RNA-BAP
+csbD	sigB	1	sigma factor
+dhbF	sigA	1	sigma factor
+dhbF	fur	-1	TF+M
+dhbF	abrB	-1	TF
+yfkD	sigB	1	sigma factor
+yfkD	sigG	1	sigma factor
+yaaI	sigB	1	sigma factor
+ygxB	sigB	1	sigma factor
+thiS	Thi-box	-1	riboswitch
+thiS	tenI	-1	unk
+yhcC	sigG	1	sigma factor
+yhcC	comK	1	TF
+yhfW	sigF	1	sigma factor
+yonT	as-yonT	-1	antisense RNA
+htpG	sigA	1	sigma factor
+spoVB	sigE	1	sigma factor
+spoVB	spoIIID	-1	TF
+yhdB	sigE	1	sigma factor
+yknZ	sigW	1	sigma factor
+yknZ	abrB	-1	TF
+thiT	Thi-box	-1	riboswitch
+pbuE	A-box-ADE	1	riboswitch
+yusN	sigG	1	sigma factor
+yusN	spoVT	-1	TF
+yitD	sigK	1	sigma factor
+yitD	sigE	1	sigma factor
+yitD	spoIIID	-1	TF
+fruA	fruR	-1	unk
+fruA	spo0A	-1	TF+PP
+fruA	ccpA	-1	TF+PP+M
+flhA	sigD	1	sigma factor
+flhA	sigA	1	sigma factor
+flhA	spo0A	-1	TF+PP
+flhA	codY	-1	TF+M
+trpP	sigA	1	sigma factor
+trpP	TRAP	-1	RNA-BAP
+yfkE	sigG	1	sigma factor
+yfkE	sigB	1	sigma factor
+oxdC	yvrI-YvrHa	1	sigma like factor
+rsbRD	sigB	1	sigma factor
+dctR	sigA	1	sigma factor
+dctR	dctR	1	TF+TC
+dctR	ccpA	-1	TF+PP+M
+thiD	Thi-box	-1	riboswitch
+thiD	tenI	-1	unk
+resC	sigA	1	sigma factor
+resC	resD	1	TF+TC
+resC	phoP	1	TF+TC
+resC	ccpA	-1	TF+PP+M
+yfnG	sigK	1	sigma factor
+yfnG	sigE	1	sigma factor
+comER	sigE	1	sigma factor
+fliR	sigD	1	sigma factor
+fliR	sigA	1	sigma factor
+fliR	spo0A	-1	TF+PP
+fliR	codY	-1	TF+M
+yrrS	sigF	1	sigma factor
+yrrS	sigE	1	sigma factor
+spo0F	sigH	1	sigma factor
+spo0F	sigA	1	sigma factor
+spo0F	spo0A	1	TF+PP
+ycnK	ycnK	-1	TF+M
+ycnK	abrB	-1	TF
+bsaA	sigH	1	sigma factor
+yrrT	sigA	1	sigma factor
+yrrT	spx	1	TF+S
+yrrT	cymR	-1	TF+P+M
+yoxA	sigH	1	sigma factor
+yoxA	sigB	1	sigma factor
+pucB	sigA	1	sigma factor
+pucB	tnrA	1	TF+P+M
+pucB	pucR	1	TF+M
+bacF	sigH	1	sigma factor
+bacF	scoC	-1	TF
+bacF	codY	-1	TF+M
+bacF	abrB	-1	TF
+yvgN	sigB	1	sigma factor
+yvgN	sinR	-1	TF
+nucA	comK	1	TF
+phrE	sigH	1	sigma factor
+phrE	sigA	1	sigma factor
+phrE	comA	1	TF+TC
+phrE	codY	-1	TF+M
+phrE	ccpA	-1	TF+PP+M
+phrE	abrB	-1	TF
+ycgQ	sigM	1	sigma factor
+yokL	abrB	-1	TF
+liaS	sigA	1	sigma factor
+liaS	liaR	1	TF+TC
+liaS	abrB	-1	TF
+yxaB	sigB	1	sigma factor
+yxaB	abrB	-1	TF
+yxzF	sigB	1	sigma factor
+ymfH	mta	1	TF+M
+dctS	sigA	1	sigma factor
+dctS	dctR	1	TF+TC
+dctS	ccpA	-1	TF+PP+M
+yetO	sigE	1	sigma factor
+ybxG	codY	0	TF+M
+ycsG	sigK	1	sigma factor
+ycsG	tnrA	1	TF+P+M
+ycsG	kipR	-1	TF+unk
+thiV	sigK	1	sigma factor
+thiV	Thi-box	-1	riboswitch
+yqfQ	sigK	1	sigma factor
+menC	sigA	1	sigma factor
+spsG	sigK	1	sigma factor
+spsG	sigE	1	sigma factor
+epsB	sigA	1	sigma factor
+epsB	sigH	1	sigma factor
+epsB	sinR	-1	TF
+epsB	abrB	-1	TF
+thiM	sigA	1	sigma factor
+coaX	sigM	1	sigma factor
+purD	sigA	1	sigma factor
+purD	purR	-1	TF+M
+purD	G-box-HXTX	1	riboswitch
+purD	G-box-GUA	1	riboswitch
+yokJ	abrB	-1	TF
+yqjX	lexA	-1	TF-proteolyse
+yuxL	sigH	1	sigma factor
+rocC	sigL	1	sigma factor
+rocC	rocR	1	TF+M
+rocC	codY	-1	TF+M
+rocC	ahrC	1	TF+M
+rocC	abrB	-1	TF
+yhcJ	sigK	1	sigma factor
+yneF	spo0A	1	TF+PP
+yneF	lexA	0	TF-proteolyse
+ileS	T-box-ILE	1	RNA switch
+gudP	ycbG	-1	TF+M
+cotC	sigK	1	sigma factor
+cotC	spoIIID	-1	TF
+cotC	gerE	1	TF
+ytrD	sigA	1	sigma factor
+ytrD	ytrA	-1	TF-M
+ybdN	abrB	-1	TF
+yurZ	sigG	1	sigma factor
+drm	sigA	1	sigma factor
+drm	ccpA	-1	TF+PP+M
+srfAD	sigA	1	sigma factor
+srfAD	spx	-1	TF+S
+srfAD	perR	1	TF+S
+srfAD	comA	1	TF+TC
+srfAD	codY	-1	TF+M
+srfAD	abh	-1	TF
+rpsF	stringent response	-1	unk
+rpsF	comK	1	TF
+ylqB	sigD	1	sigma factor
+ylqB	abrB	-1	TF
+cgeA	sigK	1	sigma factor
+cgeA	gerR	1	TF
+cgeA	gerE	1	TF
+sspJ	sigG	1	sigma factor
+spoIIIAE	sigE	1	sigma factor
+spoIIIAE	gerR	-1	TF
+spoIIIAE	spoIIID	-1	TF
+spoIIIAE	gerE	-1	TF
+ybxB	stringent response	-1	unk
+ganB	lacR	-1	TF+M
+ganB	ccpA	0	TF+PP+M
+yhcO	sigK	1	sigma factor
+yhcO	sigE	1	sigma factor
+yfkO	sigF	1	sigma factor
+yfkO	hypR	1	TF+S
+ctaE	sigA	1	sigma factor
+ctaE	resD	1	TF+TC
+ctaE	ccpA	-1	TF+PP+M
+ctaE	abrB	-1	TF
+ctaE	abh	-1	TF
+sspC	sigG	1	sigma factor
+sspC	spoVT	1	TF
+frlO	frlR	-1	TF+M
+frlO	codY	-1	TF+M
+spsB	sigK	1	sigma factor
+dppA	sigA	1	sigma factor
+dppA	codY	-1	TF+M
+dppA	abrB	-1	TF
+spoVR	sigE	1	sigma factor
+cgeD	sigK	1	sigma factor
+cgeD	gerE	1	TF
+ydiO	lexA	-1	TF-proteolyse
+yxkF	ccpA	-1	TF+PP+M
+bkdAA	sigL	1	sigma factor
+bkdAA	codY	-1	TF+M
+bkdAA	bkdR	1	TF+M
+bkdAA	tnrA	-1	TF+P+M
+bmrR	sigB	1	sigma factor
+bmrR	sigA	1	sigma factor
+bmrR	mta	1	TF+M
+bmrR	bmrR	1	TF+M
+yvbF	yvbF/YvaV	0	silico-TF+unk
+spoIIR	sigF	1	sigma factor
+spoIIR	rsfA	-1	P
+ylxS	sigA	1	sigma factor
+ylxS	stringent response	-1	unk
+ytfI	sigF	1	sigma factor
+yfjR	yclJ	1	TF+TC
+bdbC	sigE	1	sigma factor
+bdbC	comK	1	TF
+bkdAB	sigL	1	sigma factor
+bkdAB	codY	-1	TF+M
+bkdAB	bkdR	1	TF+M
+bkdAB	tnrA	-1	TF+P+M
+yvdQ	sigG	1	sigma factor
+ybaS	sigE	1	sigma factor
+ybaS	gerR	-1	TF
+ydfN	mhqR	-1	TF+M
+uxuA	sigE	1	sigma factor
+uxuA	sigA	1	sigma factor
+uxuA	exuR	-1	TF+M
+uxuA	ccpA	-1	TF+PP+M
+uxuA	spoIIID	-1	TF
+gabD	sigA	1	sigma factor
+gabD	sigB	1	sigma factor
+gabD	gabR	1	TF+M
+ypgQ	sigH	1	sigma factor
+ldh	sigA	1	sigma factor
+ldh	rex	-1	TF+M
+ldh	resD	1	TF+TC
+ldh	arfM	1	TF
+ldh	alsR	1	TF+M
+ldh	fnr	0	TF+M
+yrbD	sigE	1	sigma factor
+yrbD	tnrA	0	TF+P+M
+yxnB	codY	-1	TF+M
+yxnB	abrB	-1	TF
+tepA	sigG	1	sigma factor
+tepA	spoVT	-1	TF
+yycN	sigE	1	sigma factor
+uxaB	sigE	1	sigma factor
+uxaB	sigA	1	sigma factor
+uxaB	exuR	-1	TF+M
+uxaB	ccpA	-1	TF+PP+M
+uxaB	spoIIID	-1	TF
+yodE	mhqR	-1	TF+M
+ywcH	sigD	1	sigma factor
+ywcH	sigA	1	sigma factor
+ywcH	spx	1	TF+S
+ywcH	spo0A	-1	TF+PP
+rapI	sigH	1	sigma factor
+rapI	sigA	1	sigma factor
+ynzD	abrB	-1	TF
+yhcS	sigH	1	sigma factor
+ydbP	sigB	1	sigma factor
+spoIVA	sigE	1	sigma factor
+spoIVA	spoIIID	-1	TF
+ykuJ	sigA	1	sigma factor
+ykuJ	spo0A	1	TF+PP
+ykuJ	ccpC	-1	 TF+M+DNA
+ykuJ	ccpA	-1	TF+PP+M
+ktrB	ydaO riboswitch	1	riboswitch
+bofC	sigG	1	sigma factor
+bofC	sigF	1	sigma factor
+bofC	sigB	1	sigma factor
+bofC	ccpA	-1	TF+PP+M
+bofC	spoVT	-1	TF
+yuiA	codY	-1	TF+M
+yuiA	tnrA	0	TF+P+M
+ykoW	sigK	1	sigma factor
+pucM	sigA	1	sigma factor
+pucM	tnrA	1	TF+P+M
+pucM	pucR	1	TF+M
+yfkI	sigB	1	sigma factor
+yfkI	sigA	1	sigma factor
+mpr	sigE	1	sigma factor
+mpr	spoIIID	1	TF
+fumC	sigH	1	sigma factor
+fumC	sigA	1	sigma factor
+fumC	ccpA	-1	TF+PP+M
+fliQ	sigD	1	sigma factor
+fliQ	sigA	1	sigma factor
+fliQ	spo0A	-1	TF+PP
+fliQ	codY	-1	TF+M
+kbaA	sigE	1	sigma factor
+kbaA	spoIIID	-1	TF
+cssR	sigA	1	sigma factor
+cssR	cssR	1	TF+TC
+yydJ	sigA	1	sigma factor
+yydJ	rok	-1	TF
+yydJ	abrB	-1	TF
+antE	sigA	1	sigma factor
+antE	abrB	-1	TF
+recA	sigA	1	sigma factor
+recA	lexA	-1	TF-proteolyse
+recA	comK	1	TF
+yabG	sigK	1	sigma factor
+albE	sigA	1	sigma factor
+albE	rok	-1	TF
+albE	resD	1	TF+TC
+albE	abrB	-1	TF
+ddl	sigM	1	sigma factor
+ybaJ	abrB	-1	TF
+yokU	sigE	1	sigma factor
+yugU	sigB	1	sigma factor
+mreB	sigM	1	sigma factor
+mreB	sigH	1	sigma factor
+cysI	sigA	1	sigma factor
+cysI	cysL	1	TF+M
+cysI	yetL	0	TF+M
+ywnF	sigK	1	sigma factor
+ywnF	sigF	1	sigma factor
+lplA	ccpA	0	TF+PP+M
+ydcI	spoIIID	1	TF
+ntdB	sigA	1	sigma factor
+ntdB	sigE	1	sigma factor
+ntdB	ntdR	1	TF+M
+ntdB	gerR	-1	TF
+yetG	fur	-1	TF+M
+ytcB	sigK	1	sigma factor
+bcd	sigL	1	sigma factor
+bcd	codY	-1	TF+M
+bcd	bkdR	1	TF+M
+bcd	tnrA	-1	TF+P+M
+hemL	sigA	1	sigma factor
+hemL	perR	-1	TF+S
+khtS	sigE	1	sigma factor
+araR	sigA	1	sigma factor
+araR	araR	-1	TF+M
+araR	ccpA	0	TF+PP+M
+spo0E	sigB	1	sigma factor
+spo0E	sigA	1	sigma factor
+spo0E	rok	-1	TF
+spo0E	abrB	-1	TF
+mdxD	sigK	1	sigma factor
+mdxD	sigE	1	sigma factor
+mdxD	mdxR	0	silico-TF+M
+bcrC	sigX	1	sigma factor
+bcrC	sigW	1	sigma factor
+bcrC	sigM	1	sigma factor
+bcrC	sigI	1	sigma factor
+rpmB	stringent response	-1	unk
+tatCD	phoP	1	TF+TC
+yvnA	ccpA	-1	TF+PP+M
+yvnA	abrB	-1	TF
+pyrP	sigA	1	sigma factor
+pyrP	pyrR	1	P-AT+M
+pyrP	purR	-1	TF+M
+ybbD	codY	0	TF+M
+ybbD	murR	0	silico-TF+M
+ycdG	sigB	1	sigma factor
+yxiS	sigB	1	sigma factor
+thiI	codY	0	TF+M
+cydC	sigA	1	sigma factor
+cydC	rex	-1	TF+M
+cydC	resD	1	TF+TC
+cydC	ccpA	-1	TF+PP+M
+kinC	sigA	1	sigma factor
+kinC	spo0A	1	TF+PP
+yjbE	sigE	1	sigma factor
+yjbE	spoIIID	-1	TF
+nifS	sigA	1	sigma factor
+nifS	nadR	-1	TF+M
+pgsA.1	degU	1	TF+TC
+pgsA.1	tnrA	0	TF+P+M
+yflA	sigB	1	sigma factor
+yflA	abrB	-1	TF
+yflA	abh	-1	TF
+tcyJ	sigA	1	sigma factor
+tcyJ	ytlI	1	TF+M
+tcyJ	cymR	-1	TF+P+M
+tcyJ	spx	-1	TF+S
+ykoM	sigH	1	sigma factor
+ykoM	ccpA	0	TF+PP+M
+yetM	yetL	-1	TF+M
+liaG	sigA	1	sigma factor
+liaG	liaR	1	TF+TC
+liaG	abrB	-1	TF
+yusW	sigF	1	sigma factor
+mta	sigA	1	sigma factor
+mta	mta	1	TF+M
+ylzJ	sigG	1	sigma factor
+scoA	sigE	1	sigma factor
+scoA	ccpA	-1	TF+PP+M
+scoA	spoIIID	-1	TF
+yqfB	sigW	1	sigma factor
+yhbH	sigE	1	sigma factor
+yhbH	phoP	1	TF+TC
+yhbH	spoIIID	-1	TF
+adeC	codY	0	TF+M
+yxjG	S-box-SAM	-1	
+nasE	sigA	1	sigma factor
+nasE	tnrA	1	TF+P+M
+nasE	resD	1	TF+TC
+nasE	nsrR	-1	TF+M
+nasE	fur	-1	TF+M
+nasE	arfM	1	TF
+nasE	codY	0	TF+M
+natB	natR	1	TF+TC
+divIVA	spo0A	-1	TF+PP
+purR	purR	-1	TF+M
+yodN	sigK	1	sigma factor
+yodN	sigE	1	sigma factor
+ponA	sigM	1	sigma factor
+yuxJ	codY	0	TF+M
+tcyK	sigA	1	sigma factor
+tcyK	ytlI	1	TF+M
+tcyK	cymR	-1	TF+P+M
+tcyK	spx	-1	TF+S
+yknT	sigE	1	sigma factor
+yknT	spoIIID	1	TF
+yrpB	gltR	0	unk
+yugT	sigE	1	sigma factor
+yugT	spx	1	TF+S
+cypA	sigE	1	sigma factor
+cypA	gerR	-1	TF
+yesO	yesS	0	TF+P+unk
+yesO	ccpA	0	TF+PP+M
+yxbC	spo0A	1	TF+PP
+yxbC	codY	-1	TF+M
+yxbC	abrB	-1	TF
+cotT	sigK	1	sigma factor
+cotT	sigE	1	sigma factor
+cotT	spoIIID	1	TF
+yqzO	sknR	-1	TF
+atpC	stringent response	-1	unk
+ssuD	sigA	1	sigma factor
+ssuD	cymR	-1	TF+P+M
+ssuD	spx	-1	TF+S
+gltB	sigA	1	sigma factor
+gltB	tnrA	-1	TF+P+M
+gltB	gltC	1	TF+M
+gltB	fsrA	-1	small regulatory RNA
+gltB	gltC2	-1	TF+M
+gltB	gltC1	1	TF+M
+gltB	gltC0	1	TF+M
+ydeK	yhdI/YdeL	0	silico-TF+unk
+lplB	ccpA	0	TF+PP+M
+yrzK	sigG	1	sigma factor
+yrzK	sigF	1	sigma factor
+gyrB	sigA	1	sigma factor
+gerM	sigE	1	sigma factor
+gerM	spoIIID	-1	TF
+catE	yodB	-1	TF+S
+catE	catR	-1	TF+S
+yfkS	sigB	1	sigma factor
+iolD	sigA	1	sigma factor
+iolD	iolR	-1	TF+M
+iolD	ccpA	-1	TF+PP+M
+yisS	degA	0	silico-TF+M
+alsS	sigA	1	sigma factor
+alsS	stringent response	1	unk
+alsS	rex	-1	TF+M
+alsS	alsR	1	TF+M
+alsS	ccpA	1	TF+PP+M
+alsS	arfM	1	TF
+sacB	sigA	1	sigma factor
+sacB	sacY	1	P-AT+PTS
+sacB	degU	1	TF+TC
+sacB	tenA	1	unk
+sacB	sacT	1	P-AT+PTS
+spoIID	sigE	1	sigma factor
+spoIID	spoIIID	-1	TF
+yqhQ	sigF	1	sigma factor
+yqhQ	sigB	1	sigma factor
+folB	sigA	1	sigma factor
+folB	TRAP	-1	RNA-BAP
+iolC	sigA	1	sigma factor
+iolC	iolR	-1	TF+M
+iolC	ccpA	-1	TF+PP+M
+spoIVFA	sigE	1	sigma factor
+spoIVFA	spoIIID	-1	TF
+guaB	codY	1	TF+M
+rbsA	sigA	1	sigma factor
+rbsA	ccpA	-1	TF+PP+M
+rbsA	abrB	1	TF
+rbsA	rbsR	0	silico-TF+M
+yqaL	sknR	-1	TF
+purA	sigA	1	sigma factor
+purA	purR	-1	TF+M
+purA	yabJ	1	TF+M
+yjcQ	sigD	1	sigma factor
+lrpC	sigA	1	sigma factor
+yydA	dnaA	-1	TF
+leuC	sigA	1	sigma factor
+leuC	tnrA	-1	TF+P+M
+leuC	fsrA	-1	small regulatory RNA
+leuC	codY	-1	TF+M
+leuC	ccpA	1	TF+PP+M
+leuC	T-box-LEU	1	RNA switch
+ymxH	sigE	1	sigma factor
+rsbV	sigB	1	sigma factor
+rsbV	sigA	1	sigma factor
+rsbV	ccpA	-1	TF+PP+M
+guaA	sigA	1	sigma factor
+yvyI	sigA	1	sigma factor
+yvyI	ccpA	0	TF+PP+M
+yvcS	psdR	1	TF+TC
+etfA	sigA	1	sigma factor
+etfA	fadR	-1	TF+M
+etfA	ccpA	-1	TF+PP+M
+ydfO	sigB	1	sigma factor
+ydfO	mhqR	-1	TF+M
+sppA	sigW	1	sigma factor
+purM	sigA	1	sigma factor
+purM	purR	-1	TF+M
+purM	G-box-HXTX	1	riboswitch
+purM	G-box-GUA	1	riboswitch
+yyaT	yybA	0	silico-TF+unk
+yvaM	rghR	-1	TF
+malR	sigA	1	sigma factor
+malR	glvR	1	TF+M
+malR	ccpA	-1	TF+PP+M
+malR	malR	1	TF+TC
+secA	sigA	1	sigma factor
+cggR	sigA	1	sigma factor
+cggR	cggR	-1	TF+M
+yerH	lexA	-1	TF-proteolyse
+ywcA	sigE	1	sigma factor
+ywcA	spoIIID	-1	TF
+glcP	sigA	1	sigma factor
+glcP	sigE	1	sigma factor
+glcP	ntdR	1	TF+M
+glcP	gerR	-1	TF
+bmr	sigB	1	sigma factor
+bmr	sigA	1	sigma factor
+bmr	mta	1	TF+M
+bmr	bmrR	1	TF+M
+rsbT	sigB	1	sigma factor
+rsbT	sigA	1	sigma factor
+sipV	lexA	-1	TF-proteolyse
+yvgT	tnrA	0	TF+P+M
+sacP	sigA	1	sigma factor
+sacP	sacT	1	P-AT+PTS
+sacP	ccpA	-1	TF+PP+M
+sacP	sacY	1	P-AT+PTS
+yndD	sigG	1	sigma factor
+yndD	spoVT	-1	TF
+liaH	sigA	1	sigma factor
+liaH	liaR	1	TF+TC
+liaH	abrB	-1	TF
+araQ	sigA	1	sigma factor
+araQ	ccpA	-1	TF+PP+M
+araQ	araR	-1	TF+M
+yneI	sigA	1	sigma factor
+yneI	sigH	1	sigma factor
+amhX	sigA	1	sigma factor
+amhX	codY	0	TF+M
+rsoA	yvrI-YvrHa	1	sigma like factor
+rsoA	yvrHb	1	TF+TC
+trpB	sigA	1	sigma factor
+trpB	TRAP	-1	RNA-BAP
+yorC	lexA	-1	TF-proteolyse
+phrF	sigH	1	sigma factor
+phrF	comA	1	TF+TC
+spoVAB	sigG	1	sigma factor
+spoVAB	spoVT	1	TF
+xkdB	xre	-1	TF
+guaD	sigB	1	sigma factor
+guaD	sigA	1	sigma factor
+guaD	pucR	1	TF+M
+yclG	sigK	1	sigma factor
+yclG	sigE	1	sigma factor
+yclG	gerR	-1	TF
+yclG	tnrA	0	TF+P+M
+sspD	sigG	1	sigma factor
+sspD	spoVT	1	TF
+yhcV	sigG	1	sigma factor
+xylR	xylR	0	TF+M
+ylbN	stringent response	-1	unk
+glcU	sigG	1	sigma factor
+glcU	spoVT	-1	TF
+ywpJ	glcR	0	silico-TF+unk
+natA	natR	1	TF+TC
+cheB	sigD	1	sigma factor
+cheB	sigA	1	sigma factor
+cheB	spo0A	-1	TF+PP
+cheB	codY	-1	TF+M
+yhcD	sigG	1	sigma factor
+yhcD	comK	1	TF
+eglS	sigA	1	sigma factor
+yugI	stringent response	-1	unk
+cwlD	sigG	1	sigma factor
+cwlD	sigE	1	sigma factor
+cwlD	lexA	-1	TF-proteolyse
+cwlD	spoVT	1	TF
+cwlD	spoIIID	-1	TF
+katA	perR	-1	TF+S
+acoA	sigL	1	sigma factor
+acoA	sigK	1	sigma factor
+acoA	ccpA	-1	TF+PP+M
+acoA	acoR	1	TF+M
+oppB	tnrA	1	TF+P+M
+oppB	scoC	-1	TF
+oppB	codY	0	TF+M
+yabO	sigX	1	sigma factor
+yabO	sigW	1	sigma factor
+yabO	sigE	1	sigma factor
+yabO	spoIIID	-1	TF
+glpF	sigA	1	sigma factor
+glpF	glpP	1	P-AT+PTS
+glpF	ccpA	-1	TF+PP+M
+glpF	abrB	1	TF
+ywlB	sigB	1	sigma factor
+ywlB	sigE	1	sigma factor
+ywlB	spoIIID	-1	TF
+gutP	sigA	1	sigma factor
+gutP	gutR	1	TF+M
+hemA	sigA	1	sigma factor
+hemA	perR	-1	TF+S
+yndE	sigG	1	sigma factor
+yndE	spoVT	-1	TF
+ureB	sigH	1	sigma factor
+ureB	sigA	1	sigma factor
+ureB	tnrA	1	TF+P+M
+ureB	pucR	1	TF+M
+ureB	glnR	-1	TF+P+M
+ureB	codY	-1	TF+M
+pabB	sigA	1	sigma factor
+pabB	TRAP	-1	RNA-BAP
+tcyM	sigA	1	sigma factor
+tcyM	ytlI	1	TF+M
+tcyM	cymR	-1	TF+P+M
+tcyM	spx	-1	TF+S
+phy	abrB	-1	TF
+gyrA	sigA	1	sigma factor
+yclH	yclJ	1	TF+TC
+tcyN	sigA	1	sigma factor
+tcyN	ytlI	1	TF+M
+tcyN	cymR	-1	TF+P+M
+tcyN	spx	-1	TF+S
+pheT	sigA	1	sigma factor
+pheT	T-box-PHE	1	RNA switch
+yfnH	sigK	1	sigma factor
+yfnH	sigE	1	sigma factor
+cotY	sigK	1	sigma factor
+cotY	gerR	1	TF
+cotY	gerE	1	TF
+ysxB	stringent response	-1	unk
+ysxB	L21_leader	0	silico-RNA switch
+spoVAC	sigG	1	sigma factor
+spoVAC	spoVT	1	TF
+ykuU	abrB	-1	TF
+yfhF	sigB	1	sigma factor
+yfhF	sigG	1	sigma factor
+yfhF	sigF	1	sigma factor
+kinA	sigH	1	sigma factor
+kinA	stringent response	1	unk
+kinA	spo0A	1	TF+PP
+ybfM	sigX	1	sigma factor
+ybfM	sigA	1	sigma factor
+yueG	sigK	1	sigma factor
+ypuD	sigM	1	sigma factor
+ypuD	sigB	1	sigma factor
+ypuD	sigE	1	sigma factor
+ypuD	lexA	-1	TF-proteolyse
+yhdT	codY	0	TF+M
+ctaA	sigE	1	sigma factor
+ctaA	sigA	1	sigma factor
+ctaA	resD	1	TF+TC
+rbfA	sigB	1	sigma factor
+rbfA	sigA	1	sigma factor
+rbfA	stringent response	-1	unk
+ezrA	sigA	1	sigma factor
+efeM	sigX	1	sigma factor
+efeM	sigW	1	sigma factor
+efeM	fur	-1	TF+M
+ydfS	sigG	1	sigma factor
+ydfS	sigK	1	sigma factor
+ydfS	spoVT	-1	TF
+rplR	stringent response	-1	unk
+cotZ	sigK	1	sigma factor
+cotZ	sigE	1	sigma factor
+cotZ	gerE	1	TF
+cotZ	gerR	1	TF
+yqfL	yqfL	1	unk
+arsR	sigF	1	sigma factor
+arsR	sigA	1	sigma factor
+arsR	arsR	-1	TF+M
+ycgO	sigE	1	sigma factor
+ycgO	spo0A	1	TF+PP
+ycgO	putR	1	TF+M
+ycgO	codY	-1	TF+M
+ycgO	spoIIID	1	TF
+ycgO	ccpA	-1	TF+PP+M
+ykoV	sigG	1	sigma factor
+ykoV	spoVT	1	TF
+cccA	ccpA	-1	TF+PP+M
+cccA	abrB	-1	TF
+rodA	sigM	1	sigma factor
+ytvI	sigE	1	sigma factor
+ytvI	spoIIID	-1	TF
+yxlE	sigY	1	sigma factor
+yojB	sigK	1	sigma factor
+yxjC	sigE	1	sigma factor
+yxjC	ccpA	-1	TF+PP+M
+yxjC	spoIIID	-1	TF
+ypgR	sigH	1	sigma factor
+ydfP	sigB	1	sigma factor
+ydfP	mhqR	-1	TF+M
+spoVAEA	sigG	1	sigma factor
+spoVAEA	spoVT	1	TF
+ylaD	ylaC	1	sigma factor
+ylaD	sigA	1	sigma factor
+ylaD	spx	1	TF+S
+rocE	sigL	1	sigma factor
+rocE	spo0A	-1	TF+PP
+rocE	rocR	1	TF+M
+rocE	codY	-1	TF+M
+rocE	ahrC	1	TF+M
+yurS	sigK	1	sigma factor
+yurS	sigE	1	sigma factor
+yurS	gerE	1	TF
+ssuA	sigA	1	sigma factor
+ssuA	cymR	-1	TF+P+M
+ssuA	spx	-1	TF+S
+rplM	stringent response	-1	unk
+rplM	rplM	0	silico-RNA switch
+ndk	ccpA	0	TF+PP+M
+rpsH	stringent response	-1	unk
+gerPB	sigK	1	sigma factor
+gerPB	gerE	-1	TF
+ansZ	sigA	1	sigma factor
+ansZ	tnrA	1	TF+P+M
+ansZ	codY	-1	TF+M
+fadE	sigA	1	sigma factor
+fadE	sdpR	1	TF+P
+fadE	fadR	-1	TF+M
+fadE	ccpA	-1	TF+PP+M
+thiG	Thi-box	-1	riboswitch
+thiG	tenI	-1	unk
+ptsG	sigA	1	sigma factor
+ptsG	stringent response	-1	unk
+ptsG	glcT	1	P-AT+PTS
+yfmJ	spo0A	1	TF+PP
+yfhQ	sigG	1	sigma factor
+yfhQ	sigA	1	sigma factor
+yfhQ	yfhP	-1	unk
+yfhQ	spoVT	-1	TF
+yfhQ	rsfA	1	P
+clsB	sigG	1	sigma factor
+clsB	sigE	1	sigma factor
+pucD	sigA	1	sigma factor
+pucD	tnrA	1	TF+P+M
+pucD	pucR	1	TF+M
+glgC	sigE	1	sigma factor
+glgC	sigH	1	sigma factor
+divIB	sigM	1	sigma factor
+divIB	sigE	1	sigma factor
+divIB	sigA	1	sigma factor
+divIB	spoIIID	-1	TF
+yvfR	yvfU	0	silico-TF+TC
+tig	stringent response	-1	unk
+liaI	sigA	1	sigma factor
+liaI	liaR	1	TF+TC
+liaI	abrB	-1	TF
+ycdF	sigB	1	sigma factor
+arsB	sigF	1	sigma factor
+arsB	sigA	1	sigma factor
+arsB	arsR	-1	TF+M
+yfkN	phoP	1	TF+TC
+yfkN	ccpA	-1	TF+PP+M
+yjiA	sigK	1	sigma factor
+catD	yodB	-1	TF+S
+catD	catR	-1	TF+S
+yxjF	sigE	1	sigma factor
+yxjF	ccpA	-1	TF+PP+M
+yxjF	spoIIID	-1	TF
+hprT	sigM	1	sigma factor
+blt	sigA	1	sigma factor
+blt	mta	1	TF+M
+blt	bltR	1	TF+M
+yfkR	sigG	1	sigma factor
+ykvT	walR	1	TF+TC
+pyrB	sigA	1	sigma factor
+pyrB	pyrR	1	P-AT+M
+pyrB	purR	-1	TF+M
+alsT	tnrA	-1	TF+P+M
+dhbE	sigA	1	sigma factor
+dhbE	fur	-1	TF+M
+dhbE	abrB	-1	TF
+splB	sigG	1	sigma factor
+splB	splA	-1	TF
+uxuB	sigE	1	sigma factor
+uxuB	sigA	1	sigma factor
+uxuB	exuR	-1	TF+M
+uxuB	ccpA	-1	TF+PP+M
+uxuB	spoIIID	-1	TF
+appF	scoC	-1	TF
+appF	codY	-1	TF+M
+appF	tnrA	0	TF+P+M
+tuaE	sigA	1	sigma factor
+tuaE	phoP	1	TF+TC
+veg	sigA	1	sigma factor
+gbsB	gbsR	-1	TF+M
+hemAT	sigD	1	sigma factor
+yerC	spo0A	1	TF+PP
+yvlD	sigW	1	sigma factor
+yvlD	abrB	-1	TF
+narG	sigA	1	sigma factor
+narG	fnr	1	TF+M
+yhcN	sigG	1	sigma factor
+yhcN	sigF	1	sigma factor
+yitG	sigG	1	sigma factor
+yngJ	sigE	1	sigma factor
+yngJ	spoIIID	-1	TF
+yvnB	sigG	1	sigma factor
+pstS	sigA	1	sigma factor
+pstS	phoP	1	TF+TC
+yybM	rok	-1	TF
+yybM	spo0A	1	TF+PP
+ywdJ	tnrA	-1	TF+P+M
+garD	ycbG	-1	TF+M
+ybfO	sigW	1	sigma factor
+ybfO	abrB	-1	TF
+ycnD	yczG	0	silico-TF+unk
+queD	preQ1 riboswitch	-1	riboswitch
+recJ	stringent response	-1	unk
+rapH	sigA	1	sigma factor
+rapH	rghR	-1	TF
+rapH	comK	1	TF
+rapH	abrB	-1	TF
+yumC	tnrA	0	TF+P+M
+yumC	fur	0	TF+M
+rnc	sigK	1	sigma factor
+rnc	sigA	1	sigma factor
+rnc	stringent response	-1	unk
+rnc	gerE	1	TF
+glnH	sigE	1	sigma factor
+glnH	tnrA	1	TF+P+M
+glnH	codY	0	TF+M
+yhcI	sigG	1	sigma factor
+yhcI	comK	1	TF
+yhcI	gabR	0	TF+M
+ytbD	ytcD	0	silico-TF+unk
+glyA	sigA	1	sigma factor
+glyA	purR	-1	TF+M
+ytrI	sigE	1	sigma factor
+ytrI	spoIIID	-1	TF
+ytrI	lexA	0	TF-proteolyse
+gspA	sigB	1	sigma factor
+yfhP	sigK	1	sigma factor
+yfhP	yfhP	-1	unk
+glpD	sigA	1	sigma factor
+glpD	glpP	1	P-AT+PTS
+glpD	ccpA	-1	TF+PP+M
+glpD	abrB	1	TF
+flhF	sigD	1	sigma factor
+flhF	sigA	1	sigma factor
+flhF	spo0A	-1	TF+PP
+flhF	codY	-1	TF+M
+fabD	sigA	1	sigma factor
+fabD	fapR	-1	TF+M
+fabD	comA	1	TF+TC
+ykfD	codY	-1	TF+M
+ykaA	spo0A	-1	TF+PP
+araL	sigA	1	sigma factor
+araL	ccpA	-1	TF+PP+M
+araL	araR	-1	TF+M
+wapA	sigA	1	sigma factor
+wapA	yvrHb	1	TF+TC
+wapA	degU	-1	TF+TC
+yjaZ	sigE	1	sigma factor
+spoVM	sigE	1	sigma factor
+spoVM	spoIIID	1	TF
+yrpC	sigK	1	sigma factor
+ybaN	sigE	1	sigma factor
+ybaN	spoIIID	-1	TF
+yrkC	sigK	1	sigma factor
+pit	spo0A	-1	TF+PP
+rapJ	tnrA	0	TF+P+M
+yodC	yodB	-1	TF+S
+treP	sigA	1	sigma factor
+treP	treR	-1	TF+M
+treP	phoP	1	TF+TC
+treP	ccpA	-1	TF+PP+M
+pupG	sigA	1	sigma factor
+pupG	ccpA	-1	TF+PP+M
+rpoC	stringent response	-1	unk
+ykvQ	sigK	1	sigma factor
+hutP	sigA	1	sigma factor
+hutP	codY	-1	TF+M
+hutP	ccpA	-1	TF+PP+M
+hutP	abrB	1	TF
+yvmC	abrB	-1	TF
+ykbA	purR	0	TF+M
+hutI	sigA	1	sigma factor
+hutI	hutP	1	P-AT+M
+hutI	codY	-1	TF+M
+hutI	ccpA	-1	TF+PP+M
+yybP	RNA - yybP-ykoY	0	silico-riboswitch
+yjbJ	sigD	1	sigma factor
+ypuB	sigB	1	sigma factor
+ylmH	spo0A	-1	TF+PP
+ydhE	liaR	1	TF+TC
+epsH	sigA	1	sigma factor
+epsH	sigH	1	sigma factor
+epsH	sinR	-1	TF
+epsH	eAR	0	RNA antiterminator
+epsH	abrB	-1	TF
+yfmD	fur	-1	TF+M
+pbpG	sigG	1	sigma factor
+pbpG	sigF	1	sigma factor
+ydhU.1	fur	-1	TF+M
+yerB	spo0A	1	TF+PP
+yrvJ	sigH	1	sigma factor
+uvrX	lexA	-1	TF-proteolyse
+cheD	sigD	1	sigma factor
+cheD	sigA	1	sigma factor
+cheD	spo0A	-1	TF+PP
+cheD	codY	-1	TF+M
+rplO	stringent response	-1	unk
+yocH	sigA	1	sigma factor
+yocH	walR	1	TF+TC
+yocH	spo0A	1	TF+PP
+yocH	abrB	-1	TF
+rocR	sigA	1	sigma factor
+rocR	rocR	-1	TF+M
+rocR	codY	0	TF+M
+yxaM	codY	-1	TF+M
+yxaM	abrB	-1	TF
+yesS	yesS	1	TF+P+unk
+yesS	ccpA	0	TF+PP+M
+hxlA	hxlR	1	TF-M-unk
+yhzE	sigK	1	sigma factor
+yhzE	gerE	1	TF
+ytrB	sigA	1	sigma factor
+ytrB	ytrA	-1	TF-M
+msrB	spx	1	TF+S
+tasA	sigA	1	sigma factor
+tasA	sinR	-1	TF
+tasA	abrB	-1	TF
+tasA	spo0A	1	TF+PP
+infA	stringent response	-1	unk
+yetL	yetL	0	TF+M
+ydaF	sigB	1	sigma factor
+purT	sigA	1	sigma factor
+yvlA	sigW	1	sigma factor
+yvlA	abrB	-1	TF
+ydcP	sigG	1	sigma factor
+cydA	sigA	1	sigma factor
+cydA	rex	-1	TF+M
+cydA	resD	1	TF+TC
+cydA	ccpA	-1	TF+PP+M
+yxlC	sigY	1	sigma factor
+yvaK	sigB	1	sigma factor
+phrC	sigH	1	sigma factor
+phrC	sigA	1	sigma factor
+phrC	comA	1	TF+TC
+phrC	codY	-1	TF+M
+phrC	ccpA	-1	TF+PP+M
+rpsR	stringent response	-1	unk
+rpsR	comK	1	TF
+ywrC	ywrC	0	silico-TF+unk
+ykuT	sigB	1	sigma factor
+citM	sigA	1	sigma factor
+citM	citT	1	TF+TC
+citM	ccpA	-1	TF+PP+M
+ydfA	aseR	-1	TF+M
+ydfA	czrA	0	TF+M
+engD	comK	1	TF
+liaF	sigA	1	sigma factor
+liaF	liaR	1	TF+TC
+liaF	abrB	-1	TF
+ccpB	sigG	1	sigma factor
+slrA	ywcC	-1	TF+M
+gapB	sigA	1	sigma factor
+gapB	ccpN	-1	TF+unk
+ppsE	abrB	-1	TF
+yqaP	abrB	-1	TF
+yclQ	fur	-1	TF+M
+araN	sigA	1	sigma factor
+araN	ccpA	-1	TF+PP+M
+araN	araR	-1	TF+M
+natA.1	abrB	-1	TF
+pyrK	sigA	1	sigma factor
+pyrK	pyrR	1	P-AT+M
+pyrK	purR	-1	TF+M
+rbsK	sigA	1	sigma factor
+rbsK	ccpA	-1	TF+PP+M
+rbsK	abrB	1	TF
+rbsK	rbsR	0	silico-TF+M
+hisF	hisR	0	silico-TF+M
+yppE	spo0A	1	TF+PP
+ybzH	ybzH	0	silico-TF+unk
+fliZ	sigD	1	sigma factor
+fliZ	sigA	1	sigma factor
+fliZ	spo0A	-1	TF+PP
+fliZ	codY	-1	TF+M
+gerPF	sigK	1	sigma factor
+gerPF	gerE	-1	TF
+sipT	degU	1	TF+TC
+ydfE	ydfF	0	silico-TF+unk
+pucF	sigA	1	sigma factor
+pucF	pucR	1	TF+M
+iolE	sigA	1	sigma factor
+iolE	iolR	-1	TF+M
+iolE	ccpA	-1	TF+PP+M
+yuxG	rhaR	0	silico-TF+M
+yxjA	G-box-HXTX	1	riboswitch
+yxjA	G-box-GUA	1	riboswitch
+ycgT	sigA	1	sigma factor
+ycgT	fur	-1	TF+M
+gudB	sigA	1	sigma factor
+ohrB	sigB	1	sigma factor
+ycgP	putR	0	TF+M
+ycgP	codY	0	TF+M
+frlD	frlR	-1	TF+M
+frlD	codY	-1	TF+M
+yhjQ	sigK	1	sigma factor
+msmE	ccpA	-1	TF+PP+M
+msmE	msmR	0	silico-TF+M
+bioW	birA	-1	TF+P+M
+yqgO	sigG	1	sigma factor
+opuBC	sigA	1	sigma factor
+opuBC	gbsR	-1	TF+M
+opuBC	codY	0	TF+M
+opuBC	yvbF/YvaV	0	silico-TF+unk
+acoC	sigL	1	sigma factor
+acoC	sigK	1	sigma factor
+acoC	ccpA	-1	TF+PP+M
+acoC	acoR	1	TF+M
+yvdP	sigK	1	sigma factor
+yvdP	sigG	1	sigma factor
+epsG	sigA	1	sigma factor
+epsG	sigH	1	sigma factor
+epsG	sinR	-1	TF
+epsG	eAR	0	RNA antiterminator
+epsG	abrB	-1	TF
+gerPA	sigK	1	sigma factor
+gerPA	gerE	-1	TF
+ykfA	codY	-1	TF+M
+yrzE	sigE	1	sigma factor
+yrzE	spoIIID	-1	TF
+yabK	sigG	1	sigma factor
+yabK	sigF	1	sigma factor
+yocL	sigE	1	sigma factor
+rplP	stringent response	-1	unk
+yttP	sigH	1	sigma factor
+yttP	spo0A	1	TF+PP
+yttP	phoP	1	TF+TC
+yttP	ccpA	-1	TF+PP+M
+desK	desR	0	TF+TC
+fliD	sigD	1	sigma factor
+malA	sigA	1	sigma factor
+malA	glvR	1	TF+M
+malA	ccpA	-1	TF+PP+M
+malA	malR	1	TF+TC
+gntP	sigK	1	sigma factor
+gntP	sigA	1	sigma factor
+gntP	gntR	-1	TF+M
+gntP	ccpA	-1	TF+PP+M
+gntP	abrB	1	TF
+gntP	ccpB	-1	TF+unk
+trpF	sigA	1	sigma factor
+trpF	TRAP	-1	RNA-BAP
+yvlC	sigW	1	sigma factor
+yvlC	abrB	-1	TF
+yknV	sigE	1	sigma factor
+appB	scoC	-1	TF
+appB	codY	-1	TF+M
+appB	tnrA	0	TF+P+M
+pcrA	lexA	-1	TF-proteolyse
+yxxG	sigA	1	sigma factor
+yxxG	yvrHb	1	TF+TC
+yxxG	degU	-1	TF+TC
+yitE	sigK	1	sigma factor
+yitE	sigE	1	sigma factor
+yitE	spoIIID	-1	TF
+ispA.1	sigA	1	sigma factor
+ispA.1	scoC	-1	TF
+ispA.1	ipi	1	TF
+ispA.1	degU	1	TF+TC
+yvrC	RNA - Cobalamin	0	silico-riboswitch
+gabR	sigA	1	sigma factor
+gabR	gabR	-1	TF+M
+mtnD	sigA	1	sigma factor
+mtnD	S-box-SAM	-1	
+ylbE	sigK	1	sigma factor
+yebD	sigG	1	sigma factor
+ybcL	ybzH	0	silico-TF+unk
+phoR	sigE	1	sigma factor
+phoR	sigB	1	sigma factor
+phoR	sigA	1	sigma factor
+phoR	phoP	1	TF+TC
+phoR	ccpA	-1	TF+PP+M
+phoR	scoC	-1	TF
+phoR	resD	1	TF+TC
+yuiB	codY	-1	TF+M
+yuiB	tnrA	0	TF+P+M
+yfjC	sigE	1	sigma factor
+yoaR	sigG	1	sigma factor
+pgm	sigA	1	sigma factor
+pgm	cggR	-1	TF+M
+frlB	frlR	-1	TF+M
+frlB	codY	-1	TF+M
+rpsM	stringent response	-1	unk
+ycnE	yczG	0	silico-TF+unk
+spoIIAB	sigH	1	sigma factor
+spoIIAB	sigG	1	sigma factor
+spoIIAB	sigF	1	sigma factor
+spoIIAB	spo0A	1	TF+PP
+spoIIAB	sinR	-1	TF
+spoIIAB	abrB	-1	TF
+spoIIAB	spoVT	-1	TF
+rapK	sigH	1	sigma factor
+rapK	abrB	-1	TF
+rpsI	stringent response	-1	unk
+rpsI	rplM	0	silico-RNA switch
+yppD	spo0A	1	TF+PP
+azlC	azlB	-1	TF+unk
+yrrD	sigG	1	sigma factor
+yrrD	spoVT	1	TF
+pucA	sigA	1	sigma factor
+pucA	tnrA	1	TF+P+M
+pucA	pucR	1	TF+M
+spoIIP	sigF	1	sigma factor
+spoIIP	sigE	1	sigma factor
+spoIIP	gerR	-1	TF
+spoIIP	gerE	-1	TF
+yxeP	sigA	1	sigma factor
+yxeP	cymR	-1	TF+P+M
+yxeP	spx	-1	TF+S
+yycO	sigK	1	sigma factor
+yycO	sigE	1	sigma factor
+yycO	phoP	1	TF+TC
+aroE	sigA	1	sigma factor
+aroE	TRAP	-1	RNA-BAP
+mcsA	sigF	1	sigma factor
+mcsA	sigB	1	sigma factor
+mcsA	sigA	1	sigma factor
+mcsA	ctsR	-1	TF+unstability
+yorD	abrB	-1	TF
+pyrC	sigA	1	sigma factor
+pyrC	pyrR	1	P-AT+M
+pyrC	purR	-1	TF+M
+gdh	sigG	1	sigma factor
+gdh	spoVT	-1	TF
+ydjI	sigW	1	sigma factor
+ydjI	abrB	-1	TF
+tenI	Thi-box	-1	riboswitch
+tenI	tenI	-1	unk
+ydcC	sigE	1	sigma factor
+ydcC	spoIIID	-1	TF
+thrZ	sigA	1	sigma factor
+thrZ	T-box-THR	1	RNA switch
+lonB	sigF	1	sigma factor
+yxlD	sigY	1	sigma factor
+yuzJ	sigA	1	sigma factor
+yuzJ	tnrA	1	TF+P+M
+yuzJ	pucR	1	TF+M
+levE	sigL	1	sigma factor
+levE	levR	1	TF+PTS
+levE	ccpA	-1	TF+PP+M
+yngHA	sigE	1	sigma factor
+yngHA	spoIIID	-1	TF
+yngHA	ccpA	0	TF+PP+M
+pgcM	sigK	1	sigma factor
+pgcM	sigE	1	sigma factor
+pgcM	mdxR	0	silico-TF+M
+clpP	sigB	1	sigma factor
+clpP	sigA	1	sigma factor
+clpP	ctsR	-1	TF+unstability
+mtnU	sigA	1	sigma factor
+bofA	sigE	1	sigma factor
+bofA	spoIIID	-1	TF
+yrpD	abrB	-1	TF
+era	sigB	1	sigma factor
+era	sigA	1	sigma factor
+era	spo0A	1	TF+PP
+icd	sigA	1	sigma factor
+icd	citB	0	riboswitch
+icd	ccpC	-1	 TF+M+DNA
+icd	ccpA	-1	TF+PP+M
+icd	codY	0	TF+M
+opuCC	codY	0	TF+M
+opuCC	yvbF/YvaV	0	silico-TF+unk
+yaaB	sigA	1	sigma factor
+yngA	yclJ	1	TF+TC
+spoVAF	sigG	1	sigma factor
+spoVAF	spoVT	1	TF
+ycgG	sigE	1	sigma factor
+ycgG	sigK	1	sigma factor
+ycgG	spoIIID	-1	TF
+qoxB	stringent response	-1	unk
+yqgQ	ccpA	0	TF+PP+M
+atpB	stringent response	-1	unk
+flgC	sigD	1	sigma factor
+flgC	sigA	1	sigma factor
+flgC	spo0A	-1	TF+PP
+flgC	codY	-1	TF+M
+ywbI	sigA	1	sigma factor
+ywbI	ywbI	0	silico-TF+unk
+yjmD	sigE	1	sigma factor
+yjmD	sigA	1	sigma factor
+yjmD	exuR	-1	TF+M
+yjmD	ccpA	-1	TF+PP+M
+yjmD	spoIIID	-1	TF
+rsmG	comK	1	TF
+ltaSA	sigM	1	sigma factor
+thiF	Thi-box	-1	riboswitch
+thiF	tenI	-1	unk
+purS	sigA	1	sigma factor
+purS	purR	-1	TF+M
+purS	G-box-HXTX	1	riboswitch
+purS	G-box-GUA	1	riboswitch
+argI	sigL	1	sigma factor
+argI	spo0A	-1	TF+PP
+argI	rocR	1	TF+M
+argI	codY	-1	TF+M
+argI	ahrC	1	TF+M
+spoIISA	sigK	1	sigma factor
+nrdF	sigA	1	sigma factor
+nrdF	resD	1	TF+TC
+nrdF	nrdR	0	silico-TF+M
+glnP	sigE	1	sigma factor
+glnP	tnrA	1	TF+P+M
+glnP	codY	0	TF+M
+yyaC	sigF	1	sigma factor
+ureC	sigH	1	sigma factor
+ureC	sigA	1	sigma factor
+ureC	tnrA	1	TF+P+M
+ureC	pucR	1	TF+M
+ureC	glnR	-1	TF+P+M
+ureC	codY	-1	TF+M
+qoxC	stringent response	-1	unk
+yozI	perR	0	TF+S
+ypiB	sigH	1	sigma factor
+sipS	sigA	1	sigma factor
+sipS	degU	1	TF+TC
+speD	sigA	1	sigma factor
+speD	ccpN	-1	TF+unk
+melA	ccpA	-1	TF+PP+M
+melA	msmR	0	silico-TF+M
+mecB	sigK	1	sigma factor
+dusB	sigA	1	sigma factor
+dusB	TRAP	-1	RNA-BAP
+yybL	rok	-1	TF
+yybL	spo0A	1	TF+PP
+fadH	sigA	1	sigma factor
+fadH	fadR	-1	TF+M
+ydiP	lexA	-1	TF-proteolyse
+safA	sigE	1	sigma factor
+safA	sigG	1	sigma factor
+ykuO	sigA	1	sigma factor
+ykuO	fur	-1	TF+M
+bdbD	sigE	1	sigma factor
+bdbD	comK	1	TF
+pyrG	sigA	1	sigma factor
+pyrG	CTP-box	1	RNA switch
+relA	sigB	1	sigma factor
+yuzA	sigG	1	sigma factor
+yuzA	sigB	1	sigma factor
+sda	sigA	1	sigma factor
+sda	lexA	-1	TF-proteolyse
+sda	dnaA	-1	TF
+yrzA	sigK	1	sigma factor
+yhfS	birA	0	TF+P+M
+ywqE	abrB	-1	TF
+ispD	sigM	1	sigma factor
+ispD	sigB	1	sigma factor
+kduI	sigA	1	sigma factor
+kduI	kdgR	-1	TF+M
+kduI	ccpA	-1	TF+PP+M
+yqaJ	sknR	-1	TF
+yycA	yclJ	1	TF+TC
+yycA	tnrA	0	TF+P+M
+sigF	sigH	1	sigma factor
+sigF	sigG	1	sigma factor
+sigF	spo0A	1	TF+PP
+sigF	sinR	-1	TF
+sigF	abrB	-1	TF
+sigF	spoVT	-1	TF
+yocJ	yodB	-1	TF+S
+yobB	abrB	-1	TF
+albF	sigA	1	sigma factor
+albF	rok	-1	TF
+albF	resD	1	TF+TC
+albF	abrB	-1	TF
+yhdI	yhdI/YdeL	0	silico-TF+unk
+yjaV	sigE	1	sigma factor
+ahpC	sigA	1	sigma factor
+ahpC	perR	-1	TF+S
+ycsN	sigH	1	sigma factor
+nhaX	sigB	1	sigma factor
+ilvA	codY	-1	TF+M
+pucC	sigA	1	sigma factor
+pucC	tnrA	1	TF+P+M
+pucC	pucR	1	TF+M
+ycnJ	ycnK	-1	TF+M
+ycnJ	csoR	-1	TF+M
+sspL	sigG	1	sigma factor
+ppsC	abrB	-1	TF
+yqgX	ccpA	0	TF+PP+M
+aseR	aseR	-1	TF+M
+aseR	czrA	0	TF+M
+dltD	sigX	1	sigma factor
+dltD	sigM	1	sigma factor
+dltD	sigD	1	sigma factor
+dltD	yvrHb	1	TF+TC
+dltD	stringent response	-1	unk
+dltD	spo0A	-1	TF+PP
+yhaA	codY	0	TF+M
+yerD	sigB	1	sigma factor
+gerKB	sigG	1	sigma factor
+gerKB	spoVT	-1	TF
+ysxE	sigE	1	sigma factor
+cysK	sigA	1	sigma factor
+cysK	spx	1	TF+S
+cysK	cymR	-1	TF+P+M
+spoIIIAB	sigE	1	sigma factor
+spoIIIAB	gerR	-1	TF
+spoIIIAB	spoIIID	-1	TF
+spoIIIAB	gerE	-1	TF
+yxlF	sigY	1	sigma factor
+hemC	sigA	1	sigma factor
+hemC	perR	-1	TF+S
+lexA	lexA	-1	TF-proteolyse
+comFB	sigD	1	sigma factor
+comFB	sigA	1	sigma factor
+comFB	comK	1	TF
+yeeK	sigK	1	sigma factor
+yqaB	sigK	1	sigma factor
+folK	sigA	1	sigma factor
+folK	TRAP	-1	RNA-BAP
+pdp	sigK	1	sigma factor
+pdp	sigA	1	sigma factor
+pdp	deoR	-1	TF+M
+pdp	ccpA	-1	TF+PP+M
+yeaA	sigW	1	sigma factor
+yeaA	sigE	1	sigma factor
+nadB	sigA	1	sigma factor
+nadB	nadR	-1	TF+M
+phrA	sigA	1	sigma factor
+phrA	spo0A	-1	TF+PP
+phrA	comA	1	TF+TC
+phrA	codY	-1	TF+M
+comGD	sigA	1	sigma factor
+comGD	comK	1	TF
+comGD	comZ	-1	TF
+adcA	sigA	1	sigma factor
+adcA	zur	-1	TF+M
+purL	sigA	1	sigma factor
+purL	purR	-1	TF+M
+purL	G-box-HXTX	1	riboswitch
+purL	G-box-GUA	1	riboswitch
+degU	sigA	1	sigma factor
+degU	tnrA	-1	TF+P+M
+degU	degU	1	TF+TC
+degU	ccpA	1	TF+PP+M
+gtaB	sigB	1	sigma factor
+gtaB	sigA	1	sigma factor
+albB	sigA	1	sigma factor
+albB	rok	-1	TF
+albB	resD	1	TF+TC
+albB	abrB	-1	TF
+oxaAA	sigA	1	sigma factor
+ykfC	codY	-1	TF+M
+yfhC	fur	-1	TF+M
+murE	stringent response	-1	unk
+cycB	lacR	-1	TF+M
+cycB	ccpA	0	TF+PP+M
+qcrA	sigA	1	sigma factor
+qcrA	resD	1	TF+TC
+qcrA	ccpA	-1	TF+PP+M
+qcrA	abrB	-1	TF
+dnaJ	sigA	1	sigma factor
+dnaJ	hrcA	-1	TF+HrcA unstability
+dnaJ	arfM	0	TF
+ftsY	sigK	1	sigma factor
+ftsY	sigA	1	sigma factor
+ftsY	stringent response	-1	unk
+ftsY	gerE	1	TF
+murG	sigE	1	sigma factor
+murG	sigA	1	sigma factor
+murG	spoIIID	-1	TF
+cotH	sigK	1	sigma factor
+cotH	sigE	1	sigma factor
+cotH	gerE	-1	TF
+cwlH	sigK	1	sigma factor
+cwlH	gerE	1	TF
+cotI	sigK	1	sigma factor
+hslO	sigM	1	sigma factor
+pyrAB	sigA	1	sigma factor
+pyrAB	pyrR	1	P-AT+M
+pyrAB	purR	-1	TF+M
+yocR	codY	0	TF+M
+ywjA	fur	-1	TF+M
+ytrH	sigE	1	sigma factor
+ytrH	lexA	0	TF-proteolyse
+yngF	sigE	1	sigma factor
+yngF	spoIIID	-1	TF
+yngF	ccpA	0	TF+PP+M
+gerKC	sigG	1	sigma factor
+gerKC	spoVT	-1	TF
+bpr	degU	1	TF+TC
+cypX	abrB	-1	TF
+pgsC	degU	1	TF+TC
+pgsC	tnrA	0	TF+P+M
+yydF	sigA	1	sigma factor
+yydF	abrB	-1	TF
+yydF	rok	-1	TF
+epsL	sigA	1	sigma factor
+epsL	sigH	1	sigma factor
+epsL	sinR	-1	TF
+epsL	eAR	0	RNA antiterminator
+epsL	abrB	-1	TF
+yabM	sigX	1	sigma factor
+yabM	sigW	1	sigma factor
+yabM	sigE	1	sigma factor
+yabM	spoIIID	-1	TF
+rsgI	sigI	1	sigma factor
+ylxH	sigD	1	sigma factor
+ylxH	sigA	1	sigma factor
+ylxH	spo0A	-1	TF+PP
+ylxH	codY	-1	TF+M
+gerBB	sigG	1	sigma factor
+gerBB	spoVT	-1	TF
+sucC	sigA	1	sigma factor
+sucC	ccpA	-1	TF+PP+M
+metQ	sigA	1	sigma factor
+metQ	S-box-SAM	-1	
+metQ	codY	1	TF+M
+mdxG	sigK	1	sigma factor
+mdxG	sigE	1	sigma factor
+mdxG	mdxR	0	silico-TF+M
+azlB	azlB	-1	TF+unk
+yqjL	sigW	1	sigma factor
+yqjL	sigM	1	sigma factor
+yqjL	sigB	1	sigma factor
+yqjL	sigX	1	sigma factor
+yhaX	sigE	1	sigma factor
+yhaX	spoIIID	-1	TF
+adaB	sigA	1	sigma factor
+adaB	adaA	1	TF+S
+yqcG	spo0A	1	TF+PP
+yqcG	abrB	-1	TF
+yneJ	sigA	1	sigma factor
+yneJ	sigH	1	sigma factor
+yodS	sigE	1	sigma factor
+khtT	sigE	1	sigma factor
+gmuD	sigA	1	sigma factor
+gmuD	gmuR	-1	TF+M
+gmuD	ccpA	-1	TF+PP+M
+gmuD	abrB	1	TF
+rocB	sigL	1	sigma factor
+rocB	rocR	1	TF+M
+rocB	codY	-1	TF+M
+rocB	ahrC	1	TF+M
+rocB	abrB	-1	TF
+yfmO	sigA	1	sigma factor
+yfmO	yfmP	-1	TF+M
+gerAC	sigG	1	sigma factor
+gerAC	sigF	1	sigma factor
+gerAC	spoVT	-1	TF
+ydcA	sigE	1	sigma factor
+yusZ	codY	0	TF+M
+yflJ	sigE	1	sigma factor
+yxeM	sigA	1	sigma factor
+yxeM	cymR	-1	TF+P+M
+yxeM	spx	-1	TF+S
+spoIIB	spo0A	1	TF+PP
+yrkI	yrkD	0	silico-TF+unk
+bioD	birA	-1	TF+P+M
+yqgE	sigG	1	sigma factor
+ylbA	abrB	-1	TF
+katX	sigF	1	sigma factor
+katX	sigB	1	sigma factor
+katX	rsfA	1	P
+ackA	sigA	1	sigma factor
+ackA	codY	1	TF+M
+ackA	ccpA	1	TF+PP+M
+albD	sigA	1	sigma factor
+albD	rok	-1	TF
+albD	resD	1	TF+TC
+albD	abrB	-1	TF
+rpmEB	sigB	1	sigma factor
+rpmEB	zur	-1	TF+M
+yhcR	sigH	1	sigma factor
+gcvPA	Gly-box	-1	riboswitch
+gcvPA	spoVT	1	TF
+gcvPA	T-box-GLY	-1	RNA switch
+sepF	spo0A	-1	TF+PP
+hutH	sigA	1	sigma factor
+hutH	hutP	1	P-AT+M
+hutH	codY	-1	TF+M
+hutH	ccpA	-1	TF+PP+M
+arsC	sigF	1	sigma factor
+arsC	sigA	1	sigma factor
+arsC	arsR	-1	TF+M
+yhfM	sigF	1	sigma factor
+epsF	sigA	1	sigma factor
+epsF	sigH	1	sigma factor
+epsF	sinR	-1	TF
+epsF	eAR	0	RNA antiterminator
+epsF	abrB	-1	TF
+bdbA	yvrHb	1	TF+TC
+bdbA	rok	-1	TF
+bdbA	abrB	-1	TF
+bdbA	abh	1	TF
+cotM	sigK	1	sigma factor
+cotM	sigE	1	sigma factor
+cotM	gerE	-1	TF
+spoIVB	sigG	1	sigma factor
+spoIVB	sigF	1	sigma factor
+spoIVB	spoVT	1	TF
+spoIVB	spoIIID	1	TF
+ganA	lacR	-1	TF+M
+ganA	ccpA	0	TF+PP+M
+yczF	sigG	1	sigma factor
+wprA	yvrHb	1	TF+TC
+wprA	ccpA	-1	TF+PP+M
+sigH	sigA	1	sigma factor
+sigH	abrB	-1	TF
+treR	sigA	1	sigma factor
+treR	treR	-1	TF+M
+treR	phoP	1	TF+TC
+treR	ccpA	-1	TF+PP+M
+yrpE	zur	0	TF+M
+flgE	sigD	1	sigma factor
+flgE	sigA	1	sigma factor
+flgE	spo0A	-1	TF+PP
+flgE	codY	-1	TF+M
+cotS	sigK	1	sigma factor
+cheC	sigD	1	sigma factor
+cheC	sigA	1	sigma factor
+cheC	spo0A	-1	TF+PP
+cheC	codY	-1	TF+M
+yhfO	sigE	1	sigma factor
+yhfO	spoIIID	-1	TF
+metS	sigA	1	sigma factor
+metS	spo0A	-1	TF+PP
+yxlG	sigY	1	sigma factor
+comGF	sigA	1	sigma factor
+comGF	comK	1	TF
+comGF	comZ	-1	TF
+appA	scoC	-1	TF
+appA	codY	-1	TF+M
+appA	tnrA	0	TF+P+M
+adk	stringent response	-1	unk
+ymaG	sigK	1	sigma factor
+xtmA	xpf	1	sigma factor
+yhcZ	sigA	1	sigma factor
+yhcZ	sigE	1	sigma factor
+yhcZ	liaR	1	TF+TC
+skfA	sigA	1	sigma factor
+skfA	spo0A	1	TF+PP
+skfA	phoP	1	TF+TC
+skfA	abrB	-1	TF
+oppC	tnrA	1	TF+P+M
+oppC	scoC	-1	TF
+oppC	codY	0	TF+M
+yqzH	lexA	-1	TF-proteolyse
+glcF	ccpA	0	TF+PP+M
+ydaE	sigB	1	sigma factor
+ypmP	codY	-1	TF+M
+ytbE	ytcD	0	silico-TF+unk
+ylbK	sigE	1	sigma factor
+ylbK	spoIIID	-1	TF
+amyE	sigA	1	sigma factor
+amyE	ccpA	-1	TF+PP+M
+amyE	abrB	1	TF
+amyE	degU	1	TF+TC
+pssA	sigX	1	sigma factor
+pssA	sigA	1	sigma factor
+tlp	sigG	1	sigma factor
+tlp	sigF	1	sigma factor
+ybbE	codY	0	TF+M
+ybbE	murR	0	silico-TF+M
+hisH	hisR	0	silico-TF+M
+dinB	lexA	-1	TF-proteolyse
+tyrA	sigA	1	sigma factor
+tyrA	TRAP	-1	RNA-BAP
+albA	sigA	1	sigma factor
+albA	rok	-1	TF
+albA	resD	1	TF+TC
+albA	abrB	-1	TF
+fadF	sigA	1	sigma factor
+fadF	fadR	-1	TF+M
+purQ	sigA	1	sigma factor
+purQ	purR	-1	TF+M
+purQ	G-box-HXTX	1	riboswitch
+purQ	G-box-GUA	1	riboswitch
+uvrB	lexA	-1	TF-proteolyse
+ysxC	sigA	1	sigma factor
+ysxC	ctsR	-1	TF+unstability
+yceD	sigX	1	sigma factor
+yceD	sigW	1	sigma factor
+yceD	sigM	1	sigma factor
+yceD	sigB	1	sigma factor
+yceD	sigA	1	sigma factor
+tuaD	sigA	1	sigma factor
+tuaD	phoP	1	TF+TC
+ydhD	sigE	1	sigma factor
+ybdM	sigG	1	sigma factor
+mtrB	sigA	1	sigma factor
+phoA	sigA	1	sigma factor
+phoA	sigG	1	sigma factor
+phoA	phoP	1	TF+TC
+phoA	tenA	1	unk
+phoA	codY	0	TF+M
+araB	sigA	1	sigma factor
+araB	ccpA	-1	TF+PP+M
+araB	araR	-1	TF+M
+sodF	sigE	1	sigma factor
+ybfQ	sigW	1	sigma factor
+yuaB	degU	1	TF+TC
+yuaB	abrB	-1	TF
+rapB	sigA	1	sigma factor
+licR	sigA	1	sigma factor
+yjcZ	sigK	1	sigma factor
+yjcZ	gerE	1	TF
+hag	sigD	1	sigma factor
+hag	scoC	-1	TF
+hag	csrA	-1	RNA switch
+hag	codY	-1	TF+M
+yesJ	sigE	1	sigma factor
+yesJ	spoIIID	1	TF
+psiE	yrkP	1	TF+TC
+ylmA	codY	-1	TF+M
+citB	sigA	1	sigma factor
+citB	fsrA	-1	small regulatory RNA
+citB	codY	-1	TF+M
+citB	ccpC	-1	 TF+M+DNA
+citB	ccpA	-1	TF+PP+M
+citB	tnrA	1	TF+P+M
+citB	abrB	1	TF
+rapG	sigA	1	sigma factor
+rapG	sigH	1	sigma factor
+rapG	sinR	-1	TF
+rapG	rghR	-1	TF
+lytB	sigD	1	sigma factor
+lytB	sigA	1	sigma factor
+lytB	yvrHb	-1	TF+TC
+lytB	slrR	-1	TF
+lytB	lytR	-1	TF
+ftsX	spo0A	-1	TF+PP
+yvhJ	spo0A	-1	TF+PP
+mtnK	sigA	1	sigma factor
+mtnK	S-box-SAM	-1	
+alrB	sigE	1	sigma factor
+manA	manR	1	TF+PTS
+infC	sigA	1	sigma factor
+infC	stringent response	-1	unk
+infC	rplT	-1	RNA switch
+hmp	sigA	1	sigma factor
+hmp	resD	1	TF+TC
+hmp	nsrR	-1	TF+M
+hmp	arfM	1	TF
+hmp	spoVT	1	TF
+yjoB	sigW	1	sigma factor
+yydH	sigA	1	sigma factor
+yydH	rok	-1	TF
+yydH	abrB	-1	TF
+ggaA	sigA	1	sigma factor
+ypuA	sigM	1	sigma factor
+ydaT	sigB	1	sigma factor
+yfnE	sigK	1	sigma factor
+yfnE	sigE	1	sigma factor
+yfnE	gerR	-1	TF
+yjcM	abrB	-1	TF
+yjcM	spo0A	1	TF+PP
+bceB	bceR	1	TF+TC
+glnT	sigA	1	sigma factor
+glnT	glnL	1	TF+TC
+glnT	ccpA	0	TF+PP+M
+ccpA	sigA	1	sigma factor
+ppsA	abrB	-1	TF
+ytmI	sigA	1	sigma factor
+ytmI	ytlI	1	TF+M
+ytmI	cymR	-1	TF+P+M
+ytmI	spx	-1	TF+S
+atpA	stringent response	-1	unk
+ykzH	sigK	1	sigma factor
+ydbS	sigW	1	sigma factor
+tatAD	phoP	1	TF+TC
+ywnJ	sigX	1	sigma factor
+ywnJ	sigW	1	sigma factor
+ywnJ	sigM	1	sigma factor
+ywnJ	sigF	1	sigma factor
+accD	spo0A	1	TF+PP
+yesU	yesS	1	TF+P+unk
+yesU	ccpA	0	TF+PP+M
+mcpB	sigD	1	sigma factor
+yitB	sigK	1	sigma factor
+pbpD	sigA	1	sigma factor
+pbpD	codY	0	TF+M
+abrB	sigA	1	sigma factor
+abrB	spo0A	-1	TF+PP
+abrB	abrB	-1	TF
+pyrD	sigA	1	sigma factor
+pyrD	pyrR	1	P-AT+M
+pyrD	purR	-1	TF+M
+yqhB	sigB	1	sigma factor
+yqhB	lexA	-1	TF-proteolyse
+yjgC	sigB	1	sigma factor
+cysS	sigA	1	sigma factor
+cysS	T-box-CYS	1	RNA switch
+cotF	sigK	1	sigma factor
+cotF	sigE	1	sigma factor
+cotF	spoIIID	1	TF
+yweA	abrB	-1	TF
+yqfD	sigE	1	sigma factor
+yqfD	spoIIID	-1	TF
+yvfH	comA	1	TF+TC
+yvfH	lutR	0	TF+M
+ypuC.1	sigB	1	sigma factor
+ywrB	ywrC	0	silico-TF+unk
+cydB	sigA	1	sigma factor
+cydB	rex	-1	TF+M
+cydB	resD	1	TF+TC
+cydB	ccpA	-1	TF+PP+M
+ywhH	comA	1	TF+TC
+malP	sigA	1	sigma factor
+malP	glvR	1	TF+M
+malP	ccpA	-1	TF+PP+M
+malP	malR	1	TF+TC
+ilvB	sigA	1	sigma factor
+ilvB	tnrA	-1	TF+P+M
+ilvB	codY	-1	TF+M
+ilvB	ccpA	1	TF+PP+M
+ilvB	T-box-LEU	1	RNA switch
+yvfI	lutR	0	TF+M
+yvfI	ccpA	0	TF+PP+M
+fhuC	fur	-1	TF+M
+yslB	sigE	1	sigma factor
+yhcG	sigG	1	sigma factor
+yhcG	comK	1	TF
+yhcG	gabR	0	TF+M
+rplL	stringent response	-1	unk
+rplL	rplJ	0	silico-RNA switch
+tagF	sigA	1	sigma factor
+tagF	walR	1	TF+TC
+tagF	phoP	-1	TF+TC
+ppsD	abrB	-1	TF
+yfmF	fur	-1	TF+M
+tufA	stringent response	-1	unk
+sigX	sigA	1	sigma factor
+sigX	yvrHb	1	TF+TC
+pyrAA	sigA	1	sigma factor
+pyrAA	pyrR	1	P-AT+M
+pyrAA	purR	-1	TF+M
+xkdE	xpf	1	sigma factor
+ppsB	abrB	-1	TF
+ylxF	sigD	1	sigma factor
+ylxF	sigA	1	sigma factor
+ylxF	spo0A	-1	TF+PP
+ylxF	codY	-1	TF+M
+citR	sigA	1	sigma factor
+citR	codY	0	TF+M
+citR	citR	0	TF+M
+rpsC	stringent response	-1	unk
+yabT	sigF	1	sigma factor
+licA	sigA	1	sigma factor
+licA	licR	1	TF+PTS
+licA	ccpA	-1	TF+PP+M
+licA	rbsR	0	silico-TF+M
+lytF	sigD	1	sigma factor
+lytF	slrR	-1	TF
+ykgA	sigB	1	sigma factor
+hisZ	hisR	0	silico-TF+M
+atpH	stringent response	-1	unk
+oatA	sigV	1	sigma factor
+bioYB	birA	0	TF+P+M
+yheJ	abrB	-1	TF
+yppG	sigK	1	sigma factor
+pdhD	sigA	1	sigma factor
+pdhD	stringent response	-1	unk
+glpQ	sigA	1	sigma factor
+glpQ	phoP	1	TF+TC
+glpQ	glpP	1	P-AT+PTS
+glpQ	ccpA	-1	TF+PP+M
+spoVG	sigH	1	sigma factor
+spoVG	sinR	-1	TF
+spoVG	abrB	-1	TF
+spoVG	codY	0	TF+M
+speB	sigA	1	sigma factor
+ywlC	dnaA	-1	TF
+yesL	sigH	1	sigma factor
+mdxR	sigK	1	sigma factor
+comGB	sigA	1	sigma factor
+comGB	comK	1	TF
+comGB	comZ	-1	TF
+mdxF	sigK	1	sigma factor
+mdxF	sigE	1	sigma factor
+mdxF	mdxR	0	silico-TF+M
+ybdK	comK	1	TF
+adhB	sigG	1	sigma factor
+resE	sigA	1	sigma factor
+resE	resD	1	TF+TC
+resE	phoP	1	TF+TC
+resE	ccpA	-1	TF+PP+M
+dxs	stringent response	-1	unk
+ycbK	sigA	1	sigma factor
+ycbK	T-box-TRP	1	RNA switch
+ycbK	TRAP	-1	RNA-BAP
+yhdF	sigB	1	sigma factor
+rpmH	sigA	1	sigma factor
+yxeD	sigG	1	sigma factor
+yxeD	sigE	1	sigma factor
+yxeD	abrB	-1	TF
+yxeD	spoVT	1	TF
+ybbB	fur	-1	TF+M
+sacY	sigA	1	sigma factor
+sacY	sacY	1	P-AT+PTS
+sacY	sacT	1	P-AT+PTS
+sacY	degU	1	TF+TC
+gapA	sigA	1	sigma factor
+gapA	cggR	-1	TF+M
+cotU	sigK	1	sigma factor
+cotU	gerR	1	TF
+cotU	gerE	1	TF
+gmuE	sigA	1	sigma factor
+gmuE	gmuR	-1	TF+M
+gmuE	ccpA	-1	TF+PP+M
+gmuE	abrB	1	TF
+kdgT	sigA	1	sigma factor
+kdgT	kdgR	-1	TF+M
+kdgT	ccpA	-1	TF+PP+M
+fliF	sigD	1	sigma factor
+fliF	sigA	1	sigma factor
+fliF	spo0A	-1	TF+PP
+fliF	codY	-1	TF+M
+ythA	sigG	1	sigma factor
+ywrK	sigK	1	sigma factor
+yitA	sigK	1	sigma factor
+yxeL	sigA	1	sigma factor
+yxeL	cymR	-1	TF+P+M
+yxeL	spx	-1	TF+S
+yetF	sigF	1	sigma factor
+recF	sigA	1	sigma factor
+glgA	sigE	1	sigma factor
+glgA	sigH	1	sigma factor
+ffh	sigA	1	sigma factor
+ywrE	sigW	1	sigma factor
+ilvC	sigA	1	sigma factor
+ilvC	tnrA	-1	TF+P+M
+ilvC	codY	-1	TF+M
+ilvC	ccpA	1	TF+PP+M
+ilvC	T-box-LEU	1	RNA switch
+tcyP	sigA	1	sigma factor
+tcyP	cymR	-1	TF+P+M
+rpoB	sigA	1	sigma factor
+rpoB	stringent response	-1	unk
+ycbP	sigB	1	sigma factor
+rpsO	stringent response	-1	unk
+yclO	fur	-1	TF+M
+glnK	sigA	1	sigma factor
+glnK	tnrA	1	TF+P+M
+nasC	sigA	1	sigma factor
+nasC	tnrA	1	TF+P+M
+nasC	glnR	-1	TF+P+M
+nasC	T-O2	1	unk
+fhuG	fur	-1	TF+M
+murF	sigM	1	sigma factor
+padC	padR	-1	TF+M
+glpK	sigE	1	sigma factor
+glpK	sigA	1	sigma factor
+glpK	glpP	1	P-AT+PTS
+glpK	ccpA	-1	TF+PP+M
+glpK	abrB	1	TF
+grpE	sigA	1	sigma factor
+grpE	hrcA	-1	TF+HrcA unstability
+grpE	arfM	0	TF
+ykuP	sigA	1	sigma factor
+ykuP	fur	-1	TF+M
+ywoC	sigG	1	sigma factor
+ywoC	ytrA	-1	TF-M
+glpT	sigA	1	sigma factor
+glpT	glpP	1	P-AT+PTS
+glpT	ccpA	-1	TF+PP+M
+ylmD	spo0A	-1	TF+PP
+ylbD	sigK	1	sigma factor
+pgk	sigA	1	sigma factor
+pgk	cggR	-1	TF+M
+rsiV	sigV	1	sigma factor
+recU	sigM	1	sigma factor
+uxaA	sigE	1	sigma factor
+uxaA	sigA	1	sigma factor
+uxaA	exuR	-1	TF+M
+uxaA	ccpA	-1	TF+PP+M
+uxaA	spoIIID	-1	TF
+yfhM	sigW	1	sigma factor
+yfhM	sigB	1	sigma factor
+yfhM	spoVT	1	TF
+ytlR	sigK	1	sigma factor
+hutU	sigA	1	sigma factor
+hutU	hutP	1	P-AT+M
+hutU	codY	-1	TF+M
+hutU	ccpA	-1	TF+PP+M
+sbcC	comK	1	TF
+gerKA	sigG	1	sigma factor
+gerKA	spoVT	-1	TF
+ytmO	sigA	1	sigma factor
+ytmO	ytlI	1	TF+M
+ytmO	cymR	-1	TF+P+M
+ytmO	spx	-1	TF+S
+yhbI	comK	1	TF
+csn	abrB	-1	TF
+dppC	sigA	1	sigma factor
+dppC	codY	-1	TF+M
+dppC	abrB	-1	TF
+cueR	codY	0	TF+M
+adcB	sigA	1	sigma factor
+adcB	zur	-1	TF+M
+sacV	immR	-1	TF
+mtlF	mtlR	1	TF+PTS
+mtlF	ccpA	0	TF+PP+M
+ymcA	fur	0	TF+M
+ytpR	spx	1	TF+S
+yfhE	sigB	1	sigma factor
+yfhE	sigG	1	sigma factor
+yfhE	sigF	1	sigma factor
+tyrS	sigA	1	sigma factor
+tyrS	T-box-TYR	1	RNA switch
+gerAA	sigG	1	sigma factor
+gerAA	sigF	1	sigma factor
+gerAA	spoVT	-1	TF
+yngG	sigE	1	sigma factor
+yngG	spoIIID	-1	TF
+yngG	ccpA	0	TF+PP+M
+yfmT	sigD	1	sigma factor
+ykoT	sigG	1	sigma factor
+yrzI	abrB	-1	TF
+parB	spo0A	-1	TF+PP
+thiW	sigK	1	sigma factor
+thiW	Thi-box	-1	riboswitch
+yhjB	comK	1	TF
+yhjB	codY	-1	TF+M
+hbs	sigH	1	sigma factor
+hbs	sigA	1	sigma factor
+hbs	lexA	-1	TF-proteolyse
+hbs	hbs	-1	TF
+spmA	sigE	1	sigma factor
+spmA	spoIIID	-1	TF
+mcpA	sigD	1	sigma factor
+mcpA	abrB	-1	TF
+flgM	sigD	1	sigma factor
+flgM	sigA	1	sigma factor
+flgM	scoC	-1	TF
+flgM	degU	1	TF+TC
+flgM	comK	1	TF
+ribAB	sigA	1	sigma factor
+ribAB	FMN-box	-1	riboswitch
+desR	desR	0	TF+TC
+yhjC	comK	1	TF
+yhjC	codY	-1	TF+M
+polYB	lexA	-1	TF-proteolyse
+yqxL	sigB	1	sigma factor
+yqxL	lexA	-1	TF-proteolyse
+rbsD	sigA	1	sigma factor
+rbsD	ccpA	-1	TF+PP+M
+rbsD	abrB	1	TF
+rbsD	rbsR	0	silico-TF+M
+secDF	sigM	1	sigma factor
+yoaG	sigW	1	sigma factor
+rbsC	sigA	1	sigma factor
+rbsC	ccpA	-1	TF+PP+M
+rbsC	abrB	1	TF
+rbsC	rbsR	0	silico-TF+M
+ycgI	sigG	1	sigma factor
+narK	sigA	1	sigma factor
+narK	nsrR	-1	TF+M
+narK	fnr	1	TF+M
+yceF	sigX	1	sigma factor
+yceF	sigW	1	sigma factor
+yceF	sigM	1	sigma factor
+yceF	sigB	1	sigma factor
+yceF	sigA	1	sigma factor
+ypeB	sigG	1	sigma factor
+ypeB	spoVT	-1	TF
+yhdC	sigG	1	sigma factor
+mccA	sigK	1	sigma factor
+mccA	sigA	1	sigma factor
+mccA	spx	1	TF+S
+mccA	cymR	-1	TF+P+M
+rpsB	stringent response	-1	unk
+yitF	sigG	1	sigma factor
+iolS	sigA	1	sigma factor
+iolS	iolR	-1	TF+M
+ywrD	tnrA	1	TF+P+M
+yozO	sigW	1	sigma factor
+levG	sigL	1	sigma factor
+levG	levR	1	TF+PTS
+levG	ccpA	-1	TF+PP+M
+mmgC	sigE	1	sigma factor
+mmgC	ccpA	-1	TF+PP+M
+mmgC	spoIIID	-1	TF
+ywdI	tnrA	-1	TF+P+M
+manR	manR	1	TF+PTS
+manR	ccpA	-1	TF+PP+M
+spsE	sigK	1	sigma factor
+qcrC	resD	1	TF+TC
+qcrC	abrB	-1	TF
+qcrC	ccpA	-1	TF+PP+M
+yqfU	sigG	1	sigma factor
+mapB	sigA	1	sigma factor
+epr	sigD	1	sigma factor
+epr	sinR	-1	TF
+epr	scoC	-1	TF
+epr	degU	1	TF+TC
+ywbD	sinR	-1	TF
+yqaM	sknR	-1	TF
+skfH	spo0A	1	TF+PP
+skfH	phoP	1	TF+TC
+skfH	abrB	-1	TF
+glsB	sigE	1	sigma factor
+glsB	spoIIID	-1	TF
+psd	sigX	1	sigma factor
+psd	sigA	1	sigma factor
+rplE	stringent response	-1	unk
+yazB	sigA	1	sigma factor
+yazB	TRAP	-1	RNA-BAP
+feuC	sigA	1	sigma factor
+feuC	fur	-1	TF+M
+feuC	citB	1	riboswitch
+feuC	btr	1	TF+M
+feuC	glcR	0	silico-TF+unk
+ykoY	sigK	1	sigma factor
+ykoY	RNA - yybP-ykoY	0	silico-riboswitch
+rplV	stringent response	-1	unk
+phrI	sigH	1	sigma factor
+phrI	sigA	1	sigma factor
+yrkJ	yrkD	0	silico-TF+unk
+ylxR	sigA	1	sigma factor
+ylxR	stringent response	-1	unk
+xylB	sigA	1	sigma factor
+xylB	xylR	-1	TF+M
+xylB	ccpA	-1	TF+PP+M
+xylB	ccpB	-1	TF+unk
+ypqP	sigK	1	sigma factor
+yxjJ	sigW	1	sigma factor
+yxjJ	sigB	1	sigma factor
+yxjJ	degU	-1	TF+TC
+yflT	sigB	1	sigma factor
+yebC	sigM	1	sigma factor
+yocS	codY	0	TF+M
+queE	preQ1 riboswitch	-1	riboswitch
+yulB	rhaR	0	silico-TF+M
+yceG	sigX	1	sigma factor
+yceG	sigW	1	sigma factor
+yceG	sigM	1	sigma factor
+yceG	sigB	1	sigma factor
+yceG	sigA	1	sigma factor
+yunC	sigK	1	sigma factor
+ytvB	sigK	1	sigma factor
+ytvB	sigE	1	sigma factor
+rpmJ	stringent response	-1	unk
+yqaH	sknR	-1	TF
+yqeZ	sigW	1	sigma factor
+clpQ	sigA	1	sigma factor
+clpQ	codY	-1	TF+M
+lrgB	ccpA	0	TF+PP+M
+lrgB	lytT	0	silico-TF+TC
+epsA	sigA	1	sigma factor
+epsA	sigH	1	sigma factor
+epsA	sinR	-1	TF
+epsA	abrB	-1	TF
+gcvT	Gly-box	-1	riboswitch
+gcvT	spoVT	1	TF
+gcvT	T-box-GLY	-1	RNA switch
+ycgA	codY	-1	TF+M
+yczL	sigA	1	sigma factor
+yczL	zur	-1	TF+M
+ywmF	sigB	1	sigma factor
+dacF	sigH	1	sigma factor
+dacF	sigG	1	sigma factor
+dacF	sigF	1	sigma factor
+dacF	abrB	-1	TF
+dacF	spoVT	-1	TF
+dacF	spo0A	1	TF+PP
+dnaG	sigH	1	sigma factor
+dnaG	sigD	1	sigma factor
+dnaG	sigB	1	sigma factor
+dnaG	sigA	1	sigma factor
+dnaG	spo0A	-1	TF+PP
+lysC	sigA	1	sigma factor
+lysC	L-box-LYS	-1	riboswitch
+ydhU	fur	-1	TF+M
+resA	sigA	1	sigma factor
+resA	resD	1	TF+TC
+resA	phoP	1	TF+TC
+resA	ccpA	-1	TF+PP+M
+mntD	mntR	-1	TF+M
+scoC	senS	1	TF
+scoC	salA	-1	P
+scoC	abrB	1	TF
+scoC	codY	0	TF+M
+yvzA	degU	1	TF+TC
+yvzA	abrB	-1	TF
+gerPD	sigK	1	sigma factor
+gerPD	gerE	-1	TF
+ylbP	ccpA	-1	TF+PP+M
+spsL	sigK	1	sigma factor
+yfkM	sigB	1	sigma factor
+yfkM	fur	-1	TF+M
+fur	sigA	1	sigma factor
+fur	perR	-1	TF+S
+fadM	sigK	1	sigma factor
+fadM	sigA	1	sigma factor
+fadM	sdpR	1	TF+P
+fadM	fadR	-1	TF+M
+yxeO	sigA	1	sigma factor
+yxeO	cymR	-1	TF+P+M
+yxeO	spx	-1	TF+S
+rsmE	sigA	1	sigma factor
+rsmE	hrcA	-1	TF+HrcA unstability
+rsmE	arfM	0	TF
+maeN	sigA	1	sigma factor
+maeN	malR	1	TF+TC
+csbA	sigB	1	sigma factor
+csbA	sigA	1	sigma factor
+ywfH	codY	-1	TF+M
+xynP	sigA	1	sigma factor
+xynP	xylR	-1	TF+M
+xynP	ccpA	-1	TF+PP+M
+nadA	sigA	1	sigma factor
+nadA	nadR	-1	TF+M
+ydjG	sigW	1	sigma factor
+ydjG	abrB	-1	TF
+cstA	ccpA	-1	TF+PP+M
+metP	sigA	1	sigma factor
+metP	S-box-SAM	-1	
+metP	codY	1	TF+M
+ytiB	zur	0	TF+M
+rplK	stringent response	-1	unk
+xynA	sigA	1	sigma factor
+skfB	spo0A	1	TF+PP
+skfB	phoP	1	TF+TC
+skfB	abrB	-1	TF
+gatB	sigA	1	sigma factor
+gatB	T-box-GLN	1	RNA switch
+gatB	codY	0	TF+M
+gatB	ccpA	0	TF+PP+M
+aldY	sigB	1	sigma factor
+yitC	sigK	1	sigma factor
+yitC	sigE	1	sigma factor
+yitC	spoIIID	-1	TF
+gatA	sigA	1	sigma factor
+gatA	T-box-GLN	1	RNA switch
+gatA	codY	0	TF+M
+gatA	ccpA	0	TF+PP+M
+cotD	sigK	1	sigma factor
+cotD	spoIIID	-1	TF
+cotD	gerE	1	TF
+sul	sigA	1	sigma factor
+sul	TRAP	-1	RNA-BAP
+nasD	sigA	1	sigma factor
+nasD	tnrA	1	TF+P+M
+nasD	resD	1	TF+TC
+nasD	nsrR	-1	TF+M
+nasD	arfM	1	TF
+nasD	fur	-1	TF+M
+nasD	codY	0	TF+M
+licT	sigA	1	sigma factor
+ybgA	ybgA	0	TF+M
+ybgA	codY	0	TF+M
+hxlB	hxlR	1	TF-M-unk
+yaaA	sigA	1	sigma factor
+opuAA	sigA	1	sigma factor
+cysL	sigA	1	sigma factor
+cysL	cysL	-1	TF+M
+cysL	yetL	0	TF+M
+yflH	sigB	1	sigma factor
+yflH	sigA	1	sigma factor
+mmgB	sigE	1	sigma factor
+mmgB	ccpA	-1	TF+PP+M
+mmgB	spoIIID	-1	TF
+asnS	sigA	1	sigma factor
+hutG	sigA	1	sigma factor
+hutG	hutP	1	P-AT+M
+hutG	codY	-1	TF+M
+hutG	ccpA	-1	TF+PP+M
+kduD	sigA	1	sigma factor
+kduD	kdgR	-1	TF+M
+kduD	ccpA	-1	TF+PP+M
+ysmB	sigK	1	sigma factor
+yesK	sigE	1	sigma factor
+yesK	spoIIID	1	TF
+plsC	sigB	1	sigma factor
+plsC	fapR	-1	TF+M
+yrhK	sigV	1	sigma factor
+ytdA	sigK	1	sigma factor
+ykvP	sigK	1	sigma factor
+dprA	comK	1	TF
+fabHB	sigA	1	sigma factor
+fabHB	fapR	-1	TF+M
+ykzW	ccpN	-1	TF+unk
+acuB	sigA	1	sigma factor
+acuB	ccpA	-1	TF+PP+M
+acuB	codY	0	TF+M
+yusU	fur	0	TF+M
+xkdD	xre	-1	TF
+yteV	sigE	1	sigma factor
+ytnI	sigA	1	sigma factor
+ytnI	ytlI	1	TF+M
+ytnI	cymR	-1	TF+P+M
+ytnI	spx	-1	TF+S
+fapR	sigA	1	sigma factor
+fapR	fapR	-1	TF+M
+fapR	comA	1	TF+TC
+ubiD	bsdA	1	TF+M
+yknX	sigW	1	sigma factor
+yknX	abrB	-1	TF
+iolH	sigA	1	sigma factor
+iolH	iolR	-1	TF+M
+iolH	ccpA	-1	TF+PP+M
+ykcC	yrkP	1	TF+TC
+ykcC	yclJ	1	TF+TC
+glyQ	T-box-GLY	1	RNA switch
+yndL	sigK	1	sigma factor
+comQ	sigA	1	sigma factor
+yulE	rhaR	0	silico-TF+M
+divIC	sigX	1	sigma factor
+divIC	sigW	1	sigma factor
+divIC	sigM	1	sigma factor
+divIC	sigE	1	sigma factor
+divIC	spoIIID	-1	TF
+xtrA	xre	-1	TF
+ccpC	sigA	1	sigma factor
+ccpC	spo0A	1	TF+PP
+ccpC	ccpA	-1	TF+PP+M
+ccpC	ccpC	-1	 TF+M+DNA
+yisZ	sigK	1	sigma factor
+yknY	sigW	1	sigma factor
+yknY	abrB	-1	TF
+gsiB	sigI	1	sigma factor
+gsiB	sigB	1	sigma factor
+motB	sigD	1	sigma factor
+pbpE	sigW	1	sigma factor
+pbpE	abrB	-1	TF
+pth	sigB	1	sigma factor
+cimH	ccpA	-1	TF+PP+M
+yvfV	sinR	-1	TF
+yvfV	lutR	-1	TF+M
+yvfV	fsrA	-1	small regulatory RNA
+leuS	T-box-LEU	1	RNA switch
+ansA	sigA	1	sigma factor
+ansA	ansR	-1	TF+M
+rplC	stringent response	-1	unk
+lonA	sigA	1	sigma factor
+lonA	ctsR	-1	TF+unstability
+yhdH	codY	0	TF+M
+ksgA	sigF	1	sigma factor
+yyzE	yydK	0	silico-TF+M
+comGE	sigA	1	sigma factor
+comGE	comK	1	TF
+comGE	comZ	-1	TF
+yoaB	S-box-SAM	-1	
+ylaE	abrB	-1	TF
+ylaE	abh	-1	TF
+yuaF	sigW	1	sigma factor
+yuaF	codY	0	TF+M
+yclI	yclJ	1	TF+TC
+yxeN	sigA	1	sigma factor
+yxeN	cymR	-1	TF+P+M
+yxeN	spx	-1	TF+S
+ymaB	perR	-1	
+nrdE	perR	-1	
+nrdF	perR	-1	
+nrdI	perR	-1	
+ykoS	spoVT	-1	
+yqjB	spoVT	-1	
+yqjC	spoVT	-1	
+spoIIP	spoVT	-1	
+ylzJ	spoVT	-1	
+ykoT	spoVT	-1	
+clpC	sigM	1	
+ywtE	sigM	1	
+cysK	sigM	1	
+yabM	sigM	1	
+maf	sigM	1	
+yabN	sigM	1	
+yacD	sigM	1	
+efeU	sigM	1	
+yabQ	sigM	1	
+yabR	sigM	1	
+murG	sigM	1	
+comN	sigM	1	
+yngB	sigM	1	
+ywzH	sigM	1	
+yabO	sigM	1	
+yabP	sigM	1	
+mcsB	sigM	1	
+radA	sigM	1	
+ctsR	sigM	1	
+mcsA	sigM	1	
+yngA	sigM	1	
+minD	comK	1	
+minC	comK	1	
+mreC	comK	1	
+csrA	comK	1	
+fliW	comK	1	
+mreB	comK	1	
+mreD	comK	1	
+yviE	comK	1	
+ycdA	swrAA.1	1	
+yisI	pchR	1	
+yvmC	pchR	-1	
+yvmA	pchR	-1	
+cypX	pchR	-1	
+cotH	gerR	1	
+ywrJ	gerR	1	
+cotX	gerR	1	
+yfiS	yfiR	-1	
+yfiR	yfiR	-1	
+ytcB	gerE	-1	
+ylbD	gerE	1	
+spsB	gerE	1	
+ysnD	gerE	-1	
+yfnH	gerE	1	
+ykzQ	gerE	1	
+cotS	gerE	1	
+spsK	gerE	1	
+yfnF	gerE	1	
+yfnE	gerE	1	
+yisY	gerE	-1	
+spsF	gerE	1	
+yeeK	gerE	1	
+spsA	gerE	1	
+lipC	gerE	1	
+spsL	gerE	1	
+spsE	gerE	1	
+spsG	gerE	1	
+yjzB	gerE	1	
+spsD	gerE	1	
+ytcC	gerE	-1	
+ytxO	gerE	1	
+yppG	gerE	1	
+ylbE	gerE	1	
+yhjQ	gerE	-1	
+tgl	gerE	-1	
+spsI	gerE	1	
+cotT	gerE	-1	
+spsJ	gerE	1	
+ywrJ	gerE	-1	
+cotSA	gerE	1	
+ytcA	gerE	-1	
+yfnG	gerE	1	
+gerT	gerE	-1	
+spsC	gerE	1	
+yfnD	gerE	1	
+ymaG	gerE	1	
+tyrZ	tyrZ	1	
+nasC	resD	1	
+glpK	resD	-1	
+ykuN	resD	1	
+ywcE	resD	-1	
+ykuP	resD	1	
+nasB	resD	1	
+glpF	resD	-1	
+ykuO	resD	1	
+ndh	resD	-1	
+ykoP	resD	1	
+S477	resD	1	
+ganR	ganR	-1	
+ganB	ganR	-1	
+ganA	ganR	-1	
+ganQ	ganR	-1	
+ganP	ganR	-1	
+thyB	ccpN	1	
+dfrA	ccpN	1	
+yotB	sigK	1	
+yotG	sigK	1	
+yotJ	sigK	1	
+ykzQ	sigK	1	
+xpaC	sigK	1	
+csfB	sigK	1	
+yrzN	sigK	1	
+yotC	sigK	1	
+yotM	sigK	1	
+yisY	sigK	1	
+cwlJ	sigK	1	
+yotE	sigK	1	
+yjzB	sigK	1	
+yosX	sigK	1	
+yaaN	sigK	1	
+yaaO	sigK	1	
+spoIISB	sigK	1	
+yotI	sigK	1	
+yotK	sigK	1	
+yotH	sigK	1	
+yotD	sigK	1	
+ykzK	xre	-1	
+yjzJ	xre	-1	
+yabD	spo0A	-1	
+yisK	spo0A	1	
+yisL	spo0A	1	
+epr	spo0A	1	
+ykqA	spo0A	1	
+ywzH	spo0A	-1	
+yodL	spo0A	1	
+ptkA	spo0A	1	
+ktrC	spo0A	1	
+yojF	spxA	1	
+ypjD	spxA	1	
+ytxK	spxA	1	
+msrA	spxA	1	
+tpx	spxA	1	
+cca	spxA	1	
+ytpP	spxA	1	
+srfAD	spxA	-1	
+ywcH	spxA	1	
+srfAB	spxA	-1	
+nfrA	spxA	1	
+yugT	spxA	1	
+coaX	spxA	1	
+cysK	spxA	1	
+trxA	spxA	1	
+yjbI	spxA	1	
+msrB	spxA	1	
+yrhC	spxA	1	
+yugJ	spxA	1	
+srfAC	spxA	-1	
+mtnN	spxA	1	
+mgsA	spxA	1	
+birA	spxA	1	
+yacD	spxA	1	
+ytvA	spxA	1	
+trxB	spxA	1	
+ylaB	spxA	1	
+ylaA	spxA	1	
+ylbQ	spxA	1	
+yrrT	spxA	1	
+yjbH	spxA	1	
+ylaD	spxA	1	
+ytpR	spxA	1	
+ylaC	spxA	1	
+ytpQ	spxA	1	
+dapB	spxA	1	
+yoyC	spxA	1	
+srfAA	spxA	-1	
+mccA	spxA	1	
+comS	spxA	-1	
+mccB	spxA	1	
+tyrZ	dtrR	-1	
+rpsC	sigA	1	
+rpsP	sigA	1	
+catE	sigA	1	
+yutE	sigA	1	
+ktrC	sigA	1	
+yloN	sigA	1	
+rpmC	sigA	1	
+rpsR	sigA	1	
+ypqP	sigA	1	
+msmE	sigA	1	
+yqiH	sigA	1	
+ybgB	sigA	1	
+rpsQ	sigA	1	
+bacC	sigA	1	
+mreB	sigA	1	
+yoyC	sigA	1	
+sigI	sigA	1	
+glpP	sigA	1	
+yviE	sigA	1	
+ycnJ	sigA	1	
+sufS	sigA	1	
+glcR	sigA	1	
+yvoD	sigA	1	
+mreD	sigA	1	
+ykoP	sigA	1	
+nagP	sigA	1	
+scoC	sigA	1	
+ydfM	sigA	1	
+asnH	sigA	1	
+ywoD	sigA	1	
+S477	sigA	1	
+proB	sigA	1	
+yojF	sigA	1	
+ypjD	sigA	1	
+rplE	sigA	1	
+yukE	sigA	1	
+rplO	sigA	1	
+bacD	sigA	1	
+tagG	sigA	1	
+yueD	sigA	1	
+radC	sigA	1	
+yxbB	sigA	1	
+manP	sigA	1	
+ytzK	sigA	1	
+yqaN	sigA	1	
+pycA	sigA	1	
+ypzF	sigA	1	
+yotE	sigA	1	
+sspH	sigA	1	
+msrA	sigA	1	
+sufC	sigA	1	
+cca	sigA	1	
+ywzB	sigA	1	
+yqaI	sigA	1	
+skfE	sigA	1	
+ywcE	sigA	1	
+ganB	sigA	1	
+yqaF	sigA	1	
+rpsK	sigA	1	
+yxnB	sigA	1	
+minD	sigA	1	
+ytpP	sigA	1	
+rpmD	sigA	1	
+pstA	sigA	1	
+ylqD	sigA	1	
+skfC	sigA	1	
+ohrR	sigA	1	
+trmFO	sigA	1	
+gbsB	sigA	1	
+rpmJ	sigA	1	
+mleA	sigA	1	
+yotC	sigA	1	
+bacF	sigA	1	
+catD	sigA	1	
+pstBB	sigA	1	
+dtpT	sigA	1	
+yqaK	sigA	1	
+yotM	sigA	1	
+yukB	sigA	1	
+sbcD	sigA	1	
+swrAA.1	sigA	1	
+ydcG	sigA	1	
+proI	sigA	1	
+yflI	sigA	1	
+comP	sigA	1	
+rnjA	sigA	1	
+cstA	sigA	1	
+ganA	sigA	1	
+ybfK	sigA	1	
+rimM	sigA	1	
+yutD	sigA	1	
+pstC	sigA	1	
+ybdZ	sigA	1	
+yqaG	sigA	1	
+rplQ	sigA	1	
+menD	sigA	1	
+minC	sigA	1	
+ywrA	sigA	1	
+copA	sigA	1	
+msrB	sigA	1	
+yvcI	sigA	1	
+mreC	sigA	1	
+yukD	sigA	1	
+yabE	sigA	1	
+yqzL	sigA	1	
+rplW	sigA	1	
+trmD	sigA	1	
+yueC	sigA	1	
+tatCD	sigA	1	
+ypbS	sigA	1	
+mhqA	sigA	1	
+sufD	sigA	1	
+tilS	sigA	1	
+yqiI	sigA	1	
+efeU	sigA	1	
+manR	sigA	1	
+yqaH	sigA	1	
+rpsF	sigA	1	
+proA	sigA	1	
+manA	sigA	1	
+skfF	sigA	1	
+qcrB	sigA	1	
+csrA	sigA	1	
+yqaJ	sigA	1	
+frlM	sigA	1	
+ycnK	sigA	1	
+ylqC	sigA	1	
+rpsE	sigA	1	
+rpsJ	sigA	1	
+ylbP	sigA	1	
+yosX	sigA	1	
+vmlR	sigA	1	
+yutF	sigA	1	
+ykqA	sigA	1	
+rplR	sigA	1	
+mtlD	sigA	1	
+fmt	sigA	1	
+ftsW	sigA	1	
+amyC	sigA	1	
+frlD	sigA	1	
+rplF	sigA	1	
+secY	sigA	1	
+yvcD	sigA	1	
+maf	sigA	1	
+mgsA	sigA	1	
+tatAD	sigA	1	
+recU	sigA	1	
+ycnL	sigA	1	
+rplP	sigA	1	
+bacB	sigA	1	
+whiA	sigA	1	
+skfG	sigA	1	
+yhxA	sigA	1	
+hprK	sigA	1	
+yqaM	sigA	1	
+yxaB	sigA	1	
+birA	sigA	1	
+yhdF	sigA	1	
+yojE	sigA	1	
+yvoF	sigA	1	
+cwlO	sigA	1	
+wprA	sigA	1	
+yotD	sigA	1	
+recO	sigA	1	
+bmrA	sigA	1	
+rpsS	sigA	1	
+melA	sigA	1	
+rnjB	sigA	1	
+glmM	sigA	1	
+yvcN	sigA	1	
+rpsH	sigA	1	
+proJ	sigA	1	
+lcfA	sigA	1	
+rpoC	sigA	1	
+yotI	sigA	1	
+secE	sigA	1	
+ywoB	sigA	1	
+frlB	sigA	1	
+rplS	sigA	1	
+rplV	sigA	1	
+murAA	sigA	1	
+yurJ	sigA	1	
+ylbQ	sigA	1	
+yotK	sigA	1	
+bacE	sigA	1	
+gbsA	sigA	1	
+ywoC	sigA	1	
+rplX	sigA	1	
+yotH	sigA	1	
+S56	sigA	1	
+adk	sigA	1	
+infA	sigA	1	
+pstBA	sigA	1	
+defA	sigA	1	
+topB	sigA	1	
+acoR	sigA	1	
+yueB	sigA	1	
+opuD	sigA	1	
+mtlR	sigA	1	
+mtlF	sigA	1	
+mtlA	sigA	1	
+pheA	sigA	1	
+fliW	sigA	1	
+yjdF	sigA	1	
+yvcJ	sigA	1	
+sbcC	sigA	1	
+frlN	sigA	1	
+yeaB	sigA	1	
+ysfE	sigA	1	
+ganQ	sigA	1	
+mleN	sigA	1	
+ytxM	sigA	1	
+proH	sigA	1	
+rpmGB	sigA	1	
+yxaM	sigA	1	
+ytpR	sigA	1	
+ybzG	sigA	1	
+yukC	sigA	1	
+cccA	sigA	1	
+skfH	sigA	1	
+amyD	sigA	1	
+lgt	sigA	1	
+braB	sigA	1	
+rsgI	sigA	1	
+skfB	sigA	1	
+hprT	sigA	1	
+ponA	sigA	1	
+sufB	sigA	1	
+rplB	sigA	1	
+yotB	sigA	1	
+msmR	sigA	1	
+ywrB	sigA	1	
+yotG	sigA	1	
+ycnI	sigA	1	
+yqaL	sigA	1	
+yotJ	sigA	1	
+yqzO	sigA	1	
+bacA	sigA	1	
+ssbA	sigA	1	
+minJ	sigA	1	
+qcrC	sigA	1	
+rpsM	sigA	1	
+rplC	sigA	1	
+crh	sigA	1	
+rpoA	sigA	1	
+rplD	sigA	1	
+ytpQ	sigA	1	
+dapB	sigA	1	
+tagH	sigA	1	
+yqdA	sigA	1	
+frlO	sigA	1	
+yneN	sigA	1	
+ganP	sigA	1	
+mbl	sigA	1	
+ytfP	sigA	1	
+ymfC	sigA	1	
+ptkA	sigA	1	
+yqiK	sigA	1	
+copZ	sigA	1	
+yotB	sigE	1	
+yotG	sigE	1	
+yotJ	sigE	1	
+yuzH	sigE	1	
+murD	sigE	1	
+comZ	sigE	1	
+mraY	sigE	1	
+spsB	sigE	1	
+murE	sigE	1	
+yusQ	sigE	1	
+yotC	sigE	1	
+yotM	sigE	1	
+cotV	sigE	1	
+yotE	sigE	1	
+cotX	sigE	1	
+spsF	sigE	1	
+spsA	sigE	1	
+yisY	sigE	1	
+mutM	sigE	1	
+yugU	sigE	1	
+cotY	sigE	1	
+spsL	sigE	1	
+yosX	sigE	1	
+spsE	sigE	1	
+spsD	sigE	1	
+yhjQ	sigE	1	
+yotD	sigE	1	
+yppG	sigE	1	
+tgl	sigE	1	
+ywrJ	sigE	1	
+yotI	sigE	1	
+yotK	sigE	1	
+yusS	sigE	1	
+cotW	sigE	1	
+yotH	sigE	1	
+med	sigE	1	
+yqkF	sigE	1	
+polA	sigE	1	
+spsC	sigE	1	
+yaaO	sigW	1	
+fabHA	sigW	1	
+dhbC	sigI	1	
+dhbE	sigI	1	
+dhbB	sigI	1	
+ykuN	sigI	1	
+dhbA	sigI	1	
+ybdZ	sigI	1	
+fabI	sigI	1	
+dhbF	sigI	1	
+ykuP	sigI	1	
+ykuO	sigI	1	
+ykpC	sigI	1	
+xkdW	xpf	1	
+xkdP	xpf	1	
+xkzA	xpf	1	
+xkdV	xpf	1	
+xkdN	xpf	1	
+xepA	xpf	1	
+xlyA	xpf	1	
+xkdO	xpf	1	
+xkdT	xpf	1	
+xkdR	xpf	1	
+xkdQ	xpf	1	
+xkdS	xpf	1	
+xhlA	xpf	1	
+xhlB	xpf	1	
+xkzB	xpf	1	
+xkdU	xpf	1	
+xkdX	xpf	1	
+yxaH	qdoR	-1	
+tilS	tilS	1	
+hprT	tilS	1	
+ftsH	tilS	1	
+yetJ	cymR	-1	
+ydaJ	sigB	1	
+yebE	sigB	1	
+ytfP	sigB	1	
+ydaC	sigB	1	
+S1134	sigB	1	
+yyzH	sigB	1	
+yflB	sigB	1	
+yvzE	sigB	1	
+ydzE	sigB	1	
+ylxR	sigB	1	
+ydaM	sigB	1	
+ywjA	sigB	1	
+yfkR	sigB	1	
+ymaE	sigB	1	
+ipi	sigB	1	
+ydaL	sigB	1	
+yflI	sigB	1	
+S1384	sigB	1	
+menC	sigB	1	
+yisP	sigB	1	
+luxS	sigB	1	
+yfkQ	sigB	1	
+infB	sigB	1	
+yqzL	sigB	1	
+yczO	sigB	1	
+ytiB	sigB	1	
+ydaN	sigB	1	
+ywsA	sigB	1	
+yjiC	sigB	1	
+ykzN	sigB	1	
+yebG	sigB	1	
+yvbG	sigB	1	
+yjiB	sigB	1	
+yydC	sigB	1	
+menE	sigB	1	
+recO	sigB	1	
+yybO	sigB	1	
+ylxS	sigB	1	
+ytkK	sigB	1	
+ykzC	sigB	1	
+opuD	sigB	1	
+ytkC	sigB	1	
+smpB	sigB	1	
+ywjB	sigB	1	
+ssrA	sigB	1	
+S1136	sigB	1	
+yyzG	sigB	1	
+nusA	sigB	1	
+secG	sigB	1	
+yflD	sigB	1	
+yuzH	sigB	1	
+yfhO	sigB	1	
+pnbA	abh	1	
+ctaB	abh	-1	
+degU	sinR	-1	
+lytC	sinR	-1	
+degS	sinR	-1	
+pnbA	sinR	-1	
+kapB	sinR	-1	
+mstX	sinR	-1	
+yugO	sinR	-1	
+kinB	sinR	-1	
+lytA	sinR	-1	
+lytB	sinR	-1	
+lytF	sinR	-1	
+flgD	swrA	1	
+fliZ	swrA	1	
+fliQ	swrA	1	
+fliM	swrA	1	
+fliI	swrA	1	
+flhF	swrA	1	
+cheA	swrA	1	
+cheW	swrA	1	
+cheY	swrA	1	
+sigD	swrA	1	
+fliR	swrA	1	
+fliL	swrA	1	
+fliP	swrA	1	
+flhA	swrA	1	
+flgE	swrA	1	
+fliY	swrA	1	
+cheD	swrA	1	
+flhB	swrA	1	
+ylxF	swrA	1	
+cheC	swrA	1	
+fliH	swrA	1	
+fliF	swrA	1	
+fliJ	swrA	1	
+flgC	swrA	1	
+flgB	swrA	1	
+fliG	swrA	1	
+fliK	swrA	1	
+cheB	swrA	1	
+fliE	swrA	1	
+yrdR	sigG	1	
+aag	sigG	1	
+yfkS	sigG	1	
+yqjB	sigG	1	
+ytzL	sigG	1	
+ykzP	sigG	1	
+ypzF	sigG	1	
+ypzI	sigG	1	
+yqjC	sigG	1	
+yfkT	sigG	1	
+yizC	sigG	1	
+yhdB	sigG	1	
+ypzG	sigG	1	
+spoIIP	sigG	1	
+yuzM	sigG	1	
+yitU	sigG	1	
+ykzE	sigG	1	
+yxzF	sigG	1	
+yrzO	sigG	1	
+yrzQ	sigG	1	
+yoyE	sigG	1	
+exoA	sigG	1	
+yrzR	sigG	1	
+oxdC	sigO	1	
+yvrJ	sigO	1	
+rsoA	sigO	1	
+srfAC	phoP	1	
+yycQ	phoP	1	
+ydjN	phoP	1	
+comS	phoP	1	
+rapK	phoP	1	
+phrK	phoP	1	
+srfAA	phoP	1	
+tagH	phoP	-1	
+srfAD	phoP	1	
+glpT	phoP	1	
+srfAB	phoP	1	
+tagG	phoP	-1	
+alsT	glnR	-1	
+dhbE	kre	-1	
+ykoP	kre	-1	
+S477	kre	-1	
+ykuN	kre	-1	
+dhbA	kre	-1	
+ybdZ	kre	-1	
+ykuP	kre	-1	
+dhbF	kre	-1	
+ykuO	kre	-1	
+dhbB	kre	-1	
+dhbC	kre	-1	
+sunA	dnaA	-1	
+sacT	dnaA	-1	
+yxaL	dnaA	-1	
+sunT	dnaA	-1	
+noc	dnaA	-1	
+bdbB	dnaA	-1	
+yybM	dnaA	-1	
+yybL	dnaA	-1	
+yxaJ	dnaA	-1	
+yybN	dnaA	-1	
+ywcI	dnaA	-1	
+vpr	dnaA	-1	
+bdbA	dnaA	-1	
+yybJ	dnaA	-1	
+yolJ	dnaA	-1	
+yybK	dnaA	-1	
+yotC	csoR	-1	
+yotM	csoR	-1	
+yotE	csoR	-1	
+yosX	csoR	-1	
+yotI	csoR	-1	
+yotK	csoR	-1	
+yotH	csoR	-1	
+yotB	csoR	-1	
+yotG	csoR	-1	
+yotJ	csoR	-1	
+sucC	roxS	-1	
+epsE	remA	1	
+epsG	remA	1	
+opuAB	remA	1	
+epsL	remA	1	
+opuAA	remA	1	
+opuBA	remA	1	
+opuCB	remA	1	
+opuBB	remA	1	
+opuCD	remA	1	
+epsK	remA	1	
+sipW	remA	1	
+epsF	remA	1	
+opuAC	remA	1	
+opuBC	remA	1	
+epsN	remA	1	
+opuBD	remA	1	
+tasA	remA	1	
+epsC	remA	1	
+epsI	remA	1	
+epsD	remA	1	
+opuCA	remA	1	
+opuCC	remA	1	
+epsB	remA	1	
+epsO	remA	1	
+epsH	remA	1	
+epsM	remA	1	
+epsA	remA	1	
+epsJ	remA	1	
+yflI	nagR	-1	
+yflH	nagR	-1	
+nagP	nagR	-1	
+pycA	yofA	1	
+yabP	sigD	1	
+yqaR	sigD	1	
+yviE	sigD	1	
+divIC	sigD	1	
+yxkH	sigD	1	
+swrAA.1	sigD	1	
+amyX	sigD	1	
+ytlR	sigD	1	
+ylqH	sigD	1	
+csrA	sigD	1	
+rnhB	sigD	1	
+S1350	sigD	1	
+yvbI	sigD	1	
+yjcM	sigD	1	
+yabM	sigD	1	
+yoyG	sigD	1	
+yabN	sigD	1	
+cgeE	sigD	1	
+yabR	sigD	1	
+yabQ	sigD	1	
+cgeD	sigD	1	
+ylqG	sigD	1	
+xkdA	sigD	1	
+ywzH	sigD	1	
+cgeC	sigD	1	
+ytlP	sigD	1	
+fliW	sigD	1	
+yqaS	sigD	1	
+ytlQ	sigD	1	
+yvaQ	sigD	1	
+minJ	sigD	1	
+yabO	sigD	1	
+ywzH	yvrHb	1	
+acoL	fnr	1	
+acoA	fnr	1	
+acoC	fnr	1	
+acoB	fnr	1	
+ytnM	ascR	1	
+tcyM	ascR	1	
+tcyL	ascR	1	
+tcyN	ascR	1	
+tcyJ	ascR	1	
+tcyK	ascR	1	
+rapI	comA	1	
+acpA	comA	1	
+phrI	comA	1	
+tagG	walR	1	
+mreBH	walR	1	
+ykzS	walR	1	
+ydjN	walR	1	
+wapA	walR	-1	
+rsgI	walR	1	
+tagH	walR	1	
+ykpC	walR	1	
+sigI	walR	1	
+degS	tnrA	-1	
+hom	tnrA	-1	
+pycA	tnrA	-1	
+yfiS	tnrA	1	
+ftsW	tnrA	-1	
+yfiR	tnrA	1	
+thrC	tnrA	-1	
+thrB	tnrA	-1	
+yonT	SR6	0	
+ylxP	nusA	-1	
+ylxR	nusA	-1	
+infB	nusA	-1	
+ylxS	nusA	-1	
+rbfA	nusA	-1	
+nusA	nusA	-1	
+ykzU	fadR	-1	
+pksD	codY	1	
+argF	codY	-1	
+ytzK	codY	-1	
+pksM	codY	1	
+trmFO	codY	-1	
+argB	codY	-1	
+carB	codY	-1	
+ybfJ	codY	-1	
+tyrS	codY	-1	
+nprE	codY	-1	
+pksL	codY	1	
+pksG	codY	1	
+argJ	codY	-1	
+pksR	codY	1	
+pksH	codY	1	
+vpr	codY	-1	
+carA	codY	-1	
+pksE	codY	1	
+pksF	codY	1	
+pksN	codY	1	
+aprE	codY	-1	
+yneN	codY	-1	
+pksJ	codY	1	
+pksC	codY	1	
+argD	codY	-1	
+argC	codY	-1	
+acpK	codY	1	
+pksI	codY	1	
+mpr	codY	-1	
+yuzH	spoIIID	-1	
+murD	spoIIID	-1	
+mraY	spoIIID	-1	
+murE	spoIIID	-1	
+cotB	spoIIID	1	
+cotH	spoIIID	1	
+yugU	spoIIID	-1	
+ywrJ	spoIIID	1	
+opuBA	opcR	-1	
+opuCB	opcR	-1	
+opuCD	opcR	-1	
+opuBB	opcR	-1	
+opuBC	opcR	-1	
+opuBD	opcR	-1	
+opuCA	opcR	-1	
+opuCC	opcR	-1	
+hom	thrR	-1	
+thrC	thrR	-1	
+thrB	thrR	-1	
+ispE	purR	-1	
+sigO	rsoA	1	
+oxdC	rsoA	1	
+yvrJ	rsoA	1	
+rsoA	rsoA	1	
+tilS	hprT	1	
+ftsH	hprT	1	
+hprT	hprT	1	
+ydcG	pamR	-1	
+ydcF	pamR	-1	
+hutP	hutP	0	
+lexA	rocR	-1	
+yesY	rhgR	1	
+yesZ	rhgR	1	
+yesV	rhgR	1	
+yesU	rhgR	1	
+yesW	rhgR	1	
+yesX	rhgR	1	
+ywrA	chrS	-1	
+ywrB	chrS	-1	
+yneN	fsrA	-1	
+tuaE	sigF	1	
+cydC	sigF	1	
+cydB	sigF	1	
+ypzI	sigF	1	
+ytzL	sigF	1	
+tuaA	sigF	1	
+ywzB	sigF	1	
+comGE	sigF	1	
+spoIIE	sigF	1	
+tuaD	sigF	1	
+ctsR	sigF	1	
+comGA	sigF	1	
+lplD	sigF	1	
+comGF	sigF	1	
+ymfJ	sigF	1	
+comGC	sigF	1	
+cydA	sigF	1	
+tilS	sigF	1	
+comGD	sigF	1	
+citH	sigF	1	
+tuaA.1	sigF	1	
+comGB	sigF	1	
+cydD	sigF	1	
+gmk	sigF	1	
+yrzO	sigF	1	
+comGG	sigF	1	
+yrzQ	sigF	1	
+murAA	sigF	1	
+tuaB	sigF	1	
+yloC	sigF	1	
+ytzC	sigF	1	
+yabS	sigF	1	
+yrzR	sigF	1	
+ftsH	sigF	1	
+yrdR	sigF	1	
+hprT	sigF	1	
+tuaC	sigF	1	
+minD	sigV	1	
+ydgB	sigV	1	
+ytvB	sigV	1	
+ycgQ	sigV	1	
+mmgA	sigV	1	
+mreB	sigV	1	
+spoIIB	sigV	1	
+bcrC	sigV	1	
+mreD	sigV	1	
+yuzH	sigV	1	
+radC	sigV	1	
+yqjL	sigV	1	
+pbpX	sigV	1	
+ddl	sigV	1	
+cotP	sigV	1	
+ycgR	sigV	1	
+yrhH	sigV	1	
+dltB	sigV	1	
+yvaF	sigV	1	
+yocL	sigV	1	
+dltC	sigV	1	
+yvaD	sigV	1	
+yxjF	sigV	1	
+yebC	sigV	1	
+dltA	sigV	1	
+minC	sigV	1	
+mreC	sigV	1	
+yvaE	sigV	1	
+maf	sigV	1	
+dltE	sigV	1	
+yugU	sigV	1	
+dltD	sigV	1	
+scoB	sigV	1	
+murF	sigV	1	
+mmgB	sigV	1	
+ytwF	sigV	1	
+scoA	sigV	1	
+abh	sigV	1	
+ydgA	sigV	1	
+ywzH	sigV	1	
+mmgC	sigV	1	
+nhaC	nhaX	1	
+ydzS.1	aseR	-1	
+ydzS	aseR	-1	
+yqjY	lexA	-1	
+yqkA	lexA	-1	
+yqkB	lexA	-1	
+rocR	lexA	-1	
+yqjZ	lexA	-1	
+yqkC	lexA	-1	
+minJ	degU	1	
+ptkA	degU	1	
+swrAA.1	degU	1	
+comFC	degU	1	
+cheY	degU	0	
+sigD	degU	0	
+yukE	degU	1	
+cheB	degU	-1	
+yviE	degU	1	
+yueD	degU	1	
+fliY	degU	0	
+fliI	degU	-1	
+yukB	degU	1	
+comFB	degU	1	
+flhF	degU	-1	
+cheA	degU	-1	
+cheW	degU	-1	
+fliK	degU	-1	
+yukD	degU	1	
+yueC	degU	1	
+flhA	degU	-1	
+fliR	degU	-1	
+fliL	degU	-1	
+fliP	degU	-1	
+fliQ	degU	-1	
+flgE	degU	-1	
+cheD	degU	-1	
+flhB	degU	-1	
+csrA	degU	1	
+ylxF	degU	-1	
+comFA	degU	1	
+cheC	degU	-1	
+fliH	degU	-1	
+fliF	degU	-1	
+fliM	degU	-1	
+flgD	degU	-1	
+fliZ	degU	-1	
+fliJ	degU	-1	
+yvyF	degU	1	
+flgC	degU	-1	
+flgB	degU	-1	
+fliG	degU	-1	
+yueB	degU	1	
+yloA	degU	-1	
+yukC	degU	1	
+fliW	degU	1	
+fliE	degU	-1	
+degS	degU	1	
+yisL	sigH	1	
+ydcS	immR	-1	
+yddJ	immR	-1	
+ydcP	immR	-1	
+yddI	immR	-1	
+ydzL	immR	-1	
+yddA	immR	-1	
+yddF	immR	-1	
+S172	immR	-1	
+ydcO	immR	-1	
+ydcQ	immR	-1	
+ydcT	immR	-1	
+trpB	mtrB	0	
+tyrA	mtrB	0	
+pabA	mtrB	-1	
+hisC	mtrB	0	
+trpD	mtrB	0	
+ycbK	mtrB	-1	
+trpF	mtrB	0	
+trpE	mtrB	0	
+trpA	mtrB	0	
+trpC	mtrB	0	
+aroE	mtrB	0	
+trpP	mtrB	-1	
+qoxC	citB	0	
+qoxB	citB	0	
+qoxA	citB	0	
+qoxD	citB	0	
+gerE	citB	0	
+ytzK	ccpA	-1	
+yqxJ	ccpA	-1	
+dprA	ccpA	-1	
+rsbU	ccpA	-1	
+yslB	ccpA	0	
+yvmA	ccpA	-1	
+topA	ccpA	-1	
+tyrS	ccpA	-1	
+degS	ccpA	1	
+rapC	ccpA	-1	
+phrF	ccpA	-1	
+phrA	ccpA	-1	
+rapA	ccpA	-1	
+rsbT	ccpA	-1	
+yesL	ccpA	-1	
+whiA	ccpA	-1	
+ctaB	ccpA	-1	
+yvcN	ccpA	-1	
+yesN	ccpA	-1	
+rapG	ccpA	-1	
+yvcJ	ccpA	-1	
+ysfE	ccpA	-1	
+rsbS	ccpA	-1	
+crh	ccpA	-1	
+yneN	ccpA	-1	
+ycnI	abrB	-1	
+pksM	abrB	-1	
+ycbC	abrB	-1	
+spoIIGA	abrB	-1	
+sigE	abrB	-1	
+ycnJ	abrB	-1	
+ybdZ	abrB	-1	
+pksL	abrB	-1	
+pksG	abrB	-1	
+yfmJ	abrB	-1	
+pksR	abrB	-1	
+pksH	abrB	-1	
+pksF	abrB	-1	
+pksN	abrB	-1	
+pksE	abrB	-1	
+ctaB	abrB	-1	
+secE	abrB	-1	
+pksJ	abrB	-1	
+pksC	abrB	-1	
+rpmGB	abrB	-1	
+ywbE	abrB	-1	
+yloA	abrB	-1	
+acpK	abrB	-1	
+pksI	abrB	-1	
+ycbG	abrB	-1	
+ycbD	abrB	-1	
+yflD	abrB	-1	
+yqcF	abrB	-1	
+ybfQ	abrB	-1	
+phrH	abrB	-1	
+pksD	abrB	-1	
+sipW	lutR	1	
+tasA	lutR	1	
+rplL	rplL	0	
+rplJ	rplL	0	
+yfhO	sigX	1	
+ybfK	sigX	1	
+ywzH	sigX	1	
+yhdF	citR	-1	
+ykkD	YkkC riboswitch	0	
+ykkC	YkkC riboswitch	0	
+S477	nsrR	-1	
+ykuN	nsrR	-1	
+nasC	nsrR	-1	
+ykuP	nsrR	-1	
+nasB	nsrR	-1	
+ykuO	nsrR	-1	
+ykoP	nsrR	-1	
+hisA	ylxR	0	
+frlO	ylxR	0	
+hisF	ylxR	0	
+hisZ	ylxR	0	
+hisI	ylxR	0	
+argF	ylxR	0	
+proB	ylxR	0	
+opuCB	ylxR	0	
+opuCD	ylxR	0	
+argB	ylxR	0	
+carB	ylxR	0	
+hisD	ylxR	0	
+rpsNB	ylxR	0	
+yhfH	ylxR	0	
+proA	ylxR	0	
+frlM	ylxR	0	
+artQ	ylxR	0	
+argG	ylxR	0	
+argJ	ylxR	0	
+hisB	ylxR	0	
+frlD	ylxR	0	
+carA	ylxR	0	
+frlB	ylxR	0	
+yurJ	ylxR	0	
+opuCA	ylxR	0	
+yoyE	ylxR	0	
+opuCC	ylxR	0	
+argH	ylxR	0	
+yufS	ylxR	0	
+frlN	ylxR	0	
+hisG	ylxR	0	
+artP	ylxR	0	
+artR	ylxR	0	
+argD	ylxR	0	
+hisH	ylxR	0	
+argC	ylxR	0	
+comFC	scoC	-1	
+yviE	scoC	-1	
+comFB	scoC	-1	
+csrA	scoC	-1	
+comFA	scoC	-1	
+braB	scoC	-1	
+yvyF	scoC	-1	
+fliW	scoC	-1	
+catE	fur	-1	
+ybdZ	fur	-1	
+dctP	fur	0	
+catD	fur	-1	
+gltB	fur	0	
+nasC	fur	-1	
+nasB	fur	-1	
+ywiE	fur	-1	
+gltA	fur	0	
+ykoP	fur	-1	
+S477	fur	-1	
+yfmB	fur	-1	
+ybgB	gamR	-1	
+yhdN	fapR	-1	
+yneN	ccpC	-1	
+ydfM	mntR	0	
+yeaB	mntR	0	
+yvrB	B12 riboswitch	0	
+yvrC	B12 riboswitch	0	
+yvqK	B12 riboswitch	0	
+yvrA	B12 riboswitch	0	
+epsO	EAR riboswitch	0	
+epsH	EAR riboswitch	0	
+epsM	EAR riboswitch	0	
+epsA	EAR riboswitch	0	
+epsJ	EAR riboswitch	0	
+epsG	EAR riboswitch	0	
+epsE	EAR riboswitch	0	
+epsL	EAR riboswitch	0	
+epsK	EAR riboswitch	0	
+epsF	EAR riboswitch	0	
+epsN	EAR riboswitch	0	
+epsC	EAR riboswitch	0	
+epsD	EAR riboswitch	0	
+epsI	EAR riboswitch	0	
+epsB	EAR riboswitch	0	
+pyrG	RNA switch	0	
+manP	RNA switch	0	
+manA	RNA switch	0	
+vmlR	RNA switch	0	
+yjdF	RNA switch	0	
+mraY	stringent response	-1	
+ylaH	stringent response	-1	
+divIB	stringent response	-1	
+murD	stringent response	-1	
+apt	stringent response	-1	
+sbp	stringent response	-1	
+murB	stringent response	-1	
+ftsW	stringent response	1	
+ylqC	stringent response	-1	
+ypuI	stringent response	-1	
+recN	stringent response	-1	
+ctc	stringent response	-1	
+yqxC	stringent response	-1	
+rpmA	stringent response	-1	
+ylxX	stringent response	-1	
+ahrC	stringent response	-1	
+S56	stringent response	-1	
+spoVE	stringent response	-1	
+murG	stringent response	-1	
+ylxW	stringent response	-1	
+ybzG	stringent response	-1	
+ywzH	stringent response	-1	
+proB	T-box	0	
+serS	T-box	0	
+pheT	T-box	0	
+tyrS	T-box	0	
+valS	T-box	0	
+mrnC	T-box	0	
+rtpA	T-box	0	
+yrzB	T-box	0	
+ilvC	T-box	0	
+proI	T-box	0	
+folC	T-box	0	
+leuC	T-box	0	
+ycbK	T-box	0	
+pheS	T-box	0	
+proA	T-box	0	
+leuA	T-box	0	
+thrS	T-box	0	
+tyrZ	T-box	0	
+cysE	T-box	0	
+yrrK	T-box	0	
+glyA	T-box	0	
+yacP	T-box	0	
+glyQ	T-box	0	
+gltX	T-box	0	
+ilvB	T-box	0	
+yvbW	T-box	0	
+cysS	T-box	0	
+leuB	T-box	0	
+aspS	T-box	0	
+leuS	T-box	0	
+hisS	T-box	0	
+glyS	T-box	0	
+ywhA	T-box	0	
+yrzL	T-box	0	
+thrZ	T-box	0	
+ilvH	T-box	0	
+leuD	T-box	0	
+ileS	T-box	0	
+alaS	T-box	0	
+yybP	yybP-ykoY motif	0	
+ykoY	yybP-ykoY motif	0	
