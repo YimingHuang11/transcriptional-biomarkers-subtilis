@@ -50,4 +50,10 @@ This contains Python codes used to select the reduced set of genes indicative of
 python policies.py [path_results] [num_runs] [threshold_size]
 - Added three layer nested cross-validation to report the overall performance of RGIFE heuristic model and tuning the parameters. Print the classification metrics across multiple repetitions and draw the overall roc curve for all classes.
 
-Required libraries: NumPy, SciPy, Scikit-learn
+Required libraries: NumPy, SciPy, Scikit-learn, os, time, sys, subprocess, random, warnings, collections, operator, pandas, tarfile
+
+```
+python ./rgife/rgife.py <working directory> <config file> <data file>
+python ./rgife/policies.py [path_results] [num_runs] [threshold_size]
+
+```
