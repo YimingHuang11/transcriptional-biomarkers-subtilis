@@ -54,6 +54,6 @@ Required libraries: NumPy, SciPy, Scikit-learn, os, time, sys, subprocess, rando
 
 ```
 python ./rgife/rgife.py <working directory> <config file> <data file>
-python ./rgife/policies.py [path_results] [num_runs] [threshold_size]
+python ./rgife/policies.py <path_results> <num_runs> <threshold_size>
 
 ```
